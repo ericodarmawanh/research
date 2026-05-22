@@ -1,0 +1,357 @@
+[
+    {
+        "id": "RTR-001",
+        "category": "full_resolution",
+        "llm_output": "Saya akan membantu transfer ke [ACC_NAME].",
+        "draft": {
+            "destination_account_name": "Doni"
+        },
+        "expected_output": "Saya akan membantu transfer ke Doni.",
+        "expected_class": "Fully Resolved"
+    },
+    {
+        "id": "RTR-002",
+        "category": "full_resolution",
+        "llm_output": "Transfer ditujukan ke [ACC_NAME] melalui [BANK_NAME].",
+        "draft": {
+            "destination_account_name": "Doni",
+            "destination_bank_name": "BCA"
+        },
+        "expected_output": "Transfer ditujukan ke Doni melalui BCA.",
+        "expected_class": "Fully Resolved"
+    },
+    {
+        "id": "RTR-003",
+        "category": "full_resolution",
+        "llm_output": "Nomor tujuan [ACC_NUM] atas nama [ACC_NAME].",
+        "draft": {
+            "destination_account_number": "1234567890",
+            "destination_account_name": "Doni"
+        },
+        "expected_output": "Nomor tujuan 1234567890 atas nama Doni.",
+        "expected_class": "Fully Resolved"
+    },
+    {
+        "id": "RTR-004",
+        "category": "full_resolution",
+        "llm_output": "Nominal transfer Anda adalah [TRF_AMT].",
+        "draft": {
+            "transfer_amount": 25000
+        },
+        "expected_output": "Nominal transfer Anda adalah Rp 25.000.",
+        "expected_class": "Fully Resolved"
+    },
+    {
+        "id": "RTR-005",
+        "category": "full_resolution",
+        "llm_output": "Saya akan membantu transfer ke [ACC_NAME] di [BANK_NAME] sebesar [TRF_AMT].",
+        "draft": {
+            "destination_account_name": "Doni",
+            "destination_bank_name": "BCA",
+            "transfer_amount": 25000
+        },
+        "expected_output": "Saya akan membantu transfer ke Doni di BCA sebesar Rp 25.000.",
+        "expected_class": "Fully Resolved"
+    },
+    {
+        "id": "RTR-006",
+        "category": "full_resolution",
+        "llm_output": "[ACC_NAME] - [BANK_NAME] - [ACC_NUM] - [TRF_AMT]",
+        "draft": {
+            "destination_account_name": "Doni",
+            "destination_bank_name": "BCA",
+            "destination_account_number": "1234567890",
+            "transfer_amount": 900000
+        },
+        "expected_output": "Doni - BCA - 1234567890 - Rp 900.000",
+        "expected_class": "Fully Resolved"
+    },
+    {
+        "id": "RTR-007",
+        "category": "full_resolution",
+        "llm_output": "Penerima: [ACC_NAME]. Penerima lagi: [ACC_NAME].",
+        "draft": {
+            "destination_account_name": "Doni"
+        },
+        "expected_output": "Penerima: Doni. Penerima lagi: Doni.",
+        "expected_class": "Fully Resolved"
+    },
+    {
+        "id": "RTR-008",
+        "category": "full_resolution",
+        "llm_output": "Bank [BANK_NAME], nominal [TRF_AMT], nomor [ACC_NUM].",
+        "draft": {
+            "destination_bank_name": "Mandiri",
+            "destination_account_number": "9876543210",
+            "transfer_amount": 1000000
+        },
+        "expected_output": "Bank Mandiri, nominal Rp 1.000.000, nomor 9876543210.",
+        "expected_class": "Fully Resolved"
+    },
+    {
+        "id": "RTR-009",
+        "category": "partial_draft_fallback",
+        "llm_output": "Saya akan membantu transfer ke [ACC_NAME]. Mohon isi [TRF_AMT].",
+        "draft": {
+            "destination_account_name": "Doni"
+        },
+        "expected_output": "Saya akan membantu transfer ke Doni. Mohon isi nominal transfer.",
+        "expected_class": "Resolved With Fallback"
+    },
+    {
+        "id": "RTR-010",
+        "category": "partial_draft_fallback",
+        "llm_output": "Transfer ke [ACC_NAME] melalui [BANK_NAME].",
+        "draft": {
+            "destination_account_name": "Doni"
+        },
+        "expected_output": "Transfer ke Doni melalui bank tujuan.",
+        "expected_class": "Resolved With Fallback"
+    },
+    {
+        "id": "RTR-011",
+        "category": "partial_draft_fallback",
+        "llm_output": "Nomor rekening [ACC_NUM] atas nama [ACC_NAME].",
+        "draft": {
+            "destination_account_name": "Doni"
+        },
+        "expected_output": "Nomor rekening nomor rekening tujuan atas nama Doni.",
+        "expected_class": "Resolved With Fallback"
+    },
+    {
+        "id": "RTR-012",
+        "category": "partial_draft_fallback",
+        "llm_output": "Saya akan kirim [TRF_AMT] ke [ACC_NAME].",
+        "draft": {
+            "transfer_amount": 12500
+        },
+        "expected_output": "Saya akan kirim Rp 12.500 ke rekening tujuan.",
+        "expected_class": "Resolved With Fallback"
+    },
+    {
+        "id": "RTR-013",
+        "category": "partial_draft_fallback",
+        "llm_output": "Penerima [ACC_NAME], bank [BANK_NAME], nominal [TRF_AMT].",
+        "draft": {
+            "destination_account_name": "Doni",
+            "transfer_amount": 77777
+        },
+        "expected_output": "Penerima Doni, bank bank tujuan, nominal Rp 77.777.",
+        "expected_class": "Resolved With Fallback"
+    },
+    {
+        "id": "RTR-014",
+        "category": "partial_draft_fallback",
+        "llm_output": "Tujuan [ACC_NUM], nominal [TRF_AMT].",
+        "draft": {
+            "destination_account_number": "0011223344"
+        },
+        "expected_output": "Tujuan 0011223344, nominal nominal transfer.",
+        "expected_class": "Resolved With Fallback"
+    },
+    {
+        "id": "RTR-015",
+        "category": "partial_draft_fallback",
+        "llm_output": "Transfer ke [ACC_NAME] bank [BANK_NAME] nomor [ACC_NUM].",
+        "draft": {
+            "destination_bank_name": "BCA"
+        },
+        "expected_output": "Transfer ke rekening tujuan bank BCA nomor nomor rekening tujuan.",
+        "expected_class": "Resolved With Fallback"
+    },
+    {
+        "id": "RTR-016",
+        "category": "partial_draft_fallback",
+        "llm_output": "[TRF_AMT] akan dikirim ke [ACC_NAME].",
+        "draft": {},
+        "expected_output": "nominal transfer akan dikirim ke rekening tujuan.",
+        "expected_class": "Resolved With Fallback"
+    },
+    {
+        "id": "RTR-017",
+        "category": "all_fallback",
+        "llm_output": "Saya akan bantu transfer ke [ACC_NAME].",
+        "draft": {},
+        "expected_output": "Saya akan bantu transfer ke rekening tujuan.",
+        "expected_class": "Resolved With Fallback"
+    },
+    {
+        "id": "RTR-018",
+        "category": "all_fallback",
+        "llm_output": "Bank tujuan Anda adalah [BANK_NAME].",
+        "draft": {},
+        "expected_output": "Bank tujuan Anda adalah bank tujuan.",
+        "expected_class": "Resolved With Fallback"
+    },
+    {
+        "id": "RTR-019",
+        "category": "all_fallback",
+        "llm_output": "Nomor tujuan [ACC_NUM].",
+        "draft": {},
+        "expected_output": "Nomor tujuan nomor rekening tujuan.",
+        "expected_class": "Resolved With Fallback"
+    },
+    {
+        "id": "RTR-020",
+        "category": "all_fallback",
+        "llm_output": "Nominal transfer [TRF_AMT].",
+        "draft": {},
+        "expected_output": "Nominal transfer nominal transfer.",
+        "expected_class": "Resolved With Fallback"
+    },
+    {
+        "id": "RTR-021",
+        "category": "all_fallback",
+        "llm_output": "Saya akan bantu transfer ke [ACC_NAME] melalui [BANK_NAME] sebesar [TRF_AMT] ke nomor [ACC_NUM].",
+        "draft": {},
+        "expected_output": "Saya akan bantu transfer ke rekening tujuan melalui bank tujuan sebesar nominal transfer ke nomor nomor rekening tujuan.",
+        "expected_class": "Resolved With Fallback"
+    },
+    {
+        "id": "RTR-022",
+        "category": "all_fallback",
+        "llm_output": "[ACC_NAME] | [BANK_NAME] | [ACC_NUM] | [TRF_AMT]",
+        "draft": {},
+        "expected_output": "rekening tujuan | bank tujuan | nomor rekening tujuan | nominal transfer",
+        "expected_class": "Resolved With Fallback"
+    },
+    {
+        "id": "RTR-023",
+        "category": "unknown_tag",
+        "llm_output": "Transfer ke [DEST_LABEL].",
+        "draft": {},
+        "expected_output": "Transfer ke [DEST_LABEL].",
+        "expected_class": "Stable With Unknown Tag"
+    },
+    {
+        "id": "RTR-024",
+        "category": "unknown_tag",
+        "llm_output": "Nominal [TRF_AMT] untuk [UNKNOWN_TAG].",
+        "draft": {
+            "transfer_amount": 50000
+        },
+        "expected_output": "Nominal Rp 50.000 untuk [UNKNOWN_TAG].",
+        "expected_class": "Stable With Unknown Tag"
+    },
+    {
+        "id": "RTR-025",
+        "category": "unknown_tag",
+        "llm_output": "Data [ACC_NAME] dan [MISSING_TAG].",
+        "draft": {
+            "destination_account_name": "Doni"
+        },
+        "expected_output": "Data Doni dan [MISSING_TAG].",
+        "expected_class": "Stable With Unknown Tag"
+    },
+    {
+        "id": "RTR-026",
+        "category": "unknown_tag",
+        "llm_output": "[FOO_TAG] [BAR_TAG] [TRF_AMT]",
+        "draft": {
+            "transfer_amount": 1000
+        },
+        "expected_output": "[FOO_TAG] [BAR_TAG] Rp 1.000",
+        "expected_class": "Stable With Unknown Tag"
+    },
+    {
+        "id": "RTR-027",
+        "category": "mixed_known_and_unknown_tags",
+        "llm_output": "Transfer ke [ACC_NAME] dengan [FOO_TAG] melalui [BANK_NAME].",
+        "draft": {
+            "destination_account_name": "Doni",
+            "destination_bank_name": "BCA"
+        },
+        "expected_output": "Transfer ke Doni dengan [FOO_TAG] melalui BCA.",
+        "expected_class": "Stable With Unknown Tag"
+    },
+    {
+        "id": "RTR-028",
+        "category": "mixed_known_and_unknown_tags",
+        "llm_output": "[ACC_NUM] [X_TAG] [Y_TAG] [TRF_AMT]",
+        "draft": {
+            "destination_account_number": "99887766",
+            "transfer_amount": 13500
+        },
+        "expected_output": "99887766 [X_TAG] [Y_TAG] Rp 13.500",
+        "expected_class": "Stable With Unknown Tag"
+    },
+    {
+        "id": "RTR-029",
+        "category": "mixed_known_and_unknown_tags",
+        "llm_output": "[ACC_NAME] [ACC_NAME] [UNKNOWN]",
+        "draft": {
+            "destination_account_name": "Doni"
+        },
+        "expected_output": "Doni Doni [UNKNOWN]",
+        "expected_class": "Stable With Unknown Tag"
+    },
+    {
+        "id": "RTR-030",
+        "category": "mixed_known_and_unknown_tags",
+        "llm_output": "Nominal [TRF_AMT] lalu [UNKNOWN] lalu [TRF_AMT].",
+        "draft": {
+            "transfer_amount": 4321
+        },
+        "expected_output": "Nominal Rp 4.321 lalu [UNKNOWN] lalu Rp 4.321.",
+        "expected_class": "Stable With Unknown Tag"
+    },
+    {
+        "id": "RTR-031",
+        "category": "no_tag_content",
+        "llm_output": "Terima kasih, saya akan membantu Anda.",
+        "draft": {
+            "destination_account_name": "Doni"
+        },
+        "expected_output": "Terima kasih, saya akan membantu Anda.",
+        "expected_class": "No Tag Content"
+    },
+    {
+        "id": "RTR-032",
+        "category": "no_tag_content",
+        "llm_output": "Silakan lanjutkan proses transfer.",
+        "draft": {},
+        "expected_output": "Silakan lanjutkan proses transfer.",
+        "expected_class": "No Tag Content"
+    },
+    {
+        "id": "RTR-033",
+        "category": "no_tag_content",
+        "llm_output": "Nominal sudah tersimpan.",
+        "draft": {
+            "transfer_amount": 1000
+        },
+        "expected_output": "Nominal sudah tersimpan.",
+        "expected_class": "No Tag Content"
+    },
+    {
+        "id": "RTR-034",
+        "category": "full_resolution",
+        "llm_output": "Konfirmasi tujuan [ACC_NAME] dengan nomor [ACC_NUM].",
+        "draft": {
+            "destination_account_name": "Siti",
+            "destination_account_number": "555000111"
+        },
+        "expected_output": "Konfirmasi tujuan Siti dengan nomor 555000111.",
+        "expected_class": "Fully Resolved"
+    },
+    {
+        "id": "RTR-035",
+        "category": "partial_draft_fallback",
+        "llm_output": "Konfirmasi tujuan [ACC_NAME] dengan nomor [ACC_NUM].",
+        "draft": {
+            "destination_account_name": "Siti"
+        },
+        "expected_output": "Konfirmasi tujuan Siti dengan nomor nomor rekening tujuan.",
+        "expected_class": "Resolved With Fallback"
+    },
+    {
+        "id": "RTR-036",
+        "category": "unknown_tag",
+        "llm_output": "Gunakan [ACC_NAME] lalu [DEST_LABEL] bila perlu.",
+        "draft": {
+            "destination_account_name": "Siti"
+        },
+        "expected_output": "Gunakan Siti lalu [DEST_LABEL] bila perlu.",
+        "expected_class": "Stable With Unknown Tag"
+    }
+]

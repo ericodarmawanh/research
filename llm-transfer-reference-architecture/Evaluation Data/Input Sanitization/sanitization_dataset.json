@@ -1,0 +1,362 @@
+[
+    {
+        "id": "SAN-001",
+        "category": "plain_integer",
+        "input_text": "Transfer 25000 ke Doni",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-002",
+        "category": "plain_integer",
+        "input_text": "Saya ingin transfer 100000 sekarang",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-003",
+        "category": "multi_number_input",
+        "input_text": "Transfer 25000 ke rekening 1234567890 milik Doni",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-004",
+        "category": "multi_number_input",
+        "input_text": "Kirim 50000 ke 9876543210 hari ini jam 9",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-005",
+        "category": "decimal_input",
+        "input_text": "Transfer 10.5 juta ke Doni",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-006",
+        "category": "decimal_input",
+        "input_text": "Transfer 25,5 ke rekening Doni",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-007",
+        "category": "unsupported_numeric_format",
+        "input_text": "Transfer 15.000 ke Doni",
+        "expected_class": "Safely Rejected"
+    },
+    {
+        "id": "SAN-008",
+        "category": "unsupported_numeric_format",
+        "input_text": "Transfer 1,234 ke Doni",
+        "expected_class": "Safely Rejected"
+    },
+    {
+        "id": "SAN-009",
+        "category": "multiple_separators",
+        "input_text": "Transfer 1.234,56 ke Doni",
+        "expected_class": "Safely Rejected"
+    },
+    {
+        "id": "SAN-010",
+        "category": "multiple_separators",
+        "input_text": "Transfer 1,234.56 ke Doni",
+        "expected_class": "Safely Rejected"
+    },
+    {
+        "id": "SAN-011",
+        "category": "long_account_number",
+        "input_text": "Transfer ke 1234567890123456 atas nama Doni",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-012",
+        "category": "long_account_number",
+        "input_text": "Rekening tujuan saya 001122334455667788",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-013",
+        "category": "mixed_banking_text",
+        "input_text": "Tolong transfer 10000 besok jam 9 ke Doni",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-014",
+        "category": "mixed_banking_text",
+        "input_text": "Kirim 75000 ke BCA Doni setelah jam 10",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-015",
+        "category": "hyphenated_number",
+        "input_text": "Nomor rekeningnya 1234-5678-9012",
+        "expected_class": "Safely Rejected"
+    },
+    {
+        "id": "SAN-016",
+        "category": "slash_separated_number",
+        "input_text": "Catat referensi 12/34/56 untuk transfer ini",
+        "expected_class": "Safely Rejected"
+    },
+    {
+        "id": "SAN-017",
+        "category": "space_separated_number",
+        "input_text": "Rekening tujuan 1234 5678 9012 milik Doni",
+        "expected_class": "Safely Rejected"
+    },
+    {
+        "id": "SAN-018",
+        "category": "plain_integer",
+        "input_text": "123456 tolong kirim sekarang",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-019",
+        "category": "mixed_banking_text",
+        "input_text": "Biaya admin 2500 dan transfer 10000 ke Doni",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-020",
+        "category": "plain_integer",
+        "input_text": "Transfer 0 ke Doni",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-021",
+        "category": "no_number_input",
+        "input_text": "Saya ingin transfer ke Doni",
+        "expected_class": "No Numeric Content"
+    },
+    {
+        "id": "SAN-022",
+        "category": "no_number_input",
+        "input_text": "Tolong bantu saya cek rekening tujuan",
+        "expected_class": "No Numeric Content"
+    },
+    {
+        "id": "SAN-023",
+        "category": "decimal_input",
+        "input_text": "Transfer 0,75 ke Doni",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-024",
+        "category": "unsupported_numeric_format",
+        "input_text": "Transfer 999.999 ke Doni",
+        "expected_class": "Safely Rejected"
+    },
+    {
+        "id": "SAN-025",
+        "category": "plain_integer",
+        "input_text": "Mohon transfer 35000 ke Doni sekarang juga",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-026",
+        "category": "plain_integer",
+        "input_text": "Kirim dana 888888 ke akun Doni",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-027",
+        "category": "plain_integer",
+        "input_text": "Transfer 42 ke Doni",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-028",
+        "category": "multi_number_input",
+        "input_text": "Transfer 120000 ke 111222333444 milik Doni jam 14",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-029",
+        "category": "multi_number_input",
+        "input_text": "Kirim 5000 ke rekening 777888999 atas nama Doni tanggal 30",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-030",
+        "category": "multi_number_input",
+        "input_text": "Top up 25000 ke 123123123 lalu catat referensi 88",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-031",
+        "category": "decimal_input",
+        "input_text": "Transfer 100,25 ke Doni",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-032",
+        "category": "decimal_input",
+        "input_text": "Kirim 3.1415 ke rekening Doni",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-033",
+        "category": "decimal_input",
+        "input_text": "Transfer 0.5 juta ke Doni",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-034",
+        "category": "decimal_input",
+        "input_text": "Transfer 1,25 juta ke Doni",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-035",
+        "category": "unsupported_numeric_format",
+        "input_text": "Transfer 12.345 ke Doni",
+        "expected_class": "Safely Rejected"
+    },
+    {
+        "id": "SAN-036",
+        "category": "unsupported_numeric_format",
+        "input_text": "Transfer 8,765 ke Doni",
+        "expected_class": "Safely Rejected"
+    },
+    {
+        "id": "SAN-037",
+        "category": "unsupported_numeric_format",
+        "input_text": "Nominalnya 123.456 lalu transfer ke Doni",
+        "expected_class": "Safely Rejected"
+    },
+    {
+        "id": "SAN-038",
+        "category": "multiple_separators",
+        "input_text": "Transfer 12.345,67 ke Doni",
+        "expected_class": "Safely Rejected"
+    },
+    {
+        "id": "SAN-039",
+        "category": "multiple_separators",
+        "input_text": "Transfer 9,876.54 ke Doni",
+        "expected_class": "Safely Rejected"
+    },
+    {
+        "id": "SAN-040",
+        "category": "multiple_separators",
+        "input_text": "Rekening 1.234.567 tidak boleh dipakai",
+        "expected_class": "Safely Rejected"
+    },
+    {
+        "id": "SAN-041",
+        "category": "long_account_number",
+        "input_text": "Nomor tujuan 98765432109876543210 atas nama Doni",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-042",
+        "category": "long_account_number",
+        "input_text": "Simpan rekening 55554444333322221111 untuk transfer berikutnya",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-043",
+        "category": "mixed_banking_text",
+        "input_text": "Besok jam 8 tolong transfer 20000 ke Doni",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-044",
+        "category": "mixed_banking_text",
+        "input_text": "Pindahkan 150000 ke BNI Doni sebelum 17",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-045",
+        "category": "mixed_banking_text",
+        "input_text": "Transfer 7000 ke Doni dan sisakan saldo 3000",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-046",
+        "category": "mixed_banking_text",
+        "input_text": "Tolong kirim 25000 ke Doni, kode OTP saya 123456",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-047",
+        "category": "hyphenated_number",
+        "input_text": "Gunakan kode 2026-03-30 untuk referensi transfer",
+        "expected_class": "Safely Rejected"
+    },
+    {
+        "id": "SAN-048",
+        "category": "hyphenated_number",
+        "input_text": "Rekening 0001-0002-0003 milik Doni",
+        "expected_class": "Safely Rejected"
+    },
+    {
+        "id": "SAN-049",
+        "category": "slash_separated_number",
+        "input_text": "Ref transaksi 01/02/03 untuk transfer Doni",
+        "expected_class": "Safely Rejected"
+    },
+    {
+        "id": "SAN-050",
+        "category": "slash_separated_number",
+        "input_text": "Tanggal 30/03/2026 transfer ke Doni sebesar 10000",
+        "expected_class": "Safely Rejected"
+    },
+    {
+        "id": "SAN-051",
+        "category": "space_separated_number",
+        "input_text": "Nomor virtual account 1234 5678 9999 untuk Doni",
+        "expected_class": "Safely Rejected"
+    },
+    {
+        "id": "SAN-052",
+        "category": "space_separated_number",
+        "input_text": "Masukkan kode 12 34 56 sebelum transfer",
+        "expected_class": "Safely Rejected"
+    },
+    {
+        "id": "SAN-053",
+        "category": "no_number_input",
+        "input_text": "Saya ingin mengubah tujuan transfer ke Doni",
+        "expected_class": "No Numeric Content"
+    },
+    {
+        "id": "SAN-054",
+        "category": "no_number_input",
+        "input_text": "Apakah saved account Doni tersedia?",
+        "expected_class": "No Numeric Content"
+    },
+    {
+        "id": "SAN-055",
+        "category": "no_number_input",
+        "input_text": "Mohon bantu saya menyiapkan transfer",
+        "expected_class": "No Numeric Content"
+    },
+    {
+        "id": "SAN-056",
+        "category": "plain_integer",
+        "input_text": "Transfer 999999999 ke Doni",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-057",
+        "category": "decimal_input",
+        "input_text": "Kirim 2,75 juta untuk Doni",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-058",
+        "category": "mixed_banking_text",
+        "input_text": "Transfer 12000 ke Doni, lalu catat nomor antrean 77",
+        "expected_class": "Fully Successful"
+    },
+    {
+        "id": "SAN-059",
+        "category": "multiple_separators",
+        "input_text": "Nominal 123,456.789 jelas harus ditolak",
+        "expected_class": "Safely Rejected"
+    },
+    {
+        "id": "SAN-060",
+        "category": "unsupported_numeric_format",
+        "input_text": "Mohon transfer 111.222 ke Doni",
+        "expected_class": "Safely Rejected"
+    }
+]

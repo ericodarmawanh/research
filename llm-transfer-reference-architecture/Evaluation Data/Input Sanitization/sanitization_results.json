@@ -1,0 +1,2208 @@
+{
+  "generated_at": "2026-05-12T11:27:56.263168Z",
+  "dataset_path": "evaluation/sanitization/dataset/sanitization_dataset.json",
+  "results_directory": "evaluation/sanitization/results",
+  "summary": {
+    "total_cases": 60,
+    "numeric_case_count": 55,
+    "unsupported_case_count": 22,
+    "fully_successful_count": 33,
+    "safely_rejected_count": 22,
+    "security_failure_count": 0,
+    "no_numeric_content_count": 5,
+    "scr": 100.0,
+    "nnsr": 60.0,
+    "schr": 100.0,
+    "lir": 0.0,
+    "average_tokenization_latency_microseconds": 106.83333333333333,
+    "average_tokenization_latency_milliseconds": 0.10683333333333332,
+    "expectation_match_rate": 100.0,
+    "categories": [
+      {
+        "category": "decimal_input",
+        "case_count": 8,
+        "numeric_case_count": 8,
+        "fully_successful_count": 8,
+        "safely_rejected_count": 0,
+        "security_failure_count": 0,
+        "no_numeric_content_count": 0,
+        "scr": 100.0,
+        "nnsr": 100.0,
+        "schr": 0.0,
+        "lir": 0.0
+      },
+      {
+        "category": "hyphenated_number",
+        "case_count": 3,
+        "numeric_case_count": 3,
+        "fully_successful_count": 0,
+        "safely_rejected_count": 3,
+        "security_failure_count": 0,
+        "no_numeric_content_count": 0,
+        "scr": 100.0,
+        "nnsr": 0.0,
+        "schr": 100.0,
+        "lir": 0.0
+      },
+      {
+        "category": "long_account_number",
+        "case_count": 4,
+        "numeric_case_count": 4,
+        "fully_successful_count": 4,
+        "safely_rejected_count": 0,
+        "security_failure_count": 0,
+        "no_numeric_content_count": 0,
+        "scr": 100.0,
+        "nnsr": 100.0,
+        "schr": 0.0,
+        "lir": 0.0
+      },
+      {
+        "category": "mixed_banking_text",
+        "case_count": 8,
+        "numeric_case_count": 8,
+        "fully_successful_count": 8,
+        "safely_rejected_count": 0,
+        "security_failure_count": 0,
+        "no_numeric_content_count": 0,
+        "scr": 100.0,
+        "nnsr": 100.0,
+        "schr": 0.0,
+        "lir": 0.0
+      },
+      {
+        "category": "multi_number_input",
+        "case_count": 5,
+        "numeric_case_count": 5,
+        "fully_successful_count": 5,
+        "safely_rejected_count": 0,
+        "security_failure_count": 0,
+        "no_numeric_content_count": 0,
+        "scr": 100.0,
+        "nnsr": 100.0,
+        "schr": 0.0,
+        "lir": 0.0
+      },
+      {
+        "category": "multiple_separators",
+        "case_count": 6,
+        "numeric_case_count": 6,
+        "fully_successful_count": 0,
+        "safely_rejected_count": 6,
+        "security_failure_count": 0,
+        "no_numeric_content_count": 0,
+        "scr": 100.0,
+        "nnsr": 0.0,
+        "schr": 100.0,
+        "lir": 0.0
+      },
+      {
+        "category": "no_number_input",
+        "case_count": 5,
+        "numeric_case_count": 0,
+        "fully_successful_count": 0,
+        "safely_rejected_count": 0,
+        "security_failure_count": 0,
+        "no_numeric_content_count": 5,
+        "scr": 0.0,
+        "nnsr": 0.0,
+        "schr": 0.0,
+        "lir": 0.0
+      },
+      {
+        "category": "plain_integer",
+        "case_count": 8,
+        "numeric_case_count": 8,
+        "fully_successful_count": 8,
+        "safely_rejected_count": 0,
+        "security_failure_count": 0,
+        "no_numeric_content_count": 0,
+        "scr": 100.0,
+        "nnsr": 100.0,
+        "schr": 0.0,
+        "lir": 0.0
+      },
+      {
+        "category": "slash_separated_number",
+        "case_count": 3,
+        "numeric_case_count": 3,
+        "fully_successful_count": 0,
+        "safely_rejected_count": 3,
+        "security_failure_count": 0,
+        "no_numeric_content_count": 0,
+        "scr": 100.0,
+        "nnsr": 0.0,
+        "schr": 100.0,
+        "lir": 0.0
+      },
+      {
+        "category": "space_separated_number",
+        "case_count": 3,
+        "numeric_case_count": 3,
+        "fully_successful_count": 0,
+        "safely_rejected_count": 3,
+        "security_failure_count": 0,
+        "no_numeric_content_count": 0,
+        "scr": 100.0,
+        "nnsr": 0.0,
+        "schr": 100.0,
+        "lir": 0.0
+      },
+      {
+        "category": "unsupported_numeric_format",
+        "case_count": 7,
+        "numeric_case_count": 7,
+        "fully_successful_count": 0,
+        "safely_rejected_count": 7,
+        "security_failure_count": 0,
+        "no_numeric_content_count": 0,
+        "scr": 100.0,
+        "nnsr": 0.0,
+        "schr": 100.0,
+        "lir": 0.0
+      }
+    ]
+  },
+  "cases": [
+    {
+      "case_id": "SAN-001",
+      "category": "plain_integer",
+      "input_text": "Transfer 25000 ke Doni",
+      "tokenization_elapsed_microseconds": 4585,
+      "tokenization_elapsed_milliseconds": 4.585,
+      "detected_numbers": [
+        "25000"
+      ],
+      "token_mappings": [
+        {
+          "token": "x68hczcn",
+          "original_text": "25000",
+          "current_text": "25000",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 25000.0,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Transfer [token: x68hczcn] ke Doni",
+      "expected_sanitized_text": "Transfer [token: x68hczcn] ke Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-002",
+      "category": "plain_integer",
+      "input_text": "Saya ingin transfer 100000 sekarang",
+      "tokenization_elapsed_microseconds": 38,
+      "tokenization_elapsed_milliseconds": 0.038,
+      "detected_numbers": [
+        "100000"
+      ],
+      "token_mappings": [
+        {
+          "token": "dj5uvryq",
+          "original_text": "100000",
+          "current_text": "100000",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 100000.0,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Saya ingin transfer [token: dj5uvryq] sekarang",
+      "expected_sanitized_text": "Saya ingin transfer [token: dj5uvryq] sekarang",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-003",
+      "category": "multi_number_input",
+      "input_text": "Transfer 25000 ke rekening 1234567890 milik Doni",
+      "tokenization_elapsed_microseconds": 27,
+      "tokenization_elapsed_milliseconds": 0.027,
+      "detected_numbers": [
+        "25000",
+        "1234567890"
+      ],
+      "token_mappings": [
+        {
+          "token": "txz7dg7z",
+          "original_text": "25000",
+          "current_text": "25000",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 25000.0,
+          "unit_already_applied": false
+        },
+        {
+          "token": "cg42olok",
+          "original_text": "1234567890",
+          "current_text": "1234567890",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 1234567890.0,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Transfer [token: txz7dg7z] ke rekening [token: cg42olok] milik Doni",
+      "expected_sanitized_text": "Transfer [token: txz7dg7z] ke rekening [token: cg42olok] milik Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-004",
+      "category": "multi_number_input",
+      "input_text": "Kirim 50000 ke 9876543210 hari ini jam 9",
+      "tokenization_elapsed_microseconds": 34,
+      "tokenization_elapsed_milliseconds": 0.034,
+      "detected_numbers": [
+        "50000",
+        "9876543210",
+        "9"
+      ],
+      "token_mappings": [
+        {
+          "token": "uep118rr",
+          "original_text": "50000",
+          "current_text": "50000",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 50000.0,
+          "unit_already_applied": false
+        },
+        {
+          "token": "1t3vcuus",
+          "original_text": "9876543210",
+          "current_text": "9876543210",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 9876543210.0,
+          "unit_already_applied": false
+        },
+        {
+          "token": "94ar7ffn",
+          "original_text": "9",
+          "current_text": "9",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 9.0,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Kirim [token: uep118rr] ke [token: 1t3vcuus] hari ini jam [token: 94ar7ffn]",
+      "expected_sanitized_text": "Kirim [token: uep118rr] ke [token: 1t3vcuus] hari ini jam [token: 94ar7ffn]",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-005",
+      "category": "decimal_input",
+      "input_text": "Transfer 10.5 juta ke Doni",
+      "tokenization_elapsed_microseconds": 93,
+      "tokenization_elapsed_milliseconds": 0.093,
+      "detected_numbers": [
+        "10.5"
+      ],
+      "token_mappings": [
+        {
+          "token": "03iby5a9",
+          "original_text": "10.5",
+          "current_text": "10.5",
+          "parse_status": "valid",
+          "parse_reason": "decimal_separator_supported",
+          "numeric_value": 10.5,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Transfer [token: 03iby5a9] juta ke Doni",
+      "expected_sanitized_text": "Transfer [token: 03iby5a9] juta ke Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-006",
+      "category": "decimal_input",
+      "input_text": "Transfer 25,5 ke rekening Doni",
+      "tokenization_elapsed_microseconds": 220,
+      "tokenization_elapsed_milliseconds": 0.22,
+      "detected_numbers": [
+        "25,5"
+      ],
+      "token_mappings": [
+        {
+          "token": "nu8wgoht",
+          "original_text": "25,5",
+          "current_text": "25,5",
+          "parse_status": "valid",
+          "parse_reason": "decimal_separator_supported",
+          "numeric_value": 25.5,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Transfer [token: nu8wgoht] ke rekening Doni",
+      "expected_sanitized_text": "Transfer [token: nu8wgoht] ke rekening Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-007",
+      "category": "unsupported_numeric_format",
+      "input_text": "Transfer 15.000 ke Doni",
+      "tokenization_elapsed_microseconds": 27,
+      "tokenization_elapsed_milliseconds": 0.027,
+      "detected_numbers": [
+        "15.000"
+      ],
+      "token_mappings": [
+        {
+          "token": "e1hpj93h",
+          "original_text": "15.000",
+          "current_text": "15.000",
+          "parse_status": "unsupported_format",
+          "parse_reason": "thousands_separator_not_supported",
+          "numeric_value": null,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Transfer [token: e1hpj93h] ke Doni",
+      "expected_sanitized_text": "Transfer [token: e1hpj93h] ke Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": false,
+      "clarification_required": true,
+      "security_leak_detected": false,
+      "final_class": "Safely Rejected",
+      "expected_class": "Safely Rejected",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-008",
+      "category": "unsupported_numeric_format",
+      "input_text": "Transfer 1,234 ke Doni",
+      "tokenization_elapsed_microseconds": 15,
+      "tokenization_elapsed_milliseconds": 0.015,
+      "detected_numbers": [
+        "1,234"
+      ],
+      "token_mappings": [
+        {
+          "token": "hc6fyohi",
+          "original_text": "1,234",
+          "current_text": "1,234",
+          "parse_status": "unsupported_format",
+          "parse_reason": "thousands_separator_not_supported",
+          "numeric_value": null,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Transfer [token: hc6fyohi] ke Doni",
+      "expected_sanitized_text": "Transfer [token: hc6fyohi] ke Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": false,
+      "clarification_required": true,
+      "security_leak_detected": false,
+      "final_class": "Safely Rejected",
+      "expected_class": "Safely Rejected",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-009",
+      "category": "multiple_separators",
+      "input_text": "Transfer 1.234,56 ke Doni",
+      "tokenization_elapsed_microseconds": 12,
+      "tokenization_elapsed_milliseconds": 0.012,
+      "detected_numbers": [
+        "1.234,56"
+      ],
+      "token_mappings": [
+        {
+          "token": "x5xhhjxx",
+          "original_text": "1.234,56",
+          "current_text": "1.234,56",
+          "parse_status": "unsupported_format",
+          "parse_reason": "multiple_separators_not_supported",
+          "numeric_value": null,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Transfer [token: x5xhhjxx] ke Doni",
+      "expected_sanitized_text": "Transfer [token: x5xhhjxx] ke Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": false,
+      "clarification_required": true,
+      "security_leak_detected": false,
+      "final_class": "Safely Rejected",
+      "expected_class": "Safely Rejected",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-010",
+      "category": "multiple_separators",
+      "input_text": "Transfer 1,234.56 ke Doni",
+      "tokenization_elapsed_microseconds": 11,
+      "tokenization_elapsed_milliseconds": 0.011,
+      "detected_numbers": [
+        "1,234.56"
+      ],
+      "token_mappings": [
+        {
+          "token": "x68hczcn",
+          "original_text": "1,234.56",
+          "current_text": "1,234.56",
+          "parse_status": "unsupported_format",
+          "parse_reason": "multiple_separators_not_supported",
+          "numeric_value": null,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Transfer [token: x68hczcn] ke Doni",
+      "expected_sanitized_text": "Transfer [token: x68hczcn] ke Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": false,
+      "clarification_required": true,
+      "security_leak_detected": false,
+      "final_class": "Safely Rejected",
+      "expected_class": "Safely Rejected",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-011",
+      "category": "long_account_number",
+      "input_text": "Transfer ke 1234567890123456 atas nama Doni",
+      "tokenization_elapsed_microseconds": 17,
+      "tokenization_elapsed_milliseconds": 0.017,
+      "detected_numbers": [
+        "1234567890123456"
+      ],
+      "token_mappings": [
+        {
+          "token": "dj5uvryq",
+          "original_text": "1234567890123456",
+          "current_text": "1234567890123456",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 1234567890123456.0,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Transfer ke [token: dj5uvryq] atas nama Doni",
+      "expected_sanitized_text": "Transfer ke [token: dj5uvryq] atas nama Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-012",
+      "category": "long_account_number",
+      "input_text": "Rekening tujuan saya 001122334455667788",
+      "tokenization_elapsed_microseconds": 15,
+      "tokenization_elapsed_milliseconds": 0.015,
+      "detected_numbers": [
+        "001122334455667788"
+      ],
+      "token_mappings": [
+        {
+          "token": "txz7dg7z",
+          "original_text": "001122334455667788",
+          "current_text": "001122334455667788",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 1122334455667788.0,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Rekening tujuan saya [token: txz7dg7z]",
+      "expected_sanitized_text": "Rekening tujuan saya [token: txz7dg7z]",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-013",
+      "category": "mixed_banking_text",
+      "input_text": "Tolong transfer 10000 besok jam 9 ke Doni",
+      "tokenization_elapsed_microseconds": 20,
+      "tokenization_elapsed_milliseconds": 0.02,
+      "detected_numbers": [
+        "10000",
+        "9"
+      ],
+      "token_mappings": [
+        {
+          "token": "uep118rr",
+          "original_text": "10000",
+          "current_text": "10000",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 10000.0,
+          "unit_already_applied": false
+        },
+        {
+          "token": "1t3vcuus",
+          "original_text": "9",
+          "current_text": "9",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 9.0,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Tolong transfer [token: uep118rr] besok jam [token: 1t3vcuus] ke Doni",
+      "expected_sanitized_text": "Tolong transfer [token: uep118rr] besok jam [token: 1t3vcuus] ke Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-014",
+      "category": "mixed_banking_text",
+      "input_text": "Kirim 75000 ke BCA Doni setelah jam 10",
+      "tokenization_elapsed_microseconds": 22,
+      "tokenization_elapsed_milliseconds": 0.022,
+      "detected_numbers": [
+        "75000",
+        "10"
+      ],
+      "token_mappings": [
+        {
+          "token": "03iby5a9",
+          "original_text": "75000",
+          "current_text": "75000",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 75000.0,
+          "unit_already_applied": false
+        },
+        {
+          "token": "7of9zojg",
+          "original_text": "10",
+          "current_text": "10",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 10.0,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Kirim [token: 03iby5a9] ke BCA Doni setelah jam [token: 7of9zojg]",
+      "expected_sanitized_text": "Kirim [token: 03iby5a9] ke BCA Doni setelah jam [token: 7of9zojg]",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-015",
+      "category": "hyphenated_number",
+      "input_text": "Nomor rekeningnya 1234-5678-9012",
+      "tokenization_elapsed_microseconds": 15,
+      "tokenization_elapsed_milliseconds": 0.015,
+      "detected_numbers": [
+        "1234-5678-9012"
+      ],
+      "token_mappings": [
+        {
+          "token": "nu8wgoht",
+          "original_text": "1234-5678-9012",
+          "current_text": "1234-5678-9012",
+          "parse_status": "unsupported_format",
+          "parse_reason": "unsupported_numeric_format",
+          "numeric_value": null,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Nomor rekeningnya [token: nu8wgoht]",
+      "expected_sanitized_text": "Nomor rekeningnya [token: nu8wgoht]",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": false,
+      "clarification_required": true,
+      "security_leak_detected": false,
+      "final_class": "Safely Rejected",
+      "expected_class": "Safely Rejected",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-016",
+      "category": "slash_separated_number",
+      "input_text": "Catat referensi 12/34/56 untuk transfer ini",
+      "tokenization_elapsed_microseconds": 12,
+      "tokenization_elapsed_milliseconds": 0.012,
+      "detected_numbers": [
+        "12/34/56"
+      ],
+      "token_mappings": [
+        {
+          "token": "e1hpj93h",
+          "original_text": "12/34/56",
+          "current_text": "12/34/56",
+          "parse_status": "unsupported_format",
+          "parse_reason": "unsupported_numeric_format",
+          "numeric_value": null,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Catat referensi [token: e1hpj93h] untuk transfer ini",
+      "expected_sanitized_text": "Catat referensi [token: e1hpj93h] untuk transfer ini",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": false,
+      "clarification_required": true,
+      "security_leak_detected": false,
+      "final_class": "Safely Rejected",
+      "expected_class": "Safely Rejected",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-017",
+      "category": "space_separated_number",
+      "input_text": "Rekening tujuan 1234 5678 9012 milik Doni",
+      "tokenization_elapsed_microseconds": 12,
+      "tokenization_elapsed_milliseconds": 0.012,
+      "detected_numbers": [
+        "1234 5678 9012"
+      ],
+      "token_mappings": [
+        {
+          "token": "hc6fyohi",
+          "original_text": "1234 5678 9012",
+          "current_text": "1234 5678 9012",
+          "parse_status": "unsupported_format",
+          "parse_reason": "unsupported_numeric_format",
+          "numeric_value": null,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Rekening tujuan [token: hc6fyohi] milik Doni",
+      "expected_sanitized_text": "Rekening tujuan [token: hc6fyohi] milik Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": false,
+      "clarification_required": true,
+      "security_leak_detected": false,
+      "final_class": "Safely Rejected",
+      "expected_class": "Safely Rejected",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-018",
+      "category": "plain_integer",
+      "input_text": "123456 tolong kirim sekarang",
+      "tokenization_elapsed_microseconds": 12,
+      "tokenization_elapsed_milliseconds": 0.012,
+      "detected_numbers": [
+        "123456"
+      ],
+      "token_mappings": [
+        {
+          "token": "x5xhhjxx",
+          "original_text": "123456",
+          "current_text": "123456",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 123456.0,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "[token: x5xhhjxx] tolong kirim sekarang",
+      "expected_sanitized_text": "[token: x5xhhjxx] tolong kirim sekarang",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-019",
+      "category": "mixed_banking_text",
+      "input_text": "Biaya admin 2500 dan transfer 10000 ke Doni",
+      "tokenization_elapsed_microseconds": 24,
+      "tokenization_elapsed_milliseconds": 0.024,
+      "detected_numbers": [
+        "2500",
+        "10000"
+      ],
+      "token_mappings": [
+        {
+          "token": "7gysohku",
+          "original_text": "2500",
+          "current_text": "2500",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 2500.0,
+          "unit_already_applied": false
+        },
+        {
+          "token": "4w9cfupl",
+          "original_text": "10000",
+          "current_text": "10000",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 10000.0,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Biaya admin [token: 7gysohku] dan transfer [token: 4w9cfupl] ke Doni",
+      "expected_sanitized_text": "Biaya admin [token: 7gysohku] dan transfer [token: 4w9cfupl] ke Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-020",
+      "category": "plain_integer",
+      "input_text": "Transfer 0 ke Doni",
+      "tokenization_elapsed_microseconds": 12,
+      "tokenization_elapsed_milliseconds": 0.012,
+      "detected_numbers": [
+        "0"
+      ],
+      "token_mappings": [
+        {
+          "token": "dj5uvryq",
+          "original_text": "0",
+          "current_text": "0",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 0.0,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Transfer [token: dj5uvryq] ke Doni",
+      "expected_sanitized_text": "Transfer [token: dj5uvryq] ke Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-021",
+      "category": "no_number_input",
+      "input_text": "Saya ingin transfer ke Doni",
+      "tokenization_elapsed_microseconds": 1,
+      "tokenization_elapsed_milliseconds": 0.001,
+      "detected_numbers": [],
+      "token_mappings": [],
+      "sanitized_text": "Saya ingin transfer ke Doni",
+      "expected_sanitized_text": "Saya ingin transfer ke Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": false,
+      "sanitization_success": true,
+      "normalization_success": false,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "No Numeric Content",
+      "expected_class": "No Numeric Content",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-022",
+      "category": "no_number_input",
+      "input_text": "Tolong bantu saya cek rekening tujuan",
+      "tokenization_elapsed_microseconds": 1,
+      "tokenization_elapsed_milliseconds": 0.001,
+      "detected_numbers": [],
+      "token_mappings": [],
+      "sanitized_text": "Tolong bantu saya cek rekening tujuan",
+      "expected_sanitized_text": "Tolong bantu saya cek rekening tujuan",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": false,
+      "sanitization_success": true,
+      "normalization_success": false,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "No Numeric Content",
+      "expected_class": "No Numeric Content",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-023",
+      "category": "decimal_input",
+      "input_text": "Transfer 0,75 ke Doni",
+      "tokenization_elapsed_microseconds": 16,
+      "tokenization_elapsed_milliseconds": 0.016,
+      "detected_numbers": [
+        "0,75"
+      ],
+      "token_mappings": [
+        {
+          "token": "03iby5a9",
+          "original_text": "0,75",
+          "current_text": "0,75",
+          "parse_status": "valid",
+          "parse_reason": "decimal_separator_supported",
+          "numeric_value": 0.75,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Transfer [token: 03iby5a9] ke Doni",
+      "expected_sanitized_text": "Transfer [token: 03iby5a9] ke Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-024",
+      "category": "unsupported_numeric_format",
+      "input_text": "Transfer 999.999 ke Doni",
+      "tokenization_elapsed_microseconds": 15,
+      "tokenization_elapsed_milliseconds": 0.015,
+      "detected_numbers": [
+        "999.999"
+      ],
+      "token_mappings": [
+        {
+          "token": "nu8wgoht",
+          "original_text": "999.999",
+          "current_text": "999.999",
+          "parse_status": "unsupported_format",
+          "parse_reason": "thousands_separator_not_supported",
+          "numeric_value": null,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Transfer [token: nu8wgoht] ke Doni",
+      "expected_sanitized_text": "Transfer [token: nu8wgoht] ke Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": false,
+      "clarification_required": true,
+      "security_leak_detected": false,
+      "final_class": "Safely Rejected",
+      "expected_class": "Safely Rejected",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-025",
+      "category": "plain_integer",
+      "input_text": "Mohon transfer 35000 ke Doni sekarang juga",
+      "tokenization_elapsed_microseconds": 14,
+      "tokenization_elapsed_milliseconds": 0.014,
+      "detected_numbers": [
+        "35000"
+      ],
+      "token_mappings": [
+        {
+          "token": "e1hpj93h",
+          "original_text": "35000",
+          "current_text": "35000",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 35000.0,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Mohon transfer [token: e1hpj93h] ke Doni sekarang juga",
+      "expected_sanitized_text": "Mohon transfer [token: e1hpj93h] ke Doni sekarang juga",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-026",
+      "category": "plain_integer",
+      "input_text": "Kirim dana 888888 ke akun Doni",
+      "tokenization_elapsed_microseconds": 14,
+      "tokenization_elapsed_milliseconds": 0.014,
+      "detected_numbers": [
+        "888888"
+      ],
+      "token_mappings": [
+        {
+          "token": "hc6fyohi",
+          "original_text": "888888",
+          "current_text": "888888",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 888888.0,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Kirim dana [token: hc6fyohi] ke akun Doni",
+      "expected_sanitized_text": "Kirim dana [token: hc6fyohi] ke akun Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-027",
+      "category": "plain_integer",
+      "input_text": "Transfer 42 ke Doni",
+      "tokenization_elapsed_microseconds": 12,
+      "tokenization_elapsed_milliseconds": 0.012,
+      "detected_numbers": [
+        "42"
+      ],
+      "token_mappings": [
+        {
+          "token": "x5xhhjxx",
+          "original_text": "42",
+          "current_text": "42",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 42.0,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Transfer [token: x5xhhjxx] ke Doni",
+      "expected_sanitized_text": "Transfer [token: x5xhhjxx] ke Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-028",
+      "category": "multi_number_input",
+      "input_text": "Transfer 120000 ke 111222333444 milik Doni jam 14",
+      "tokenization_elapsed_microseconds": 32,
+      "tokenization_elapsed_milliseconds": 0.032,
+      "detected_numbers": [
+        "120000",
+        "111222333444",
+        "14"
+      ],
+      "token_mappings": [
+        {
+          "token": "7gysohku",
+          "original_text": "120000",
+          "current_text": "120000",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 120000.0,
+          "unit_already_applied": false
+        },
+        {
+          "token": "4w9cfupl",
+          "original_text": "111222333444",
+          "current_text": "111222333444",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 111222333444.0,
+          "unit_already_applied": false
+        },
+        {
+          "token": "mltmlv3n",
+          "original_text": "14",
+          "current_text": "14",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 14.0,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Transfer [token: 7gysohku] ke [token: 4w9cfupl] milik Doni jam [token: mltmlv3n]",
+      "expected_sanitized_text": "Transfer [token: 7gysohku] ke [token: 4w9cfupl] milik Doni jam [token: mltmlv3n]",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-029",
+      "category": "multi_number_input",
+      "input_text": "Kirim 5000 ke rekening 777888999 atas nama Doni tanggal 30",
+      "tokenization_elapsed_microseconds": 31,
+      "tokenization_elapsed_milliseconds": 0.031,
+      "detected_numbers": [
+        "5000",
+        "777888999",
+        "30"
+      ],
+      "token_mappings": [
+        {
+          "token": "aolo1gou",
+          "original_text": "5000",
+          "current_text": "5000",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 5000.0,
+          "unit_already_applied": false
+        },
+        {
+          "token": "wkk46cte",
+          "original_text": "777888999",
+          "current_text": "777888999",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 777888999.0,
+          "unit_already_applied": false
+        },
+        {
+          "token": "da3s3zu4",
+          "original_text": "30",
+          "current_text": "30",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 30.0,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Kirim [token: aolo1gou] ke rekening [token: wkk46cte] atas nama Doni tanggal [token: da3s3zu4]",
+      "expected_sanitized_text": "Kirim [token: aolo1gou] ke rekening [token: wkk46cte] atas nama Doni tanggal [token: da3s3zu4]",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-030",
+      "category": "multi_number_input",
+      "input_text": "Top up 25000 ke 123123123 lalu catat referensi 88",
+      "tokenization_elapsed_microseconds": 31,
+      "tokenization_elapsed_milliseconds": 0.031,
+      "detected_numbers": [
+        "25000",
+        "123123123",
+        "88"
+      ],
+      "token_mappings": [
+        {
+          "token": "txz7dg7z",
+          "original_text": "25000",
+          "current_text": "25000",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 25000.0,
+          "unit_already_applied": false
+        },
+        {
+          "token": "cg42olok",
+          "original_text": "123123123",
+          "current_text": "123123123",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 123123123.0,
+          "unit_already_applied": false
+        },
+        {
+          "token": "19i0u92p",
+          "original_text": "88",
+          "current_text": "88",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 88.0,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Top up [token: txz7dg7z] ke [token: cg42olok] lalu catat referensi [token: 19i0u92p]",
+      "expected_sanitized_text": "Top up [token: txz7dg7z] ke [token: cg42olok] lalu catat referensi [token: 19i0u92p]",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-031",
+      "category": "decimal_input",
+      "input_text": "Transfer 100,25 ke Doni",
+      "tokenization_elapsed_microseconds": 16,
+      "tokenization_elapsed_milliseconds": 0.016,
+      "detected_numbers": [
+        "100,25"
+      ],
+      "token_mappings": [
+        {
+          "token": "uep118rr",
+          "original_text": "100,25",
+          "current_text": "100,25",
+          "parse_status": "valid",
+          "parse_reason": "decimal_separator_supported",
+          "numeric_value": 100.25,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Transfer [token: uep118rr] ke Doni",
+      "expected_sanitized_text": "Transfer [token: uep118rr] ke Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-032",
+      "category": "decimal_input",
+      "input_text": "Kirim 3.1415 ke rekening Doni",
+      "tokenization_elapsed_microseconds": 14,
+      "tokenization_elapsed_milliseconds": 0.014,
+      "detected_numbers": [
+        "3.1415"
+      ],
+      "token_mappings": [
+        {
+          "token": "03iby5a9",
+          "original_text": "3.1415",
+          "current_text": "3.1415",
+          "parse_status": "valid",
+          "parse_reason": "decimal_separator_supported",
+          "numeric_value": 3.1415,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Kirim [token: 03iby5a9] ke rekening Doni",
+      "expected_sanitized_text": "Kirim [token: 03iby5a9] ke rekening Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-033",
+      "category": "decimal_input",
+      "input_text": "Transfer 0.5 juta ke Doni",
+      "tokenization_elapsed_microseconds": 14,
+      "tokenization_elapsed_milliseconds": 0.014,
+      "detected_numbers": [
+        "0.5"
+      ],
+      "token_mappings": [
+        {
+          "token": "nu8wgoht",
+          "original_text": "0.5",
+          "current_text": "0.5",
+          "parse_status": "valid",
+          "parse_reason": "decimal_separator_supported",
+          "numeric_value": 0.5,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Transfer [token: nu8wgoht] juta ke Doni",
+      "expected_sanitized_text": "Transfer [token: nu8wgoht] juta ke Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-034",
+      "category": "decimal_input",
+      "input_text": "Transfer 1,25 juta ke Doni",
+      "tokenization_elapsed_microseconds": 15,
+      "tokenization_elapsed_milliseconds": 0.015,
+      "detected_numbers": [
+        "1,25"
+      ],
+      "token_mappings": [
+        {
+          "token": "e1hpj93h",
+          "original_text": "1,25",
+          "current_text": "1,25",
+          "parse_status": "valid",
+          "parse_reason": "decimal_separator_supported",
+          "numeric_value": 1.25,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Transfer [token: e1hpj93h] juta ke Doni",
+      "expected_sanitized_text": "Transfer [token: e1hpj93h] juta ke Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-035",
+      "category": "unsupported_numeric_format",
+      "input_text": "Transfer 12.345 ke Doni",
+      "tokenization_elapsed_microseconds": 15,
+      "tokenization_elapsed_milliseconds": 0.015,
+      "detected_numbers": [
+        "12.345"
+      ],
+      "token_mappings": [
+        {
+          "token": "hc6fyohi",
+          "original_text": "12.345",
+          "current_text": "12.345",
+          "parse_status": "unsupported_format",
+          "parse_reason": "thousands_separator_not_supported",
+          "numeric_value": null,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Transfer [token: hc6fyohi] ke Doni",
+      "expected_sanitized_text": "Transfer [token: hc6fyohi] ke Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": false,
+      "clarification_required": true,
+      "security_leak_detected": false,
+      "final_class": "Safely Rejected",
+      "expected_class": "Safely Rejected",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-036",
+      "category": "unsupported_numeric_format",
+      "input_text": "Transfer 8,765 ke Doni",
+      "tokenization_elapsed_microseconds": 14,
+      "tokenization_elapsed_milliseconds": 0.014,
+      "detected_numbers": [
+        "8,765"
+      ],
+      "token_mappings": [
+        {
+          "token": "x5xhhjxx",
+          "original_text": "8,765",
+          "current_text": "8,765",
+          "parse_status": "unsupported_format",
+          "parse_reason": "thousands_separator_not_supported",
+          "numeric_value": null,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Transfer [token: x5xhhjxx] ke Doni",
+      "expected_sanitized_text": "Transfer [token: x5xhhjxx] ke Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": false,
+      "clarification_required": true,
+      "security_leak_detected": false,
+      "final_class": "Safely Rejected",
+      "expected_class": "Safely Rejected",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-037",
+      "category": "unsupported_numeric_format",
+      "input_text": "Nominalnya 123.456 lalu transfer ke Doni",
+      "tokenization_elapsed_microseconds": 16,
+      "tokenization_elapsed_milliseconds": 0.016,
+      "detected_numbers": [
+        "123.456"
+      ],
+      "token_mappings": [
+        {
+          "token": "7gysohku",
+          "original_text": "123.456",
+          "current_text": "123.456",
+          "parse_status": "unsupported_format",
+          "parse_reason": "thousands_separator_not_supported",
+          "numeric_value": null,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Nominalnya [token: 7gysohku] lalu transfer ke Doni",
+      "expected_sanitized_text": "Nominalnya [token: 7gysohku] lalu transfer ke Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": false,
+      "clarification_required": true,
+      "security_leak_detected": false,
+      "final_class": "Safely Rejected",
+      "expected_class": "Safely Rejected",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-038",
+      "category": "multiple_separators",
+      "input_text": "Transfer 12.345,67 ke Doni",
+      "tokenization_elapsed_microseconds": 12,
+      "tokenization_elapsed_milliseconds": 0.012,
+      "detected_numbers": [
+        "12.345,67"
+      ],
+      "token_mappings": [
+        {
+          "token": "aolo1gou",
+          "original_text": "12.345,67",
+          "current_text": "12.345,67",
+          "parse_status": "unsupported_format",
+          "parse_reason": "multiple_separators_not_supported",
+          "numeric_value": null,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Transfer [token: aolo1gou] ke Doni",
+      "expected_sanitized_text": "Transfer [token: aolo1gou] ke Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": false,
+      "clarification_required": true,
+      "security_leak_detected": false,
+      "final_class": "Safely Rejected",
+      "expected_class": "Safely Rejected",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-039",
+      "category": "multiple_separators",
+      "input_text": "Transfer 9,876.54 ke Doni",
+      "tokenization_elapsed_microseconds": 12,
+      "tokenization_elapsed_milliseconds": 0.012,
+      "detected_numbers": [
+        "9,876.54"
+      ],
+      "token_mappings": [
+        {
+          "token": "r8q2w2ww",
+          "original_text": "9,876.54",
+          "current_text": "9,876.54",
+          "parse_status": "unsupported_format",
+          "parse_reason": "multiple_separators_not_supported",
+          "numeric_value": null,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Transfer [token: r8q2w2ww] ke Doni",
+      "expected_sanitized_text": "Transfer [token: r8q2w2ww] ke Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": false,
+      "clarification_required": true,
+      "security_leak_detected": false,
+      "final_class": "Safely Rejected",
+      "expected_class": "Safely Rejected",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-040",
+      "category": "multiple_separators",
+      "input_text": "Rekening 1.234.567 tidak boleh dipakai",
+      "tokenization_elapsed_microseconds": 12,
+      "tokenization_elapsed_milliseconds": 0.012,
+      "detected_numbers": [
+        "1.234.567"
+      ],
+      "token_mappings": [
+        {
+          "token": "uep118rr",
+          "original_text": "1.234.567",
+          "current_text": "1.234.567",
+          "parse_status": "unsupported_format",
+          "parse_reason": "multiple_separators_not_supported",
+          "numeric_value": null,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Rekening [token: uep118rr] tidak boleh dipakai",
+      "expected_sanitized_text": "Rekening [token: uep118rr] tidak boleh dipakai",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": false,
+      "clarification_required": true,
+      "security_leak_detected": false,
+      "final_class": "Safely Rejected",
+      "expected_class": "Safely Rejected",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-041",
+      "category": "long_account_number",
+      "input_text": "Nomor tujuan 98765432109876543210 atas nama Doni",
+      "tokenization_elapsed_microseconds": 607,
+      "tokenization_elapsed_milliseconds": 0.607,
+      "detected_numbers": [
+        "98765432109876543210"
+      ],
+      "token_mappings": [
+        {
+          "token": "03iby5a9",
+          "original_text": "98765432109876543210",
+          "current_text": "98765432109876543210",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 98765432109876540000.0,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Nomor tujuan [token: 03iby5a9] atas nama Doni",
+      "expected_sanitized_text": "Nomor tujuan [token: 03iby5a9] atas nama Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-042",
+      "category": "long_account_number",
+      "input_text": "Simpan rekening 55554444333322221111 untuk transfer berikutnya",
+      "tokenization_elapsed_microseconds": 25,
+      "tokenization_elapsed_milliseconds": 0.025,
+      "detected_numbers": [
+        "55554444333322221111"
+      ],
+      "token_mappings": [
+        {
+          "token": "nu8wgoht",
+          "original_text": "55554444333322221111",
+          "current_text": "55554444333322221111",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 55554444333322220000.0,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Simpan rekening [token: nu8wgoht] untuk transfer berikutnya",
+      "expected_sanitized_text": "Simpan rekening [token: nu8wgoht] untuk transfer berikutnya",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-043",
+      "category": "mixed_banking_text",
+      "input_text": "Besok jam 8 tolong transfer 20000 ke Doni",
+      "tokenization_elapsed_microseconds": 24,
+      "tokenization_elapsed_milliseconds": 0.024,
+      "detected_numbers": [
+        "8",
+        "20000"
+      ],
+      "token_mappings": [
+        {
+          "token": "e1hpj93h",
+          "original_text": "8",
+          "current_text": "8",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 8.0,
+          "unit_already_applied": false
+        },
+        {
+          "token": "kdl8m75m",
+          "original_text": "20000",
+          "current_text": "20000",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 20000.0,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Besok jam [token: e1hpj93h] tolong transfer [token: kdl8m75m] ke Doni",
+      "expected_sanitized_text": "Besok jam [token: e1hpj93h] tolong transfer [token: kdl8m75m] ke Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-044",
+      "category": "mixed_banking_text",
+      "input_text": "Pindahkan 150000 ke BNI Doni sebelum 17",
+      "tokenization_elapsed_microseconds": 22,
+      "tokenization_elapsed_milliseconds": 0.022,
+      "detected_numbers": [
+        "150000",
+        "17"
+      ],
+      "token_mappings": [
+        {
+          "token": "hc6fyohi",
+          "original_text": "150000",
+          "current_text": "150000",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 150000.0,
+          "unit_already_applied": false
+        },
+        {
+          "token": "26b38gn4",
+          "original_text": "17",
+          "current_text": "17",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 17.0,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Pindahkan [token: hc6fyohi] ke BNI Doni sebelum [token: 26b38gn4]",
+      "expected_sanitized_text": "Pindahkan [token: hc6fyohi] ke BNI Doni sebelum [token: 26b38gn4]",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-045",
+      "category": "mixed_banking_text",
+      "input_text": "Transfer 7000 ke Doni dan sisakan saldo 3000",
+      "tokenization_elapsed_microseconds": 21,
+      "tokenization_elapsed_milliseconds": 0.021,
+      "detected_numbers": [
+        "7000",
+        "3000"
+      ],
+      "token_mappings": [
+        {
+          "token": "x5xhhjxx",
+          "original_text": "7000",
+          "current_text": "7000",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 7000.0,
+          "unit_already_applied": false
+        },
+        {
+          "token": "xusjm32v",
+          "original_text": "3000",
+          "current_text": "3000",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 3000.0,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Transfer [token: x5xhhjxx] ke Doni dan sisakan saldo [token: xusjm32v]",
+      "expected_sanitized_text": "Transfer [token: x5xhhjxx] ke Doni dan sisakan saldo [token: xusjm32v]",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-046",
+      "category": "mixed_banking_text",
+      "input_text": "Tolong kirim 25000 ke Doni, kode OTP saya 123456",
+      "tokenization_elapsed_microseconds": 22,
+      "tokenization_elapsed_milliseconds": 0.022,
+      "detected_numbers": [
+        "25000",
+        "123456"
+      ],
+      "token_mappings": [
+        {
+          "token": "7gysohku",
+          "original_text": "25000",
+          "current_text": "25000",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 25000.0,
+          "unit_already_applied": false
+        },
+        {
+          "token": "4w9cfupl",
+          "original_text": "123456",
+          "current_text": "123456",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 123456.0,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Tolong kirim [token: 7gysohku] ke Doni, kode OTP saya [token: 4w9cfupl]",
+      "expected_sanitized_text": "Tolong kirim [token: 7gysohku] ke Doni, kode OTP saya [token: 4w9cfupl]",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-047",
+      "category": "hyphenated_number",
+      "input_text": "Gunakan kode 2026-03-30 untuk referensi transfer",
+      "tokenization_elapsed_microseconds": 13,
+      "tokenization_elapsed_milliseconds": 0.013,
+      "detected_numbers": [
+        "2026-03-30"
+      ],
+      "token_mappings": [
+        {
+          "token": "aolo1gou",
+          "original_text": "2026-03-30",
+          "current_text": "2026-03-30",
+          "parse_status": "unsupported_format",
+          "parse_reason": "unsupported_numeric_format",
+          "numeric_value": null,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Gunakan kode [token: aolo1gou] untuk referensi transfer",
+      "expected_sanitized_text": "Gunakan kode [token: aolo1gou] untuk referensi transfer",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": false,
+      "clarification_required": true,
+      "security_leak_detected": false,
+      "final_class": "Safely Rejected",
+      "expected_class": "Safely Rejected",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-048",
+      "category": "hyphenated_number",
+      "input_text": "Rekening 0001-0002-0003 milik Doni",
+      "tokenization_elapsed_microseconds": 12,
+      "tokenization_elapsed_milliseconds": 0.012,
+      "detected_numbers": [
+        "0001-0002-0003"
+      ],
+      "token_mappings": [
+        {
+          "token": "r8q2w2ww",
+          "original_text": "0001-0002-0003",
+          "current_text": "0001-0002-0003",
+          "parse_status": "unsupported_format",
+          "parse_reason": "unsupported_numeric_format",
+          "numeric_value": null,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Rekening [token: r8q2w2ww] milik Doni",
+      "expected_sanitized_text": "Rekening [token: r8q2w2ww] milik Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": false,
+      "clarification_required": true,
+      "security_leak_detected": false,
+      "final_class": "Safely Rejected",
+      "expected_class": "Safely Rejected",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-049",
+      "category": "slash_separated_number",
+      "input_text": "Ref transaksi 01/02/03 untuk transfer Doni",
+      "tokenization_elapsed_microseconds": 12,
+      "tokenization_elapsed_milliseconds": 0.012,
+      "detected_numbers": [
+        "01/02/03"
+      ],
+      "token_mappings": [
+        {
+          "token": "bz4135pm",
+          "original_text": "01/02/03",
+          "current_text": "01/02/03",
+          "parse_status": "unsupported_format",
+          "parse_reason": "unsupported_numeric_format",
+          "numeric_value": null,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Ref transaksi [token: bz4135pm] untuk transfer Doni",
+      "expected_sanitized_text": "Ref transaksi [token: bz4135pm] untuk transfer Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": false,
+      "clarification_required": true,
+      "security_leak_detected": false,
+      "final_class": "Safely Rejected",
+      "expected_class": "Safely Rejected",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-050",
+      "category": "slash_separated_number",
+      "input_text": "Tanggal 30/03/2026 transfer ke Doni sebesar 10000",
+      "tokenization_elapsed_microseconds": 20,
+      "tokenization_elapsed_milliseconds": 0.02,
+      "detected_numbers": [
+        "30/03/2026",
+        "10000"
+      ],
+      "token_mappings": [
+        {
+          "token": "03iby5a9",
+          "original_text": "30/03/2026",
+          "current_text": "30/03/2026",
+          "parse_status": "unsupported_format",
+          "parse_reason": "unsupported_numeric_format",
+          "numeric_value": null,
+          "unit_already_applied": false
+        },
+        {
+          "token": "7of9zojg",
+          "original_text": "10000",
+          "current_text": "10000",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 10000.0,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Tanggal [token: 03iby5a9] transfer ke Doni sebesar [token: 7of9zojg]",
+      "expected_sanitized_text": "Tanggal [token: 03iby5a9] transfer ke Doni sebesar [token: 7of9zojg]",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": false,
+      "clarification_required": true,
+      "security_leak_detected": false,
+      "final_class": "Safely Rejected",
+      "expected_class": "Safely Rejected",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-051",
+      "category": "space_separated_number",
+      "input_text": "Nomor virtual account 1234 5678 9999 untuk Doni",
+      "tokenization_elapsed_microseconds": 12,
+      "tokenization_elapsed_milliseconds": 0.012,
+      "detected_numbers": [
+        "1234 5678 9999"
+      ],
+      "token_mappings": [
+        {
+          "token": "nu8wgoht",
+          "original_text": "1234 5678 9999",
+          "current_text": "1234 5678 9999",
+          "parse_status": "unsupported_format",
+          "parse_reason": "unsupported_numeric_format",
+          "numeric_value": null,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Nomor virtual account [token: nu8wgoht] untuk Doni",
+      "expected_sanitized_text": "Nomor virtual account [token: nu8wgoht] untuk Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": false,
+      "clarification_required": true,
+      "security_leak_detected": false,
+      "final_class": "Safely Rejected",
+      "expected_class": "Safely Rejected",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-052",
+      "category": "space_separated_number",
+      "input_text": "Masukkan kode 12 34 56 sebelum transfer",
+      "tokenization_elapsed_microseconds": 11,
+      "tokenization_elapsed_milliseconds": 0.011,
+      "detected_numbers": [
+        "12 34 56"
+      ],
+      "token_mappings": [
+        {
+          "token": "e1hpj93h",
+          "original_text": "12 34 56",
+          "current_text": "12 34 56",
+          "parse_status": "unsupported_format",
+          "parse_reason": "unsupported_numeric_format",
+          "numeric_value": null,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Masukkan kode [token: e1hpj93h] sebelum transfer",
+      "expected_sanitized_text": "Masukkan kode [token: e1hpj93h] sebelum transfer",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": false,
+      "clarification_required": true,
+      "security_leak_detected": false,
+      "final_class": "Safely Rejected",
+      "expected_class": "Safely Rejected",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-053",
+      "category": "no_number_input",
+      "input_text": "Saya ingin mengubah tujuan transfer ke Doni",
+      "tokenization_elapsed_microseconds": 1,
+      "tokenization_elapsed_milliseconds": 0.001,
+      "detected_numbers": [],
+      "token_mappings": [],
+      "sanitized_text": "Saya ingin mengubah tujuan transfer ke Doni",
+      "expected_sanitized_text": "Saya ingin mengubah tujuan transfer ke Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": false,
+      "sanitization_success": true,
+      "normalization_success": false,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "No Numeric Content",
+      "expected_class": "No Numeric Content",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-054",
+      "category": "no_number_input",
+      "input_text": "Apakah saved account Doni tersedia?",
+      "tokenization_elapsed_microseconds": 0,
+      "tokenization_elapsed_milliseconds": 0.0,
+      "detected_numbers": [],
+      "token_mappings": [],
+      "sanitized_text": "Apakah saved account Doni tersedia?",
+      "expected_sanitized_text": "Apakah saved account Doni tersedia?",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": false,
+      "sanitization_success": true,
+      "normalization_success": false,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "No Numeric Content",
+      "expected_class": "No Numeric Content",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-055",
+      "category": "no_number_input",
+      "input_text": "Mohon bantu saya menyiapkan transfer",
+      "tokenization_elapsed_microseconds": 0,
+      "tokenization_elapsed_milliseconds": 0.0,
+      "detected_numbers": [],
+      "token_mappings": [],
+      "sanitized_text": "Mohon bantu saya menyiapkan transfer",
+      "expected_sanitized_text": "Mohon bantu saya menyiapkan transfer",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": false,
+      "sanitization_success": true,
+      "normalization_success": false,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "No Numeric Content",
+      "expected_class": "No Numeric Content",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-056",
+      "category": "plain_integer",
+      "input_text": "Transfer 999999999 ke Doni",
+      "tokenization_elapsed_microseconds": 13,
+      "tokenization_elapsed_milliseconds": 0.013,
+      "detected_numbers": [
+        "999999999"
+      ],
+      "token_mappings": [
+        {
+          "token": "aolo1gou",
+          "original_text": "999999999",
+          "current_text": "999999999",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 999999999.0,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Transfer [token: aolo1gou] ke Doni",
+      "expected_sanitized_text": "Transfer [token: aolo1gou] ke Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-057",
+      "category": "decimal_input",
+      "input_text": "Kirim 2,75 juta untuk Doni",
+      "tokenization_elapsed_microseconds": 17,
+      "tokenization_elapsed_milliseconds": 0.017,
+      "detected_numbers": [
+        "2,75"
+      ],
+      "token_mappings": [
+        {
+          "token": "r8q2w2ww",
+          "original_text": "2,75",
+          "current_text": "2,75",
+          "parse_status": "valid",
+          "parse_reason": "decimal_separator_supported",
+          "numeric_value": 2.75,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Kirim [token: r8q2w2ww] juta untuk Doni",
+      "expected_sanitized_text": "Kirim [token: r8q2w2ww] juta untuk Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-058",
+      "category": "mixed_banking_text",
+      "input_text": "Transfer 12000 ke Doni, lalu catat nomor antrean 77",
+      "tokenization_elapsed_microseconds": 21,
+      "tokenization_elapsed_milliseconds": 0.021,
+      "detected_numbers": [
+        "12000",
+        "77"
+      ],
+      "token_mappings": [
+        {
+          "token": "bz4135pm",
+          "original_text": "12000",
+          "current_text": "12000",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 12000.0,
+          "unit_already_applied": false
+        },
+        {
+          "token": "gypfmiui",
+          "original_text": "77",
+          "current_text": "77",
+          "parse_status": "valid",
+          "parse_reason": "plain_integer",
+          "numeric_value": 77.0,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Transfer [token: bz4135pm] ke Doni, lalu catat nomor antrean [token: gypfmiui]",
+      "expected_sanitized_text": "Transfer [token: bz4135pm] ke Doni, lalu catat nomor antrean [token: gypfmiui]",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": true,
+      "clarification_required": false,
+      "security_leak_detected": false,
+      "final_class": "Fully Successful",
+      "expected_class": "Fully Successful",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-059",
+      "category": "multiple_separators",
+      "input_text": "Nominal 123,456.789 jelas harus ditolak",
+      "tokenization_elapsed_microseconds": 12,
+      "tokenization_elapsed_milliseconds": 0.012,
+      "detected_numbers": [
+        "123,456.789"
+      ],
+      "token_mappings": [
+        {
+          "token": "ll2pl5ii",
+          "original_text": "123,456.789",
+          "current_text": "123,456.789",
+          "parse_status": "unsupported_format",
+          "parse_reason": "multiple_separators_not_supported",
+          "numeric_value": null,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Nominal [token: ll2pl5ii] jelas harus ditolak",
+      "expected_sanitized_text": "Nominal [token: ll2pl5ii] jelas harus ditolak",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": false,
+      "clarification_required": true,
+      "security_leak_detected": false,
+      "final_class": "Safely Rejected",
+      "expected_class": "Safely Rejected",
+      "expectation_match": true
+    },
+    {
+      "case_id": "SAN-060",
+      "category": "unsupported_numeric_format",
+      "input_text": "Mohon transfer 111.222 ke Doni",
+      "tokenization_elapsed_microseconds": 15,
+      "tokenization_elapsed_milliseconds": 0.015,
+      "detected_numbers": [
+        "111.222"
+      ],
+      "token_mappings": [
+        {
+          "token": "nu8wgoht",
+          "original_text": "111.222",
+          "current_text": "111.222",
+          "parse_status": "unsupported_format",
+          "parse_reason": "thousands_separator_not_supported",
+          "numeric_value": null,
+          "unit_already_applied": false
+        }
+      ],
+      "sanitized_text": "Mohon transfer [token: nu8wgoht] ke Doni",
+      "expected_sanitized_text": "Mohon transfer [token: nu8wgoht] ke Doni",
+      "sanitized_text_matches_expected": true,
+      "has_numeric_input": true,
+      "sanitization_success": true,
+      "normalization_success": false,
+      "clarification_required": true,
+      "security_leak_detected": false,
+      "final_class": "Safely Rejected",
+      "expected_class": "Safely Rejected",
+      "expectation_match": true
+    }
+  ]
+}
