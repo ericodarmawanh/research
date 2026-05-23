@@ -1,0 +1,4 @@
+service,cases,person_precision,person_recall,person_f1,address_precision,address_recall,address_f1,full_exact_match_rate,mean_process_time_ms,median_process_time_ms,p95_process_time_ms,hybrid_fallback_rate
+finetuned,320,0.9296,0.9429,0.9362,0.873,0.9167,0.8943,0.9406,36.782,34.106,59.249,
+ner,320,0.6497,0.8214,0.7256,0.3133,0.2167,0.2562,0.5781,59.035,56.596,78.669,
+sealion,320,0.8582,0.8643,0.8612,0.9664,0.9583,0.9623,0.925,6913.415,6642.373,11048.758,

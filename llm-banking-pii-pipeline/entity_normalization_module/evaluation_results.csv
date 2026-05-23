@@ -1,0 +1,321 @@
+case_id,category,text,redacted_text,expected_canonical,baseline_canonical,post_processed_canonical,baseline_matched,post_processed_matched
+V15R001,short-person-direct,Endang Hutapea,[PER1],[token-ent],[token-ent],[token-ent],true,true
+V15R002,short-person-direct,Brian Hidayat Chaniago,[PER1],[token-ent],[token-ent],[token-ent],true,true
+V15R003,short-person-direct,Vanessa Kusuma Surya,[PER1],[token-ent],[token-ent],[token-ent],true,true
+V15R004,short-person-direct,Siti Latuconsina,[PER1],[token-ent],[token-ent],[token-ent],true,true
+V15R005,short-person-direct,Felicia,[PER1],[token-ent],[token-ent],[token-ent],true,true
+V15R006,short-person-direct,Rafael,[PER1],[token-ent],[token-ent],[token-ent],true,true
+V15R007,short-person-direct,William,[PER1],[token-ent],[token-ent],[token-ent],true,true
+V15R008,short-person-direct,Natasha,[PER1],[token-ent],[token-ent],[token-ent],true,true
+V15R009,short-person-direct,Gabriel Baswedan,[PER1],[token-ent],[token-ent],[token-ent],true,true
+V15R010,short-person-direct,Sri,[PER1],[token-ent],[token-ent],[token-ent],true,true
+V15R011,short-person-direct,Ayu Alexandra Latuconsina,[PER1],[token-ent],[token-ent],[token-ent],true,true
+V15R012,short-person-direct,Jason Liem,[PER1],[token-ent],[token-ent],[token-ent],true,true
+V15R013,short-person-direct,Wati,[PER1],[token-ent],[token-ent],[token-ent],true,true
+V15R014,short-person-direct,Sri Warouw,[PER1],[token-ent],[token-ent],[token-ent],true,true
+V15R015,short-person-direct,Joe Warouw,[PER1],[token-ent],[token-ent],[token-ent],true,true
+V15R016,short-person-direct,Iwan Wulandari Sani,[PER1],[token-ent],[token-ent],[token-ent],true,true
+V15R017,short-person-direct,Wahyu,[PER1],[token-ent],[token-ent],[token-ent],true,true
+V15R018,short-person-direct,Sri Sudibyo,[PER1],[token-ent],[token-ent],[token-ent],true,true
+V15R019,short-person-direct,Jessica Setiawan Warouw,[PER1],[token-ent],[token-ent],[token-ent],true,true
+V15R020,short-person-direct,Stella Kartanegara,[PER1],[token-ent],[token-ent],[token-ent],true,true
+V15R021,short-person-answer-formal,Nama penerimanya Steven Fitriani Malaihollo.,Nama penerimanya [PER1].,Nama penerimanya [token-ent].,Nama penerimanya [token-ent].,Nama penerimanya [token-ent].,true,true
+V15R022,short-person-answer-formal,Nama penerimanya Brian.,Nama penerimanya [PER1].,Nama penerimanya [token-ent].,Nama penerimanya [token-ent].,Nama penerimanya [token-ent].,true,true
+V15R023,short-person-answer-formal,Nama penerimanya Tono Dominic Lumentut.,Nama penerimanya [PER1].,Nama penerimanya [token-ent].,Nama penerimanya [token-ent].,Nama penerimanya [token-ent].,true,true
+V15R024,short-person-answer-formal,Rekening tujuannya atas nama Ayu Setiawan Simanjuntak.,Rekening tujuannya atas nama [PER1].,Rekening tujuannya atas nama [token-ent].,Rekening tujuannya atas nama [token-ent].,Rekening tujuannya atas nama [token-ent].,true,true
+V15R025,short-person-answer-formal,Atas nama Vanessa.,Atas nama [PER1].,Atas nama [token-ent].,Atas nama [token-ent].,Atas nama [token-ent].,true,true
+V15R026,short-person-answer-formal,Rekening tujuannya atas nama Brian Wulandari Chaniago.,Rekening tujuannya atas nama [PER1].,Rekening tujuannya atas nama [token-ent].,Rekening tujuannya atas nama [token-ent].,Rekening tujuannya atas nama [token-ent].,true,true
+V15R027,short-person-answer-formal,Pemilik rekening tujuan Iwan Wijaya.,Pemilik rekening tujuan [PER1].,Pemilik rekening tujuan [token-ent].,Pemilik rekening tujuan [token-ent].,Pemilik rekening tujuan [token-ent].,true,true
+V15R028,short-person-answer-formal,Atas nama Gabriel Nathaniel Latuconsina.,Atas nama [PER1].,Atas nama [token-ent].,Atas nama [token-ent].,Atas nama [token-ent].,true,true
+V15R029,short-person-answer-formal,Atas nama Jessica Kartanegara.,Atas nama [PER1].,Atas nama [token-ent].,Atas nama [token-ent].,Atas nama [token-ent].,true,true
+V15R030,short-person-answer-formal,Nama pemilik rekening tujuan Rafael Ratulangi.,Nama pemilik rekening tujuan [PER1].,Nama pemilik rekening tujuan [token-ent].,Nama pemilik rekening tujuan [token-ent].,Nama pemilik rekening tujuan [token-ent].,true,true
+V15R031,short-person-answer-formal,Atas nama Joko Syahputra.,Atas nama [PER1].,Atas nama [token-ent].,Atas nama [token-ent].,Atas nama [token-ent].,true,true
+V15R032,short-person-answer-formal,Atas nama Eko Wibowo Adiwangsa.,Atas nama [PER1].,Atas nama [token-ent].,Atas nama [token-ent].,Atas nama [token-ent].,true,true
+V15R033,short-person-answer-formal,Penerima transfernya Yanti Lestari Siahaan.,Penerima transfernya [PER1].,Penerima transfernya [token-ent].,Penerima transfernya [token-ent].,Penerima transfernya [token-ent].,true,true
+V15R034,short-person-answer-formal,Nama pemilik rekening tujuan Bambang Vincent Kusuma.,Nama pemilik rekening tujuan [PER1].,Nama pemilik rekening tujuan [token-ent].,Nama pemilik rekening tujuan [token-ent].,Nama pemilik rekening tujuan [token-ent].,true,true
+V15R035,short-person-answer-formal,Nama penerimanya Joko Setiawan Paniago.,Nama penerimanya [PER1].,Nama penerimanya [token-ent].,Nama penerimanya [token-ent].,Nama penerimanya [token-ent].,true,true
+V15R036,short-person-answer-formal,Rekening tujuannya atas nama Siti Nasution.,Rekening tujuannya atas nama [PER1].,Rekening tujuannya atas nama [token-ent].,Rekening tujuannya atas nama [token-ent].,Rekening tujuannya atas nama [token-ent].,true,true
+V15R037,short-person-answer-formal,Atas nama Michelle Pratama Ratulangi.,Atas nama [PER1].,Atas nama [token-ent].,Atas nama [token-ent].,Atas nama [token-ent].,true,true
+V15R038,short-person-answer-formal,Pemilik rekening tujuan Iwan Matthew Liem.,Pemilik rekening tujuan [PER1].,Pemilik rekening tujuan [token-ent].,Pemilik rekening tujuan [token-ent].,Pemilik rekening tujuan [token-ent].,true,true
+V15R039,short-person-answer-formal,Nama penerimanya Yudi Kartanegara.,Nama penerimanya [PER1].,Nama penerimanya [token-ent].,Nama penerimanya [token-ent].,Nama penerimanya [token-ent].,true,true
+V15R040,short-person-answer-formal,Nama penerimanya Wati Frederick Wattimena.,Nama penerimanya [PER1].,Nama penerimanya [token-ent].,Nama penerimanya [token-ent].,Nama penerimanya [token-ent].,true,true
+V15R041,short-person-answer-noisy,an kevin sebastian chaniago,an [PER1],an [token-ent],an [token-ent],an [token-ent],true,true
+V15R042,short-person-answer-noisy,pmlk rek tujuan jessica theodore putra,pmlk rek tujuan [PER1],pmlk rek tujuan [token-ent],pmlk rek tujuan [token-ent],pmlk rek tujuan [token-ent],true,true
+V15R043,short-person-answer-noisy,pmlk rek tujuan tri stephanie tanjung,pmlk rek tujuan tri [PER1],pmlk rek tujuan [token-ent],pmlk rek tujuan tri [token-ent],pmlk rek tujuan tri [token-ent],false,false
+V15R044,short-person-answer-noisy,nm pmlk rekeningnya felicia,nm pmlk rekeningnya [PER1],nm pmlk rekeningnya [token-ent],nm pmlk rekeningnya [token-ent],nm pmlk rekeningnya [token-ent],true,true
+V15R045,short-person-answer-noisy,an michael tuasikal,[PER1],an [token-ent],[token-ent],[token-ent],false,false
+V15R046,short-person-answer-noisy,nm pmlk rekeningnya ayu saputra baswedan,nm pmlk rekeningnya [PER1],nm pmlk rekeningnya [token-ent],nm pmlk rekeningnya [token-ent],nm pmlk rekeningnya [token-ent],true,true
+V15R047,short-person-answer-noisy,pmlk rek tujuan clara sebastian sastro,pmlk rek tujuan [PER1],pmlk rek tujuan [token-ent],pmlk rek tujuan [token-ent],pmlk rek tujuan [token-ent],true,true
+V15R048,short-person-answer-noisy,nm pmlk reknya tri,nm pmlk reknya [PER1],nm pmlk reknya [token-ent],nm pmlk reknya [token-ent],nm pmlk reknya [token-ent],true,true
+V15R049,short-person-answer-noisy,nama pnerimanya rini baswedan,nama pnerimanya [PER1],nama pnerimanya [token-ent],nama pnerimanya [token-ent],nama pnerimanya [token-ent],true,true
+V15R050,short-person-answer-noisy,nm pmlk rekeningnya wahyu,nm pmlk rekeningnya [PER1],nm pmlk rekeningnya [token-ent],nm pmlk rekeningnya [token-ent],nm pmlk rekeningnya [token-ent],true,true
+V15R051,short-person-answer-noisy,pmlk rek tujuan joko baswedan,pmlk rek tujuan [PER1],pmlk rek tujuan [token-ent],pmlk rek tujuan [token-ent],pmlk rek tujuan [token-ent],true,true
+V15R052,short-person-answer-noisy,pmlk rek tujuan michael nugroho widjaja,pmlk rek tujuan [PER1],pmlk rek tujuan [token-ent],pmlk rek tujuan [token-ent],pmlk rek tujuan [token-ent],true,true
+V15R053,short-person-answer-noisy,atas nm christian,atas nm [PER1],atas nm [token-ent],atas nm [token-ent],atas nm [token-ent],true,true
+V15R054,short-person-answer-noisy,a.n jason,[PER1],a.n [token-ent],[token-ent],[token-ent],false,false
+V15R055,short-person-answer-noisy,nama pnerimanya joko setiawan baswedan,nama pnerimanya [PER1],nama pnerimanya [token-ent],nama pnerimanya [token-ent],nama pnerimanya [token-ent],true,true
+V15R056,short-person-answer-noisy,nama pnerimanya eko rahayu gunadi,nama pnerimanya [PER1],nama pnerimanya [token-ent],nama pnerimanya [token-ent],nama pnerimanya [token-ent],true,true
+V15R057,short-person-answer-noisy,nm pmlk rekeningnya tri,nm pmlk rekeningnya [PER1],nm pmlk rekeningnya [token-ent],nm pmlk rekeningnya [token-ent],nm pmlk rekeningnya [token-ent],true,true
+V15R058,short-person-answer-noisy,pmlk rek tujuan endang siahaan,pmlk rek tujuan [PER1],pmlk rek tujuan [token-ent],pmlk rek tujuan [token-ent],pmlk rek tujuan [token-ent],true,true
+V15R059,short-person-answer-noisy,nm pmlk rekeningnya wahyu surya,nm pmlk rekeningnya [PER1],nm pmlk rekeningnya [token-ent],nm pmlk rekeningnya [token-ent],nm pmlk rekeningnya [token-ent],true,true
+V15R060,short-person-answer-noisy,nm pmlk rekeningnya eko lumentut,nm pmlk rekeningnya [PER1],nm pmlk rekeningnya [token-ent],nm pmlk rekeningnya [token-ent],nm pmlk rekeningnya [token-ent],true,true
+V15R061,short-person-honorific,Kak Budi Sudibyo.,Kak [PER1].,Kak [token-ent].,Kak [token-ent].,Kak [token-ent].,true,true
+V15R062,short-person-honorific,Bu Iwan Liem.,Bu [PER1].,Bu [token-ent].,Bu [token-ent].,Bu [token-ent].,true,true
+V15R063,short-person-honorific,Bang Jessie Putri.,Bang [PER1].,Bang [token-ent].,Bang [token-ent].,Bang [token-ent].,true,true
+V15R064,short-person-honorific,Bp. Kevin Rahayu Putri.,Bp. [PER1].,Bp. [token-ent].,Bp. [token-ent].,Bp. [token-ent].,true,true
+V15R065,short-person-honorific,Bapak Slamet Latuconsina.,Bapak [PER1].,Bapak [token-ent].,Bapak [token-ent].,Bapak [token-ent].,true,true
+V15R066,short-person-honorific,Bp. Dwi Alexander Chaniago.,Bp. Dwi [PER1].,Bp. [token-ent].,Bp. Dwi [token-ent].,Bp. Dwi [token-ent].,false,false
+V15R067,short-person-honorific,Pak Ratna Setiawan Tanjung.,Pak [PER1].,Pak [token-ent].,Pak [token-ent].,Pak [token-ent].,true,true
+V15R068,short-person-honorific,kak Jessica Putra.,kak [PER1].,kak [token-ent].,kak [token-ent].,kak [token-ent].,true,true
+V15R069,short-person-honorific,Bpk Michelle Jonathan Malaihollo.,Bpk [PER1].,Bpk [token-ent].,Bpk [token-ent].,Bpk [token-ent].,true,true
+V15R070,short-person-honorific,Bang Agus Prakoso.,Bang [PER1].,Bang [token-ent].,Bang [token-ent].,Bang [token-ent].,true,true
+V15R071,short-person-honorific,mbak Jessica Syahputra.,mbak [PER1].,mbak [token-ent].,mbak [token-ent].,mbak [token-ent].,true,true
+V15R072,short-person-honorific,Bapak Ayu Lubis.,Bapak [PER1].,Bapak [token-ent].,Bapak [token-ent].,Bapak [token-ent].,true,true
+V15R073,short-person-honorific,Bp. Jason Lestari Putri.,Bp. [PER1].,Bp. [token-ent].,Bp. [token-ent].,Bp. [token-ent].,true,true
+V15R074,short-person-honorific,Bang Vanessa Elizabeth Sastro.,[PER1].,Bang [token-ent].,[token-ent].,[token-ent].,false,false
+V15R075,short-person-honorific,Kak Siti Nugroho Suwardi.,Kak [PER1].,Kak [token-ent].,Kak [token-ent].,Kak [token-ent].,true,true
+V15R076,short-person-honorific,Mas Dwi Kartanegara.,Mas [PER1].,Mas [token-ent].,Mas [token-ent].,Mas [token-ent].,true,true
+V15R077,short-person-honorific,mas Jessie Hidayatullah.,mas [PER1].,mas [token-ent].,mas [token-ent].,mas [token-ent].,true,true
+V15R078,short-person-honorific,Bang Ratna Lubis.,[PER1].,Bang [token-ent].,[token-ent].,[token-ent].,false,false
+V15R079,short-person-honorific,Mbak Daniel Tanjung.,Mbak [PER1].,Mbak [token-ent].,Mbak [token-ent].,Mbak [token-ent].,true,true
+V15R080,short-person-honorific,Bang Ayu Angelina Wirasatya.,[PER1].,Bang [token-ent].,[token-ent].,[token-ent].,false,false
+V15R081,short-person-rek-owner,Rekening 7714899249 atas nama Jessica Hidayat Sudibyo.,Rekening 7714899249 atas nama [PER1].,Rekening 7714899249 atas nama [token-ent].,Rekening 7714899249 atas nama [token-ent].,Rekening 7714899249 atas nama [token-ent].,true,true
+V15R082,short-person-rek-owner,Rekening 7742965679 atas nama Iwan Theodore Pangemanan.,Rekening 7742965679 atas nama [PER1].,Rekening 7742965679 atas nama [token-ent].,Rekening 7742965679 atas nama [token-ent].,Rekening 7742965679 atas nama [token-ent].,true,true
+V15R083,short-person-rek-owner,Rekening 7716586884 atas nama Sri Sebastian Kusuma.,Rekening 7716586884 atas nama [PER1].,Rekening 7716586884 atas nama [token-ent].,Rekening 7716586884 atas nama [token-ent].,Rekening 7716586884 atas nama [token-ent].,true,true
+V15R084,short-person-rek-owner,No rek 7740303966 atas nama Tri Gunadi.,No rek 7740303966 atas nama [PER1].,No rek 7740303966 atas nama [token-ent].,No rek 7740303966 atas nama [token-ent].,No rek 7740303966 atas nama [token-ent].,true,true
+V15R085,short-person-rek-owner,Rekening 7712590336 atas nama Ratna Wirasatya.,Rekening 7712590336 atas nama [PER1].,Rekening 7712590336 atas nama [token-ent].,Rekening 7712590336 atas nama [token-ent].,Rekening 7712590336 atas nama [token-ent].,true,true
+V15R086,short-person-rek-owner,"A.n. Brian Tuasikal, no rek 7718847659.","A.n. [PER1], no rek 7718847659.","A.n. [token-ent], no rek 7718847659.","A.n. [token-ent], no rek 7718847659.","A.n. [token-ent], no rek 7718847659.",true,true
+V15R087,short-person-rek-owner,Rek 7711846438 milik Vanessa Lubis.,Rek 7711846438 milik [PER1].,Rek 7711846438 milik [token-ent].,Rek 7711846438 milik [token-ent].,Rek 7711846438 milik [token-ent].,true,true
+V15R088,short-person-rek-owner,"A.n. Rini Tanjung, no rek 7778932813.","A.n. [PER1], no rek 7778932813.","A.n. [token-ent], no rek 7778932813.","A.n. [token-ent], no rek 7778932813.","A.n. [token-ent], no rek 7778932813.",true,true
+V15R089,short-person-rek-owner,Rekening 7724991093 atas nama Bambang Lestari Chaniago.,Rekening 7724991093 atas nama [PER1].,Rekening 7724991093 atas nama [token-ent].,Rekening 7724991093 atas nama [token-ent].,Rekening 7724991093 atas nama [token-ent].,true,true
+V15R090,short-person-rek-owner,No. rek 7711571076 a.n. Joko Hidayatullah.,No. rek 7711571076 a.n. [PER1].,No. rek 7711571076 a.n. [token-ent].,No. rek 7711571076 a.n. [token-ent].,No. rek 7711571076 a.n. [token-ent].,true,true
+V15R091,short-person-rek-owner,No. rek 7771578507 a.n. Gabriel Josephine Pangemanan.,No. rek 7771578507 a.n. [PER1].,No. rek 7771578507 a.n. [token-ent].,No. rek 7771578507 a.n. [token-ent].,No. rek 7771578507 a.n. [token-ent].,true,true
+V15R092,short-person-rek-owner,Rekening 7777551242 atas nama Wati Josephine Hartono.,Rekening 7777551242 atas nama [PER1].,Rekening 7777551242 atas nama [token-ent].,Rekening 7777551242 atas nama [token-ent].,Rekening 7777551242 atas nama [token-ent].,true,true
+V15R093,short-person-rek-owner,No rek 7750318610 atas nama William.,No rek 7750318610 atas nama [PER1].,No rek 7750318610 atas nama [token-ent].,No rek 7750318610 atas nama [token-ent].,No rek 7750318610 atas nama [token-ent].,true,true
+V15R094,short-person-rek-owner,Rekening 7720328856 atas nama Albert.,Rekening 7720328856 atas nama [PER1].,Rekening 7720328856 atas nama [token-ent].,Rekening 7720328856 atas nama [token-ent].,Rekening 7720328856 atas nama [token-ent].,true,true
+V15R095,short-person-rek-owner,No. rek 7735893435 a.n. Jessie Nicholas Gunadi.,No. rek 7735893435 a.n. [PER1].,No. rek 7735893435 a.n. [token-ent].,No. rek 7735893435 a.n. [token-ent].,No. rek 7735893435 a.n. [token-ent].,true,true
+V15R096,short-person-rek-owner,No rek 7762329642 atas nama Natasha Purnama Baswedan.,No rek 7762329642 atas nama [PER1].,No rek 7762329642 atas nama [token-ent].,No rek 7762329642 atas nama [token-ent].,No rek 7762329642 atas nama [token-ent].,true,true
+V15R097,short-person-rek-owner,Rekening 7791466413 atas nama Kevin Nicholas Adiwangsa.,Rekening 7791466413 atas nama [PER1].,Rekening 7791466413 atas nama [token-ent].,Rekening 7791466413 atas nama [token-ent].,Rekening 7791466413 atas nama [token-ent].,true,true
+V15R098,short-person-rek-owner,Rekening 7728483641 atas nama Clara.,Rekening 7728483641 atas nama [PER1].,Rekening 7728483641 atas nama [token-ent].,Rekening 7728483641 atas nama [token-ent].,Rekening 7728483641 atas nama [token-ent].,true,true
+V15R099,short-person-rek-owner,Rek 7767388734 milik Endang Wicaksono.,Rek 7767388734 milik [PER1].,Rek 7767388734 milik [token-ent].,Rek 7767388734 milik [token-ent].,Rek 7767388734 milik [token-ent].,true,true
+V15R100,short-person-rek-owner,No. rek 7767311895 a.n. Budi.,No. rek 7767311895 a.n. Budi.,No. rek 7767311895 a.n. [token-ent].,No. rek 7767311895 a.n. Budi.,No. rek 7767311895 a.n. Budi.,false,false
+V15R101,short-person-transfer-noisy,kiyim dana ke Rafael Angelina Kusuma,kiyim dana ke [PER1],kiyim dana ke [token-ent],kiyim dana ke [token-ent],kiyim dana ke [token-ent],true,true
+V15R102,short-person-transfer-noisy,kiyim dana ke Dwi,kiyim dana ke [PER1],kiyim dana ke [token-ent],kiyim dana ke [token-ent],kiyim dana ke [token-ent],true,true
+V15R103,short-person-transfer-noisy,krm ke William Nasution,krm ke [PER1],krm ke [token-ent],krm ke [token-ent],krm ke [token-ent],true,true
+V15R104,short-person-transfer-noisy,krm duit ke Clara Putra,krm duit ke [PER1],krm duit ke [token-ent],krm duit ke [token-ent],krm duit ke [token-ent],true,true
+V15R105,short-person-transfer-noisy,tf aja ke Siti Simanjuntak,tf aja ke [PER1],tf aja ke [token-ent],tf aja ke [token-ent],tf aja ke [token-ent],true,true
+V15R106,short-person-transfer-noisy,tsfr ke Steven,tsfr ke [PER1],tsfr ke [token-ent],tsfr ke [token-ent],tsfr ke [token-ent],true,true
+V15R107,short-person-transfer-noisy,krm ke Slamet,krm ke [PER1],krm ke [token-ent],krm ke [token-ent],krm ke [token-ent],true,true
+V15R108,short-person-transfer-noisy,krm duit ke Natasha Warouw,krm duit ke [PER1],krm duit ke [token-ent],krm duit ke [token-ent],krm duit ke [token-ent],true,true
+V15R109,short-person-transfer-noisy,kiyim ke Rini,kiyim ke [PER1],kiyim ke [token-ent],kiyim ke [token-ent],kiyim ke [token-ent],true,true
+V15R110,short-person-transfer-noisy,tf aja ke William Budiman,tf aja ke [PER1],tf aja ke [token-ent],tf aja ke [token-ent],tf aja ke [token-ent],true,true
+V15R111,short-person-transfer-noisy,tsfr ke Felicia Hidayat Baswedan ya,tsfr ke [PER1] ya,tsfr ke [token-ent] ya,tsfr ke [token-ent] ya,tsfr ke [token-ent] ya,true,true
+V15R112,short-person-transfer-noisy,kiyim dana ke Tono,kiyim dana ke [PER1],kiyim dana ke [token-ent],kiyim dana ke [token-ent],kiyim dana ke [token-ent],true,true
+V15R113,short-person-transfer-noisy,tsfr ke Natasha,tsfr ke [PER1],tsfr ke [token-ent],tsfr ke [token-ent],tsfr ke [token-ent],true,true
+V15R114,short-person-transfer-noisy,kiyim ke Budi,kiyim ke [PER1],kiyim ke [token-ent],kiyim ke [token-ent],kiyim ke [token-ent],true,true
+V15R115,short-person-transfer-noisy,tf aja ke Rini Wicaksono,tf aja ke [PER1],tf aja ke [token-ent],tf aja ke [token-ent],tf aja ke [token-ent],true,true
+V15R116,short-person-transfer-noisy,kiyim dana ke Rini Josephine Surya,kiyim dana ke [PER1],kiyim dana ke [token-ent],kiyim dana ke [token-ent],kiyim dana ke [token-ent],true,true
+V15R117,short-person-transfer-noisy,krm duit ke Michael,krm duit ke [PER1],krm duit ke [token-ent],krm duit ke [token-ent],krm duit ke [token-ent],true,true
+V15R118,short-person-transfer-noisy,kiyim ke Christian Kartanegara,kiyim ke [PER1],kiyim ke [token-ent],kiyim ke [token-ent],kiyim ke [token-ent],true,true
+V15R119,short-person-transfer-noisy,kiyim dana ke Eko,kiyim dana ke [PER1],kiyim dana ke [token-ent],kiyim dana ke [token-ent],kiyim dana ke [token-ent],true,true
+V15R120,short-person-transfer-noisy,tsfr ke Christian,tsfr ke [PER1],tsfr ke [token-ent],tsfr ke [token-ent],tsfr ke [token-ent],true,true
+V15R121,short-person-roadlike,Nama penerimanya Kyai Haji Mas Mansyur.,Nama penerimanya [PER1].,Nama penerimanya [token-ent].,Nama penerimanya [token-ent].,Nama penerimanya [token-ent].,true,true
+V15R122,short-person-roadlike,Pemilik rekening tujuan Teuku Nyak Arief.,Pemilik rekening tujuan [PER1].,Pemilik rekening tujuan [token-ent].,Pemilik rekening tujuan [token-ent].,Pemilik rekening tujuan [token-ent].,true,true
+V15R123,short-person-roadlike,Atas nama Haji Nawi.,Atas nama [PER1].,Atas nama [token-ent].,Atas nama [token-ent].,Atas nama [token-ent].,true,true
+V15R124,short-person-roadlike,Atas nama Jenderal Basuki Rahmat.,Atas nama [PER1].,Atas nama [token-ent].,Atas nama [token-ent].,Atas nama [token-ent].,true,true
+V15R125,short-person-roadlike,Pemilik rekening tujuan Ki Hajar Dewantara.,Pemilik rekening tujuan [PER1].,Pemilik rekening tujuan [token-ent].,Pemilik rekening tujuan [token-ent].,Pemilik rekening tujuan [token-ent].,true,true
+V15R126,short-person-roadlike,Nama penerimanya Haji Nawi.,Nama penerimanya [PER1].,Nama penerimanya [token-ent].,Nama penerimanya [token-ent].,Nama penerimanya [token-ent].,true,true
+V15R127,short-person-roadlike,Penerima transfernya Sultan Agung.,Penerima transfernya [PER1].,Penerima transfernya [token-ent].,Penerima transfernya [token-ent].,Penerima transfernya [token-ent].,true,true
+V15R128,short-person-roadlike,Nama penerimanya Ki Hajar Dewantara.,Nama penerimanya [PER1].,Nama penerimanya [token-ent].,Nama penerimanya [token-ent].,Nama penerimanya [token-ent].,true,true
+V15R129,short-person-roadlike,Penerima transfernya Raden Intan.,Penerima transfernya [PER1].,Penerima transfernya [token-ent].,Penerima transfernya [token-ent].,Penerima transfernya [token-ent].,true,true
+V15R130,short-person-roadlike,Atas nama Roeslan Abdulgani.,Atas nama [PER1].,Atas nama [token-ent].,Atas nama [token-ent].,Atas nama [token-ent].,true,true
+V15R131,short-person-roadlike,Atas nama Fatmawati.,Atas nama [PER1].,Atas nama [token-ent].,Atas nama [token-ent].,Atas nama [token-ent].,true,true
+V15R132,short-person-roadlike,Nama penerimanya Abdul Muis.,Nama penerimanya [PER1].,Nama penerimanya [token-ent].,Nama penerimanya [token-ent].,Nama penerimanya [token-ent].,true,true
+V15R133,short-person-roadlike,Atas nama Sultan Hasanuddin.,Atas nama [PER1].,Atas nama [token-ent].,Atas nama [token-ent].,Atas nama [token-ent].,true,true
+V15R134,short-person-roadlike,Nama pemilik rekeningnya Letnan Jenderal Hertasning.,Nama pemilik rekeningnya [PER1].,Nama pemilik rekeningnya [token-ent].,Nama pemilik rekeningnya [token-ent].,Nama pemilik rekeningnya [token-ent].,true,true
+V15R135,short-person-roadlike,Nama pemilik rekeningnya Ki Hajar Dewantara.,Nama pemilik rekeningnya [PER1].,Nama pemilik rekeningnya [token-ent].,Nama pemilik rekeningnya [token-ent].,Nama pemilik rekeningnya [token-ent].,true,true
+V15R136,short-person-roadlike,Pemilik rekening tujuan Wage Rudolf Supratman.,Pemilik rekening tujuan [PER1].,Pemilik rekening tujuan [token-ent].,Pemilik rekening tujuan [token-ent].,Pemilik rekening tujuan [token-ent].,true,true
+V15R137,short-person-roadlike,Pemilik rekening tujuan Yos Sudarso.,Pemilik rekening tujuan [PER1].,Pemilik rekening tujuan [token-ent].,Pemilik rekening tujuan [token-ent].,Pemilik rekening tujuan [token-ent].,true,true
+V15R138,short-person-roadlike,Nama penerimanya Sultan Hasanuddin.,Nama penerimanya [PER1].,Nama penerimanya [token-ent].,Nama penerimanya [token-ent].,Nama penerimanya [token-ent].,true,true
+V15R139,short-person-roadlike,Nama pemilik rekeningnya Martha Christina Tiahahu.,Nama pemilik rekeningnya [PER1].,Nama pemilik rekeningnya [token-ent].,Nama pemilik rekeningnya [token-ent].,Nama pemilik rekeningnya [token-ent].,true,true
+V15R140,short-person-roadlike,Nama pemilik rekeningnya Dewi Sartika.,Nama pemilik rekeningnya [PER1].,Nama pemilik rekeningnya [token-ent].,Nama pemilik rekeningnya [token-ent].,Nama pemilik rekeningnya [token-ent].,true,true
+V15R141,short-address-raw-abbrev,jl Panglima Polim Raya No 21,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R142,short-address-raw-abbrev,jln U. Sumoharjo no 83,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R143,short-address-raw-abbrev,jl U. Sumoharjo No. 14,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R144,short-address-raw-abbrev,jl Sudirman no 78,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R145,short-address-raw-abbrev,Jln T. B. Simatupang No 11,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R146,short-address-raw-abbrev,Jln. Letnan Jenderal Suprapto no. 20,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R147,short-address-raw-abbrev,Jln. Senopati No 96,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R148,short-address-raw-abbrev,Jln Dr. Setiabudi no. 99,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R149,short-address-raw-abbrev,Jln Merdeka Raya no 67,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R150,short-address-raw-abbrev,jl. Mohammad Husni Thamrin No 42,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R151,short-address-raw-abbrev,jln. Siliwangi Barat no. 46,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R152,short-address-raw-abbrev,jln. Hayam Wuruk No 67,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R153,short-address-raw-abbrev,Jln Laksamana Malahayati no 13,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R154,short-address-raw-abbrev,jl Dago No 80,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R155,short-address-raw-abbrev,jl. Kemang Raya no. 69,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R156,short-address-raw-abbrev,gg. Kemang Raya No 17,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R157,short-address-raw-abbrev,Gg. Siliwangi Barat No. 73,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R158,short-address-raw-abbrev,Gg Cibaduyut no. 76,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R159,short-address-raw-abbrev,jl Setiabudi no. 50,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R160,short-address-raw-abbrev,jln M. T. Haryono no. 11,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R161,short-address-raw-full,Jalan Teuku Umar Nomor 79,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R162,short-address-raw-full,Jalan Kapten Pierre Tendean Nomor 27,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R163,short-address-raw-full,Gang Asia Afrika nomor 40,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R164,short-address-raw-full,Gang Jenderal Achmad Yani Nomor 41,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R165,short-address-raw-full,Gang Siliwangi nomor 59,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R166,short-address-raw-full,Jalan Kyai Haji Wahid Hasyim nomor 94,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R167,short-address-raw-full,Gang Laksamana Malahayati nomor 24,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R168,short-address-raw-full,jalan Pahlawan Nomor 87,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R169,short-address-raw-full,jalan Gajah Mada nomor 26,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R170,short-address-raw-full,jalan Laksamana Malahayati Nomor 76,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R171,short-address-raw-full,jalan Urip Sumoharjo Nomor 54,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R172,short-address-raw-full,jalan Setiabudi Nomor 86,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R173,short-address-raw-full,Jalan Gajah Mada nomor 83,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R174,short-address-raw-full,Jalan Kapten Pierre Tendean Nomor 18,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R175,short-address-raw-full,Gang Gajah Mada nomor 70,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R176,short-address-raw-full,Jalan Jenderal Gatot Subroto nomor 8,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R177,short-address-raw-full,Jalan Jenderal Achmad Yani nomor 5,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R178,short-address-raw-full,Jalan Raden Saleh Nomor 54,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R179,short-address-raw-full,Jalan Malioboro Nomor 90,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R180,short-address-raw-full,Jalan Mayor Jenderal DI Panjaitan Nomor 94,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R181,short-address-block-unit,Cluster Kebon Sirih blok IA no. 84,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R182,short-address-block-unit,Gang U. Sumoharjo nomor 59,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R183,short-address-block-unit,Perumahan Jend. Gatot Subroto blk. VIII1 Nomor 64,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R184,short-address-block-unit,"Unit 19A, Apartemen Laks. Malahayati","Unit [LOC1], [LOC2]",[token-ent],"Unit [token-ent], [token-ent]",Unit [token-ent],false,false
+V15R185,short-address-block-unit,Kavling Senopati no. 43,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R186,short-address-block-unit,"Blk. IV2 no 16, Laks. Malahayati","Blk. IV2 no [LOC1], [LOC2]. [PER1]",[token-ent],"Blk. IV2 no [token-ent], [token-ent]. [token-ent]",Blk. IV2 no [token-ent],false,false
+V15R187,short-address-block-unit,"blok X1 No 23, Sumpah Pemuda",[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R188,short-address-block-unit,"blk. III1 no 58, Jend. A. Yani",blk. III1 [LOC1],[token-ent],blk. III1 [token-ent],blk. III1 [token-ent],false,false
+V15R189,short-address-block-unit,"Ruko Blk. VI1 no. 30, Kebon Sirih",[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R190,short-address-block-unit,Perumahan Cikini Raya Blk. VII No. 21,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R191,short-address-block-unit,"Unit 13B, Apartemen Senopati","Unit 13B, [LOC1]",[token-ent],"Unit 13B, [token-ent]","Unit 13B, [token-ent]",false,false
+V15R192,short-address-block-unit,Gang Jend. Sudirman Nomor 34,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R193,short-address-block-unit,"blok VB nomor 19, Mas Tirtodarmo Haryono","blok [LOC1], [LOC2] [PER1]",[token-ent],"blok [token-ent], [token-ent] [token-ent]",blok [token-ent],false,false
+V15R194,short-address-block-unit,Cluster Setiabudi Blk X2 no. 37,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R195,short-address-block-unit,"blk. VIB No 62, K.H. Wahid Hasyim","blk. VIB No 62, K.[LOC1]",[token-ent],"blk. VIB No 62, K.[token-ent]","blk. VIB No 62, K.[token-ent]",false,false
+V15R196,short-address-block-unit,"Unit 15C, Apartemen Urip Sumoharjo","Unit 15C, [LOC1]",[token-ent],"Unit 15C, [token-ent]","Unit 15C, [token-ent]",false,false
+V15R197,short-address-block-unit,Perumahan M. H. Thamrin Blk I1 Nomor 62,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R198,short-address-block-unit,Cluster Letjend Suprapto Blok II2 no. 80,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R199,short-address-block-unit,Cluster H. O. S. Cokroaminoto Blk. IIIB no. 58,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R200,short-address-block-unit,"Ruko Blok X1 no. 45, Mohammad Husni Thamrin",[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R201,short-address-answer-formal,Lokasi rumahnya di Cluster Tahi Bonar Simatupang blk VIIIB No. 95.,Lokasi rumahnya di [LOC1].,Lokasi rumahnya di [token-ent].,Lokasi rumahnya di [token-ent].,Lokasi rumahnya di [token-ent].,true,true
+V15R202,short-address-answer-formal,Alamat objeknya Perumahan T. B. Simatupang Blok IXB no. 24.,Alamat objeknya [LOC1].,Alamat objeknya [token-ent].,Alamat objeknya [token-ent].,Alamat objeknya [token-ent].,true,true
+V15R203,short-address-answer-formal,Alamat objeknya Gang Jenderal Gatot Subroto Nomor 21.,Alamat objeknya [LOC1].,Alamat objeknya [token-ent].,Alamat objeknya [token-ent].,Alamat objeknya [token-ent].,true,true
+V15R204,short-address-answer-formal,Alamat objeknya Komplek Braga blok VIIIA Nomor 20.,Alamat objeknya [LOC1].,Alamat objeknya [token-ent].,Alamat objeknya [token-ent].,Alamat objeknya [token-ent].,true,true
+V15R205,short-address-answer-formal,Alamat objeknya gg T. Umar no. 94.,Alamat objeknya [LOC1].,Alamat objeknya [token-ent].,Alamat objeknya [token-ent].,Alamat objeknya [token-ent].,true,true
+V15R206,short-address-answer-formal,"Alamat rumahnya di Unit 4A, Apartemen Jend. Gatot Subroto.","Alamat rumahnya di [LOC1], [LOC2].",Alamat rumahnya di [token-ent].,"Alamat rumahnya di [token-ent], [token-ent].",Alamat rumahnya di [token-ent].,false,true
+V15R207,short-address-answer-formal,Lokasi rumahnya di Perumahan Haji Agus Salim blk IX no 51.,Lokasi rumahnya di [LOC1].,Lokasi rumahnya di [token-ent].,Lokasi rumahnya di [token-ent].,Lokasi rumahnya di [token-ent].,true,true
+V15R208,short-address-answer-formal,Alamat rumahnya di jl. Hayam Wuruk no. 48.,Alamat rumahnya di [LOC1].,Alamat rumahnya di [token-ent].,Alamat rumahnya di [token-ent].,Alamat rumahnya di [token-ent].,true,true
+V15R209,short-address-answer-formal,Alamat objeknya jln Kapten Pierre Tendean No. 3.,Alamat objeknya [LOC1].,Alamat objeknya [token-ent].,Alamat objeknya [token-ent].,Alamat objeknya [token-ent].,true,true
+V15R210,short-address-answer-formal,Lokasi rumahnya di Jln Cihampelas No 68.,Lokasi rumahnya di [LOC1].,Lokasi rumahnya di [token-ent].,Lokasi rumahnya di [token-ent].,Lokasi rumahnya di [token-ent].,true,true
+V15R211,short-address-answer-formal,Alamat rumahnya di Gg Laksamana Malahayati no 29.,Alamat rumahnya di [LOC1].,Alamat rumahnya di [token-ent].,Alamat rumahnya di [token-ent].,Alamat rumahnya di [token-ent].,true,true
+V15R212,short-address-answer-formal,Alamat objeknya Perumahan Hayam Wuruk blk II Nomor 56.,Alamat objeknya [LOC1].,Alamat objeknya [token-ent].,Alamat objeknya [token-ent].,Alamat objeknya [token-ent].,true,true
+V15R213,short-address-answer-formal,Lokasi rumahnya di Perumahan Malioboro blk. II1 no 69.,Lokasi rumahnya di [LOC1].,Lokasi rumahnya di [token-ent].,Lokasi rumahnya di [token-ent].,Lokasi rumahnya di [token-ent].,true,true
+V15R214,short-address-answer-formal,Lokasi rumahnya di Jalan Cipaganti Nomor 77.,Lokasi rumahnya di [LOC1].,Lokasi rumahnya di [token-ent].,Lokasi rumahnya di [token-ent].,Lokasi rumahnya di [token-ent].,true,true
+V15R215,short-address-answer-formal,Lokasi rumahnya di jalan Cibaduyut nomor 98.,Lokasi rumahnya di [LOC1].,Lokasi rumahnya di [token-ent].,Lokasi rumahnya di [token-ent].,Lokasi rumahnya di [token-ent].,true,true
+V15R216,short-address-answer-formal,Rumah yang dibayar ada di Gang Pasirkaliki nomor 38.,Rumah yang dibayar ada di [LOC1].,Rumah yang dibayar ada di [token-ent].,Rumah yang dibayar ada di [token-ent].,Rumah yang dibayar ada di [token-ent].,true,true
+V15R217,short-address-answer-formal,Alamat objeknya jl Teuku Umar No 93.,Alamat objeknya [LOC1].,Alamat objeknya [token-ent].,Alamat objeknya [token-ent].,Alamat objeknya [token-ent].,true,true
+V15R218,short-address-answer-formal,Lokasi rumahnya di Jln Cikini Raya No 8.,Lokasi rumahnya di [LOC1].,Lokasi rumahnya di [token-ent].,Lokasi rumahnya di [token-ent].,Lokasi rumahnya di [token-ent].,true,true
+V15R219,short-address-answer-formal,Rumah yang dibayar ada di Perumahan Hayam Wuruk blok IB No 35.,Rumah yang dibayar ada di [LOC1].,Rumah yang dibayar ada di [token-ent].,Rumah yang dibayar ada di [token-ent].,Rumah yang dibayar ada di [token-ent].,true,true
+V15R220,short-address-answer-formal,Alamat rumahnya di Gang Urip Sumoharjo No 1.,Alamat rumahnya di [LOC1].,Alamat rumahnya di [token-ent].,Alamat rumahnya di [token-ent].,Alamat rumahnya di [token-ent].,true,true
+V15R221,short-address-answer-noisy,alamat objknya kavling asia-afrika nomor 61,alamat objknya [LOC1],alamat objknya [token-ent],alamat objknya [token-ent],alamat objknya [token-ent],true,true
+V15R222,short-address-answer-noisy,rmh yg dibayar di jalan cihampelas nomor 20,rmh yg dibayar di [LOC1],rmh yg dibayar di [token-ent],rmh yg dibayar di [token-ent],rmh yg dibayar di [token-ent],true,true
+V15R223,short-address-answer-noisy,lokasi rmhnya di jalan letnan jenderal suprapto nomor 12,lokasi rmhnya di [LOC1],lokasi rmhnya di [token-ent],lokasi rmhnya di [token-ent],lokasi rmhnya di [token-ent],true,true
+V15R224,short-address-answer-noisy,"rmh yg mau dibayar di ruko blk. iv2 no. 64, k. h. ahmad dahlan",rmh yg mau dibayar di [LOC1],rmh yg mau dibayar di [token-ent],rmh yg mau dibayar di [token-ent],rmh yg mau dibayar di [token-ent],true,true
+V15R225,short-address-answer-noisy,rmh yg dibayar di perumahan h. agus salim blk. iiib nomor 52,rmh yg dibayar di [LOC1],rmh yg dibayar di [token-ent],rmh yg dibayar di [token-ent],rmh yg dibayar di [token-ent],true,true
+V15R226,short-address-answer-noisy,"rmh yg mau dibayar di unit 18c, apartemen h. o. s. cokroaminoto","rmh yg mau dibayar di [LOC1], [LOC2]",rmh yg mau dibayar di [token-ent],"rmh yg mau dibayar di [token-ent], [token-ent]",rmh yg mau dibayar di [token-ent],false,true
+V15R227,short-address-answer-noisy,lokasi rmhnya di gang laksamana malahayati nomor 40,lokasi rmhnya di [LOC1],lokasi rmhnya di [token-ent],lokasi rmhnya di [token-ent],lokasi rmhnya di [token-ent],true,true
+V15R228,short-address-answer-noisy,lokasi rmhnya di gang u. sumoharjo no 1,lokasi rmhnya di [LOC1],lokasi rmhnya di [token-ent],lokasi rmhnya di [token-ent],lokasi rmhnya di [token-ent],true,true
+V15R229,short-address-answer-noisy,lokasi rmhnya di gg haji oemar said cokroaminoto no. 26,lokasi rmhnya di [LOC1],lokasi rmhnya di [token-ent],lokasi rmhnya di [token-ent],lokasi rmhnya di [token-ent],true,true
+V15R230,short-address-answer-noisy,alamat objknya gang laksamana malahayati nomor 60,alamat objknya [LOC1],alamat objknya [token-ent],alamat objknya [token-ent],alamat objknya [token-ent],true,true
+V15R231,short-address-answer-noisy,rmh yg mau dibayar di perumahan panglima polim blk iv2 no. 94,rmh yg mau dibayar di [LOC1],rmh yg mau dibayar di [token-ent],rmh yg mau dibayar di [token-ent],rmh yg mau dibayar di [token-ent],true,true
+V15R232,short-address-answer-noisy,rmh yg mau dibayar di gg. m. t. haryono no. 30,rmh yg mau dibayar di [LOC1],rmh yg mau dibayar di [token-ent],rmh yg mau dibayar di [token-ent],rmh yg mau dibayar di [token-ent],true,true
+V15R233,short-address-answer-noisy,alamat objknya kavling gajah mada no. 27,alamat objknya [LOC1],alamat objknya [token-ent],alamat objknya [token-ent],alamat objknya [token-ent],true,true
+V15R234,short-address-answer-noisy,alamat objknya cluster raden aa. wiranata kusuma blk. x2 nomor 59,alamat objknya [LOC1],alamat objknya [token-ent],alamat objknya [token-ent],alamat objknya [token-ent],true,true
+V15R235,short-address-answer-noisy,alamat rmhnya di jalan kemang raya nomor 20,alamat rmhnya di [LOC1],alamat rmhnya di [token-ent],alamat rmhnya di [token-ent],alamat rmhnya di [token-ent],true,true
+V15R236,short-address-answer-noisy,"lokasinya di unit 10b, apartemen hayam wuruk","lokasinya di unit [LOC1], [LOC2]",lokasinya di [token-ent],"lokasinya di unit [token-ent], [token-ent]",lokasinya di unit [token-ent],false,false
+V15R237,short-address-answer-noisy,alamat objknya gg cikini raya no. 36,alamat objknya [LOC1],alamat objknya [token-ent],alamat objknya [token-ent],alamat objknya [token-ent],true,true
+V15R238,short-address-answer-noisy,lokasi rmhnya di jalan laksamana malahayati nomor 78,lokasi rmhnya di [LOC1],lokasi rmhnya di [token-ent],lokasi rmhnya di [token-ent],lokasi rmhnya di [token-ent],true,true
+V15R239,short-address-answer-noisy,rmh yg mau dibayar di jln. cihampelas no. 63,rmh yg mau dibayar di [LOC1],rmh yg mau dibayar di [token-ent],rmh yg mau dibayar di [token-ent],rmh yg mau dibayar di [token-ent],true,true
+V15R240,short-address-answer-noisy,rmh yg mau dibayar di jalan sudirman nomor 70,rmh yg mau dibayar di [LOC1],rmh yg mau dibayar di [token-ent],rmh yg mau dibayar di [token-ent],rmh yg mau dibayar di [token-ent],true,true
+V15R241,short-address-roadlike,Alamat rumahnya jalan I Gusti Ngurah Rai nomor 45.,Alamat rumahnya [LOC1].,Alamat rumahnya [token-ent].,Alamat rumahnya [token-ent].,Alamat rumahnya [token-ent].,true,true
+V15R242,short-address-roadlike,Rumah yang dibayar di Jalan Wage Rudolf Supratman Nomor 54.,Rumah yang dibayar di [LOC1].,Rumah yang dibayar di [token-ent].,Rumah yang dibayar di [token-ent].,Rumah yang dibayar di [token-ent].,true,true
+V15R243,short-address-roadlike,Jalan Kapitan Pattimura Nomor 92,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R244,short-address-roadlike,Lokasi rumahnya jalan Letnan Jenderal Hertasning nomor 41.,Lokasi rumahnya [LOC1].,Lokasi rumahnya [token-ent].,Lokasi rumahnya [token-ent].,Lokasi rumahnya [token-ent].,true,true
+V15R245,short-address-roadlike,Alamat rumahnya Jalan Raden Intan nomor 8.,Alamat rumahnya [LOC1].,Alamat rumahnya [token-ent].,Alamat rumahnya [token-ent].,Alamat rumahnya [token-ent].,true,true
+V15R246,short-address-roadlike,Lokasi rumahnya jalan Ignatius Slamet Riyadi nomor 21.,Lokasi rumahnya [LOC1].,Lokasi rumahnya [token-ent].,Lokasi rumahnya [token-ent].,Lokasi rumahnya [token-ent].,true,true
+V15R247,short-address-roadlike,Lokasi rumahnya Gang Ignatius Slamet Riyadi Nomor 97.,Lokasi rumahnya [LOC1].,Lokasi rumahnya [token-ent].,Lokasi rumahnya [token-ent].,Lokasi rumahnya [token-ent].,true,true
+V15R248,short-address-roadlike,Lokasi rumahnya Gang Kolonel Sugiono nomor 44.,Lokasi rumahnya [LOC1].,Lokasi rumahnya [token-ent].,Lokasi rumahnya [token-ent].,Lokasi rumahnya [token-ent].,true,true
+V15R249,short-address-roadlike,Rumah yang dibayar di Jalan Sultan Hasanuddin Nomor 76.,Rumah yang dibayar di [LOC1].,Rumah yang dibayar di [token-ent].,Rumah yang dibayar di [token-ent].,Rumah yang dibayar di [token-ent].,true,true
+V15R250,short-address-roadlike,Alamat objeknya Gang Brigadir Jenderal Katamso Nomor 22.,Alamat objeknya [LOC1].,Alamat objeknya [token-ent].,Alamat objeknya [token-ent].,Alamat objeknya [token-ent].,true,true
+V15R251,short-address-roadlike,Jalan Teuku Nyak Arief nomor 32,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R252,short-address-roadlike,Alamat objeknya Gang Mochtar Lubis Nomor 64.,Alamat objeknya [LOC1].,Alamat objeknya [token-ent].,Alamat objeknya [token-ent].,Alamat objeknya [token-ent].,true,true
+V15R253,short-address-roadlike,Alamat rumahnya Gang Mayor Oking nomor 29.,Alamat rumahnya [LOC1].,Alamat rumahnya [token-ent].,Alamat rumahnya [token-ent].,Alamat rumahnya [token-ent].,true,true
+V15R254,short-address-roadlike,Rumah yang dibayar di jalan Kyai Haji Mas Mansyur Nomor 41.,Rumah yang dibayar di [LOC1].,Rumah yang dibayar di [token-ent].,Rumah yang dibayar di [token-ent].,Rumah yang dibayar di [token-ent].,true,true
+V15R255,short-address-roadlike,Jalan Pangeran Diponegoro nomor 64,[LOC1],[token-ent],[token-ent],[token-ent],true,true
+V15R256,short-address-roadlike,Lokasi rumahnya Jalan Prof. Dr. Satrio nomor 59.,Lokasi rumahnya [LOC1].,Lokasi rumahnya [token-ent].,Lokasi rumahnya [token-ent].,Lokasi rumahnya [token-ent].,true,true
+V15R257,short-address-roadlike,Lokasi rumahnya jalan Roeslan Abdulgani Nomor 14.,Lokasi rumahnya [LOC1].,Lokasi rumahnya [token-ent].,Lokasi rumahnya [token-ent].,Lokasi rumahnya [token-ent].,true,true
+V15R258,short-address-roadlike,Rumah yang dibayar di jalan Brigadir Jenderal Katamso nomor 1.,Rumah yang dibayar di [LOC1].,Rumah yang dibayar di [token-ent].,Rumah yang dibayar di [token-ent].,Rumah yang dibayar di [token-ent].,true,true
+V15R259,short-address-roadlike,Lokasi rumahnya jalan Raden Ajeng Kartini nomor 93.,Lokasi rumahnya [LOC1].,Lokasi rumahnya [token-ent].,Lokasi rumahnya [token-ent].,Lokasi rumahnya [token-ent].,true,true
+V15R260,short-address-roadlike,Rumah yang dibayar di jalan Halim Perdanakusuma nomor 56.,Rumah yang dibayar di [LOC1].,Rumah yang dibayar di [token-ent].,Rumah yang dibayar di [token-ent].,Rumah yang dibayar di [token-ent].,true,true
+V15R261,short-control-transfer-fields,Bank tujuannya Bank Jateng.,Bank tujuannya Bank Jateng.,Bank tujuannya Bank Jateng.,Bank tujuannya Bank Jateng.,Bank tujuannya Bank Jateng.,true,true
+V15R262,short-control-transfer-fields,Pakai saldo tabungan.,Pakai saldo tabungan.,Pakai saldo tabungan.,Pakai saldo tabungan.,Pakai saldo tabungan.,true,true
+V15R263,short-control-transfer-fields,Nominalnya 250 ribu.,Nominalnya 250 ribu.,Nominalnya 250 ribu.,Nominalnya 250 ribu.,Nominalnya 250 ribu.,true,true
+V15R264,short-control-transfer-fields,Nomor rekening tujuannya 7778429412.,Nomor rekening tujuannya 7778429412.,Nomor rekening tujuannya 7778429412.,Nomor rekening tujuannya 7778429412.,Nomor rekening tujuannya 7778429412.,true,true
+V15R265,short-control-transfer-fields,Transfernya antarbank.,Transfernya antarbank.,Transfernya antarbank.,Transfernya antarbank.,Transfernya antarbank.,true,true
+V15R266,short-control-transfer-fields,Nomor rekening tujuannya 7715384367.,Nomor rekening tujuannya 7715384367.,Nomor rekening tujuannya 7715384367.,Nomor rekening tujuannya 7715384367.,Nomor rekening tujuannya 7715384367.,true,true
+V15R267,short-control-transfer-fields,Bank tujuannya Mandiri.,Bank tujuannya Mandiri.,Bank tujuannya Mandiri.,Bank tujuannya Mandiri.,Bank tujuannya Mandiri.,true,true
+V15R268,short-control-transfer-fields,Bank tujuannya BNI.,Bank tujuannya BNI.,Bank tujuannya BNI.,Bank tujuannya BNI.,Bank tujuannya BNI.,true,true
+V15R269,short-control-transfer-fields,Langsung transfer saja.,Langsung transfer saja.,Langsung transfer saja.,Langsung transfer saja.,Langsung transfer saja.,true,true
+V15R270,short-control-transfer-fields,Pakai rekening sumber utama.,Pakai rekening sumber utama.,Pakai rekening sumber utama.,Pakai rekening sumber utama.,Pakai rekening sumber utama.,true,true
+V15R271,short-control-transfer-fields,Sumber dananya dari rekening gaji.,Sumber dananya dari rekening gaji.,Sumber dananya dari rekening gaji.,Sumber dananya dari rekening gaji.,Sumber dananya dari rekening gaji.,true,true
+V15R272,short-control-transfer-fields,Bank tujuannya Maybank.,Bank tujuannya Maybank.,Bank tujuannya Maybank.,Bank tujuannya Maybank.,Bank tujuannya Maybank.,true,true
+V15R273,short-control-transfer-fields,Biaya admin tidak masalah.,Biaya admin tidak masalah.,Biaya admin tidak masalah.,Biaya admin tidak masalah.,Biaya admin tidak masalah.,true,true
+V15R274,short-control-transfer-fields,Bank tujuannya Bank DKI.,Bank tujuannya Bank DKI.,Bank tujuannya Bank DKI.,Bank tujuannya Bank DKI.,Bank tujuannya Bank DKI.,true,true
+V15R275,short-control-transfer-fields,Transfernya sesama bank.,Transfernya sesama bank.,Transfernya sesama bank.,Transfernya sesama bank.,Transfernya sesama bank.,true,true
+V15R276,short-control-transfer-fields,Nominalnya 1 juta.,Nominalnya 1 juta.,Nominalnya 1 juta.,Nominalnya 1 juta.,Nominalnya 1 juta.,true,true
+V15R277,short-control-transfer-fields,Nominalnya 750 ribu.,Nominalnya 750 ribu.,Nominalnya 750 ribu.,Nominalnya 750 ribu.,Nominalnya 750 ribu.,true,true
+V15R278,short-control-transfer-fields,Bank tujuannya Panin.,Bank tujuannya Panin.,Bank tujuannya Panin.,Bank tujuannya Panin.,Bank tujuannya Panin.,true,true
+V15R279,short-control-transfer-fields,Nominalnya 500 ribu.,Nominalnya 500 ribu.,Nominalnya 500 ribu.,Nominalnya 500 ribu.,Nominalnya 500 ribu.,true,true
+V15R280,short-control-transfer-fields,Bank tujuannya CIMB Niaga.,Bank tujuannya CIMB Niaga.,Bank tujuannya CIMB Niaga.,Bank tujuannya CIMB Niaga.,Bank tujuannya CIMB Niaga.,true,true
+V15R281,short-control-payment-fields,Tagihan listrik bulan ini ya,Tagihan listrik bulan ini ya,Tagihan listrik bulan ini ya,Tagihan listrik bulan ini ya,Tagihan listrik bulan ini ya,true,true
+V15R282,short-control-payment-fields,IDPEL-nya 5412125256.,IDPEL-nya 5412125256.,IDPEL-nya 5412125256.,IDPEL-nya 5412125256.,IDPEL-nya 5412125256.,true,true
+V15R283,short-control-payment-fields,Tolong bantu bayarkan tagihan listrik,Tolong bantu bayarkan tagihan listrik,Tolong bantu bayarkan tagihan listrik,Tolong bantu bayarkan tagihan listrik,Tolong bantu bayarkan tagihan listrik,true,true
+V15R284,short-control-payment-fields,Tolong bayarkan tagian listrik bulan ini,Tolong bayarkan [PER1] listrik bulan ini,Tolong bayarkan tagian listrik bulan ini,Tolong bayarkan [token-ent] listrik bulan ini,Tolong bayarkan [token-ent] listrik bulan ini,false,false
+V15R285,short-control-payment-fields,IDPEL-nya 5441675125.,IDPEL-nya 5441675125.,IDPEL-nya 5441675125.,IDPEL-nya 5441675125.,IDPEL-nya 5441675125.,true,true
+V15R286,short-control-payment-fields,Pakai saldo tabungan saja untuk pembayaran.,Pakai saldo tabungan saja untuk pembayaran.,Pakai saldo tabungan saja untuk pembayaran.,Pakai saldo tabungan saja untuk pembayaran.,Pakai saldo tabungan saja untuk pembayaran.,true,true
+V15R287,short-control-payment-fields,Pakai rekening utama ya untuk bayarnya.,Pakai rekening utama ya untuk bayarnya.,Pakai rekening utama ya untuk bayarnya.,Pakai rekening utama ya untuk bayarnya.,Pakai rekening utama ya untuk bayarnya.,true,true
+V15R288,short-control-payment-fields,Bayar tagihan listrik,Bayar tagihan listrik,Bayar tagihan listrik,Bayar tagihan listrik,Bayar tagihan listrik,true,true
+V15R289,short-control-payment-fields,Yang dibayar adalah tagihan listrik bulan ini.,Yang dibayar adalah tagihan listrik bulan ini.,Yang dibayar adalah tagihan listrik bulan ini.,Yang dibayar adalah tagihan listrik bulan ini.,Yang dibayar adalah tagihan listrik bulan ini.,true,true
+V15R290,short-control-payment-fields,IDPEL-nya 5422395211.,IDPEL-nya 5422395211.,IDPEL-nya 5422395211.,IDPEL-nya 5422395211.,IDPEL-nya 5422395211.,true,true
+V15R291,short-control-payment-fields,IDPEL-nya 5425356459.,IDPEL-nya 5425356459.,IDPEL-nya 5425356459.,IDPEL-nya 5425356459.,IDPEL-nya 5425356459.,true,true
+V15R292,short-control-payment-fields,ID pelanggan listriknya 5493359836.,ID pelanggan listriknya 5493359836.,ID pelanggan listriknya 5493359836.,ID pelanggan listriknya 5493359836.,ID pelanggan listriknya 5493359836.,true,true
+V15R293,short-control-payment-fields,ID pelanggan listriknya 5456970599.,ID pelanggan listriknya 5456970599.,ID pelanggan listriknya 5456970599.,ID pelanggan listriknya 5456970599.,ID pelanggan listriknya 5456970599.,true,true
+V15R294,short-control-payment-fields,IDPEL-nya 5495544843.,IDPEL-nya 5495544843.,IDPEL-nya 5495544843.,IDPEL-nya 5495544843.,IDPEL-nya 5495544843.,true,true
+V15R295,short-control-payment-fields,IDPEL-nya 5445960009.,IDPEL-nya 5445960009.,IDPEL-nya 5445960009.,IDPEL-nya 5445960009.,IDPEL-nya 5445960009.,true,true
+V15R296,short-control-payment-fields,Pembayarannya untuk tagihan bulan ini.,Pembayarannya untuk tagihan bulan ini.,Pembayarannya untuk tagihan bulan ini.,Pembayarannya untuk tagihan bulan ini.,Pembayarannya untuk tagihan bulan ini.,true,true
+V15R297,short-control-payment-fields,ID pelanggan listriknya 5441904961.,ID pelanggan listriknya 5441904961.,ID pelanggan listriknya 5441904961.,ID pelanggan listriknya 5441904961.,ID pelanggan listriknya 5441904961.,true,true
+V15R298,short-control-payment-fields,IDPEL-nya 5453172340.,IDPEL-nya 5453172340.,IDPEL-nya 5453172340.,IDPEL-nya 5453172340.,IDPEL-nya 5453172340.,true,true
+V15R299,short-control-payment-fields,ID pelanggan listriknya 5448977228.,ID pelanggan listriknya 5448977228.,ID pelanggan listriknya 5448977228.,ID pelanggan listriknya 5448977228.,ID pelanggan listriknya 5448977228.,true,true
+V15R300,short-control-payment-fields,ID pelanggan listriknya 5469131709.,ID pelanggan listriknya 5469131709.,ID pelanggan listriknya 5469131709.,ID pelanggan listriknya 5469131709.,ID pelanggan listriknya 5469131709.,true,true
+V15R301,short-control-noisy,nominal 1jt,nominal 1jt,nominal 1jt,nominal 1jt,nominal 1jt,true,true
+V15R302,short-control-noisy,nominal 750rb,nominal 750rb,nominal 750rb,nominal 750rb,nominal 750rb,true,true
+V15R303,short-control-noisy,"nominal 1,5jt","nominal 1,5jt","nominal 1,5jt","nominal 1,5jt","nominal 1,5jt",true,true
+V15R304,short-control-noisy,ada biaya admin jg gpp,ada biaya admin jg gpp,ada biaya admin jg gpp,ada biaya admin jg gpp,ada biaya admin jg gpp,true,true
+V15R305,short-control-noisy,idpel 5499900452,idpel 5499900452,idpel 5499900452,idpel 5499900452,idpel 5499900452,true,true
+V15R306,short-control-noisy,tlg byr listrik bln ini,tlg byr listrik bln ini,tlg byr listrik bln ini,tlg byr listrik bln ini,tlg byr listrik bln ini,true,true
+V15R307,short-control-noisy,idpel 5450099770,idpel 5450099770,idpel 5450099770,idpel 5450099770,idpel 5450099770,true,true
+V15R308,short-control-noisy,pke rek utama,pke rek utama,pke rek utama,pke rek utama,pke rek utama,true,true
+V15R309,short-control-noisy,no rek tujuan 7792351762,no rek tujuan 7792351762,no rek tujuan 7792351762,no rek tujuan 7792351762,no rek tujuan 7792351762,true,true
+V15R310,short-control-noisy,no rek tujuan 7787822811,no rek tujuan 7787822811,no rek tujuan 7787822811,no rek tujuan 7787822811,no rek tujuan 7787822811,true,true
+V15R311,short-control-noisy,bank tujuan bank jago,bank tujuan bank jago,bank tujuan bank jago,bank tujuan bank jago,bank tujuan bank jago,true,true
+V15R312,short-control-noisy,idpel 5421328514,idpel 5421328514,idpel 5421328514,idpel 5421328514,idpel 5421328514,true,true
+V15R313,short-control-noisy,trf sesama bank aja,trf sesama bank aja,trf sesama bank aja,trf sesama bank aja,trf sesama bank aja,true,true
+V15R314,short-control-noisy,dri saldo tabungan y,dri saldo tabungan y,dri saldo tabungan y,dri saldo tabungan y,dri saldo tabungan y,true,true
+V15R315,short-control-noisy,idpel 5486892194,idpel 5486892194,idpel 5486892194,idpel 5486892194,idpel 5486892194,true,true
+V15R316,short-control-noisy,bank tujuan bsi,bank tujuan bsi,bank tujuan bsi,bank tujuan bsi,bank tujuan bsi,true,true
+V15R317,short-control-noisy,trf antar bank aja,trf antar bank aja,trf antar bank aja,trf antar bank aja,trf antar bank aja,true,true
+V15R318,short-control-noisy,bank tujuan maybank,bank tujuan maybank,bank tujuan maybank,bank tujuan maybank,bank tujuan maybank,true,true
+V15R319,short-control-noisy,no rek tujuan 7743387927,no rek tujuan 7743387927,no rek tujuan 7743387927,no rek tujuan 7743387927,no rek tujuan 7743387927,true,true
+V15R320,short-control-noisy,bank tujuan bni,bank tujuan bni,bank tujuan bni,bank tujuan bni,bank tujuan bni,true,true

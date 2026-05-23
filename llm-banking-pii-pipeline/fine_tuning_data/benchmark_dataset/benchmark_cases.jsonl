@@ -1,0 +1,320 @@
+{"case_id": "V15R001", "category": "short-person-direct", "text": "Endang Hutapea", "expected_persons": ["Endang Hutapea"], "expected_addresses": []}
+{"case_id": "V15R002", "category": "short-person-direct", "text": "Brian Hidayat Chaniago", "expected_persons": ["Brian Hidayat Chaniago"], "expected_addresses": []}
+{"case_id": "V15R003", "category": "short-person-direct", "text": "Vanessa Kusuma Surya", "expected_persons": ["Vanessa Kusuma Surya"], "expected_addresses": []}
+{"case_id": "V15R004", "category": "short-person-direct", "text": "Siti Latuconsina", "expected_persons": ["Siti Latuconsina"], "expected_addresses": []}
+{"case_id": "V15R005", "category": "short-person-direct", "text": "Felicia", "expected_persons": ["Felicia"], "expected_addresses": []}
+{"case_id": "V15R006", "category": "short-person-direct", "text": "Rafael", "expected_persons": ["Rafael"], "expected_addresses": []}
+{"case_id": "V15R007", "category": "short-person-direct", "text": "William", "expected_persons": ["William"], "expected_addresses": []}
+{"case_id": "V15R008", "category": "short-person-direct", "text": "Natasha", "expected_persons": ["Natasha"], "expected_addresses": []}
+{"case_id": "V15R009", "category": "short-person-direct", "text": "Gabriel Baswedan", "expected_persons": ["Gabriel Baswedan"], "expected_addresses": []}
+{"case_id": "V15R010", "category": "short-person-direct", "text": "Sri", "expected_persons": ["Sri"], "expected_addresses": []}
+{"case_id": "V15R011", "category": "short-person-direct", "text": "Ayu Alexandra Latuconsina", "expected_persons": ["Ayu Alexandra Latuconsina"], "expected_addresses": []}
+{"case_id": "V15R012", "category": "short-person-direct", "text": "Jason Liem", "expected_persons": ["Jason Liem"], "expected_addresses": []}
+{"case_id": "V15R013", "category": "short-person-direct", "text": "Wati", "expected_persons": ["Wati"], "expected_addresses": []}
+{"case_id": "V15R014", "category": "short-person-direct", "text": "Sri Warouw", "expected_persons": ["Sri Warouw"], "expected_addresses": []}
+{"case_id": "V15R015", "category": "short-person-direct", "text": "Joe Warouw", "expected_persons": ["Joe Warouw"], "expected_addresses": []}
+{"case_id": "V15R016", "category": "short-person-direct", "text": "Iwan Wulandari Sani", "expected_persons": ["Iwan Wulandari Sani"], "expected_addresses": []}
+{"case_id": "V15R017", "category": "short-person-direct", "text": "Wahyu", "expected_persons": ["Wahyu"], "expected_addresses": []}
+{"case_id": "V15R018", "category": "short-person-direct", "text": "Sri Sudibyo", "expected_persons": ["Sri Sudibyo"], "expected_addresses": []}
+{"case_id": "V15R019", "category": "short-person-direct", "text": "Jessica Setiawan Warouw", "expected_persons": ["Jessica Setiawan Warouw"], "expected_addresses": []}
+{"case_id": "V15R020", "category": "short-person-direct", "text": "Stella Kartanegara", "expected_persons": ["Stella Kartanegara"], "expected_addresses": []}
+{"case_id": "V15R021", "category": "short-person-answer-formal", "text": "Nama penerimanya Steven Fitriani Malaihollo.", "expected_persons": ["Steven Fitriani Malaihollo"], "expected_addresses": []}
+{"case_id": "V15R022", "category": "short-person-answer-formal", "text": "Nama penerimanya Brian.", "expected_persons": ["Brian"], "expected_addresses": []}
+{"case_id": "V15R023", "category": "short-person-answer-formal", "text": "Nama penerimanya Tono Dominic Lumentut.", "expected_persons": ["Tono Dominic Lumentut"], "expected_addresses": []}
+{"case_id": "V15R024", "category": "short-person-answer-formal", "text": "Rekening tujuannya atas nama Ayu Setiawan Simanjuntak.", "expected_persons": ["Ayu Setiawan Simanjuntak"], "expected_addresses": []}
+{"case_id": "V15R025", "category": "short-person-answer-formal", "text": "Atas nama Vanessa.", "expected_persons": ["Vanessa"], "expected_addresses": []}
+{"case_id": "V15R026", "category": "short-person-answer-formal", "text": "Rekening tujuannya atas nama Brian Wulandari Chaniago.", "expected_persons": ["Brian Wulandari Chaniago"], "expected_addresses": []}
+{"case_id": "V15R027", "category": "short-person-answer-formal", "text": "Pemilik rekening tujuan Iwan Wijaya.", "expected_persons": ["Iwan Wijaya"], "expected_addresses": []}
+{"case_id": "V15R028", "category": "short-person-answer-formal", "text": "Atas nama Gabriel Nathaniel Latuconsina.", "expected_persons": ["Gabriel Nathaniel Latuconsina"], "expected_addresses": []}
+{"case_id": "V15R029", "category": "short-person-answer-formal", "text": "Atas nama Jessica Kartanegara.", "expected_persons": ["Jessica Kartanegara"], "expected_addresses": []}
+{"case_id": "V15R030", "category": "short-person-answer-formal", "text": "Nama pemilik rekening tujuan Rafael Ratulangi.", "expected_persons": ["Rafael Ratulangi"], "expected_addresses": []}
+{"case_id": "V15R031", "category": "short-person-answer-formal", "text": "Atas nama Joko Syahputra.", "expected_persons": ["Joko Syahputra"], "expected_addresses": []}
+{"case_id": "V15R032", "category": "short-person-answer-formal", "text": "Atas nama Eko Wibowo Adiwangsa.", "expected_persons": ["Eko Wibowo Adiwangsa"], "expected_addresses": []}
+{"case_id": "V15R033", "category": "short-person-answer-formal", "text": "Penerima transfernya Yanti Lestari Siahaan.", "expected_persons": ["Yanti Lestari Siahaan"], "expected_addresses": []}
+{"case_id": "V15R034", "category": "short-person-answer-formal", "text": "Nama pemilik rekening tujuan Bambang Vincent Kusuma.", "expected_persons": ["Bambang Vincent Kusuma"], "expected_addresses": []}
+{"case_id": "V15R035", "category": "short-person-answer-formal", "text": "Nama penerimanya Joko Setiawan Paniago.", "expected_persons": ["Joko Setiawan Paniago"], "expected_addresses": []}
+{"case_id": "V15R036", "category": "short-person-answer-formal", "text": "Rekening tujuannya atas nama Siti Nasution.", "expected_persons": ["Siti Nasution"], "expected_addresses": []}
+{"case_id": "V15R037", "category": "short-person-answer-formal", "text": "Atas nama Michelle Pratama Ratulangi.", "expected_persons": ["Michelle Pratama Ratulangi"], "expected_addresses": []}
+{"case_id": "V15R038", "category": "short-person-answer-formal", "text": "Pemilik rekening tujuan Iwan Matthew Liem.", "expected_persons": ["Iwan Matthew Liem"], "expected_addresses": []}
+{"case_id": "V15R039", "category": "short-person-answer-formal", "text": "Nama penerimanya Yudi Kartanegara.", "expected_persons": ["Yudi Kartanegara"], "expected_addresses": []}
+{"case_id": "V15R040", "category": "short-person-answer-formal", "text": "Nama penerimanya Wati Frederick Wattimena.", "expected_persons": ["Wati Frederick Wattimena"], "expected_addresses": []}
+{"case_id": "V15R041", "category": "short-person-answer-noisy", "text": "an kevin sebastian chaniago", "expected_persons": ["kevin sebastian chaniago"], "expected_addresses": []}
+{"case_id": "V15R042", "category": "short-person-answer-noisy", "text": "pmlk rek tujuan jessica theodore putra", "expected_persons": ["jessica theodore putra"], "expected_addresses": []}
+{"case_id": "V15R043", "category": "short-person-answer-noisy", "text": "pmlk rek tujuan tri stephanie tanjung", "expected_persons": ["tri stephanie tanjung"], "expected_addresses": []}
+{"case_id": "V15R044", "category": "short-person-answer-noisy", "text": "nm pmlk rekeningnya felicia", "expected_persons": ["felicia"], "expected_addresses": []}
+{"case_id": "V15R045", "category": "short-person-answer-noisy", "text": "an michael tuasikal", "expected_persons": ["michael tuasikal"], "expected_addresses": []}
+{"case_id": "V15R046", "category": "short-person-answer-noisy", "text": "nm pmlk rekeningnya ayu saputra baswedan", "expected_persons": ["ayu saputra baswedan"], "expected_addresses": []}
+{"case_id": "V15R047", "category": "short-person-answer-noisy", "text": "pmlk rek tujuan clara sebastian sastro", "expected_persons": ["clara sebastian sastro"], "expected_addresses": []}
+{"case_id": "V15R048", "category": "short-person-answer-noisy", "text": "nm pmlk reknya tri", "expected_persons": ["tri"], "expected_addresses": []}
+{"case_id": "V15R049", "category": "short-person-answer-noisy", "text": "nama pnerimanya rini baswedan", "expected_persons": ["rini baswedan"], "expected_addresses": []}
+{"case_id": "V15R050", "category": "short-person-answer-noisy", "text": "nm pmlk rekeningnya wahyu", "expected_persons": ["wahyu"], "expected_addresses": []}
+{"case_id": "V15R051", "category": "short-person-answer-noisy", "text": "pmlk rek tujuan joko baswedan", "expected_persons": ["joko baswedan"], "expected_addresses": []}
+{"case_id": "V15R052", "category": "short-person-answer-noisy", "text": "pmlk rek tujuan michael nugroho widjaja", "expected_persons": ["michael nugroho widjaja"], "expected_addresses": []}
+{"case_id": "V15R053", "category": "short-person-answer-noisy", "text": "atas nm christian", "expected_persons": ["christian"], "expected_addresses": []}
+{"case_id": "V15R054", "category": "short-person-answer-noisy", "text": "a.n jason", "expected_persons": ["jason"], "expected_addresses": []}
+{"case_id": "V15R055", "category": "short-person-answer-noisy", "text": "nama pnerimanya joko setiawan baswedan", "expected_persons": ["joko setiawan baswedan"], "expected_addresses": []}
+{"case_id": "V15R056", "category": "short-person-answer-noisy", "text": "nama pnerimanya eko rahayu gunadi", "expected_persons": ["eko rahayu gunadi"], "expected_addresses": []}
+{"case_id": "V15R057", "category": "short-person-answer-noisy", "text": "nm pmlk rekeningnya tri", "expected_persons": ["tri"], "expected_addresses": []}
+{"case_id": "V15R058", "category": "short-person-answer-noisy", "text": "pmlk rek tujuan endang siahaan", "expected_persons": ["endang siahaan"], "expected_addresses": []}
+{"case_id": "V15R059", "category": "short-person-answer-noisy", "text": "nm pmlk rekeningnya wahyu surya", "expected_persons": ["wahyu surya"], "expected_addresses": []}
+{"case_id": "V15R060", "category": "short-person-answer-noisy", "text": "nm pmlk rekeningnya eko lumentut", "expected_persons": ["eko lumentut"], "expected_addresses": []}
+{"case_id": "V15R061", "category": "short-person-honorific", "text": "Kak Budi Sudibyo.", "expected_persons": ["Budi Sudibyo"], "expected_addresses": []}
+{"case_id": "V15R062", "category": "short-person-honorific", "text": "Bu Iwan Liem.", "expected_persons": ["Iwan Liem"], "expected_addresses": []}
+{"case_id": "V15R063", "category": "short-person-honorific", "text": "Bang Jessie Putri.", "expected_persons": ["Jessie Putri"], "expected_addresses": []}
+{"case_id": "V15R064", "category": "short-person-honorific", "text": "Bp. Kevin Rahayu Putri.", "expected_persons": ["Kevin Rahayu Putri"], "expected_addresses": []}
+{"case_id": "V15R065", "category": "short-person-honorific", "text": "Bapak Slamet Latuconsina.", "expected_persons": ["Slamet Latuconsina"], "expected_addresses": []}
+{"case_id": "V15R066", "category": "short-person-honorific", "text": "Bp. Dwi Alexander Chaniago.", "expected_persons": ["Dwi Alexander Chaniago"], "expected_addresses": []}
+{"case_id": "V15R067", "category": "short-person-honorific", "text": "Pak Ratna Setiawan Tanjung.", "expected_persons": ["Ratna Setiawan Tanjung"], "expected_addresses": []}
+{"case_id": "V15R068", "category": "short-person-honorific", "text": "kak Jessica Putra.", "expected_persons": ["Jessica Putra"], "expected_addresses": []}
+{"case_id": "V15R069", "category": "short-person-honorific", "text": "Bpk Michelle Jonathan Malaihollo.", "expected_persons": ["Michelle Jonathan Malaihollo"], "expected_addresses": []}
+{"case_id": "V15R070", "category": "short-person-honorific", "text": "Bang Agus Prakoso.", "expected_persons": ["Agus Prakoso"], "expected_addresses": []}
+{"case_id": "V15R071", "category": "short-person-honorific", "text": "mbak Jessica Syahputra.", "expected_persons": ["Jessica Syahputra"], "expected_addresses": []}
+{"case_id": "V15R072", "category": "short-person-honorific", "text": "Bapak Ayu Lubis.", "expected_persons": ["Ayu Lubis"], "expected_addresses": []}
+{"case_id": "V15R073", "category": "short-person-honorific", "text": "Bp. Jason Lestari Putri.", "expected_persons": ["Jason Lestari Putri"], "expected_addresses": []}
+{"case_id": "V15R074", "category": "short-person-honorific", "text": "Bang Vanessa Elizabeth Sastro.", "expected_persons": ["Vanessa Elizabeth Sastro"], "expected_addresses": []}
+{"case_id": "V15R075", "category": "short-person-honorific", "text": "Kak Siti Nugroho Suwardi.", "expected_persons": ["Siti Nugroho Suwardi"], "expected_addresses": []}
+{"case_id": "V15R076", "category": "short-person-honorific", "text": "Mas Dwi Kartanegara.", "expected_persons": ["Dwi Kartanegara"], "expected_addresses": []}
+{"case_id": "V15R077", "category": "short-person-honorific", "text": "mas Jessie Hidayatullah.", "expected_persons": ["Jessie Hidayatullah"], "expected_addresses": []}
+{"case_id": "V15R078", "category": "short-person-honorific", "text": "Bang Ratna Lubis.", "expected_persons": ["Ratna Lubis"], "expected_addresses": []}
+{"case_id": "V15R079", "category": "short-person-honorific", "text": "Mbak Daniel Tanjung.", "expected_persons": ["Daniel Tanjung"], "expected_addresses": []}
+{"case_id": "V15R080", "category": "short-person-honorific", "text": "Bang Ayu Angelina Wirasatya.", "expected_persons": ["Ayu Angelina Wirasatya"], "expected_addresses": []}
+{"case_id": "V15R081", "category": "short-person-rek-owner", "text": "Rekening 7714899249 atas nama Jessica Hidayat Sudibyo.", "expected_persons": ["Jessica Hidayat Sudibyo"], "expected_addresses": []}
+{"case_id": "V15R082", "category": "short-person-rek-owner", "text": "Rekening 7742965679 atas nama Iwan Theodore Pangemanan.", "expected_persons": ["Iwan Theodore Pangemanan"], "expected_addresses": []}
+{"case_id": "V15R083", "category": "short-person-rek-owner", "text": "Rekening 7716586884 atas nama Sri Sebastian Kusuma.", "expected_persons": ["Sri Sebastian Kusuma"], "expected_addresses": []}
+{"case_id": "V15R084", "category": "short-person-rek-owner", "text": "No rek 7740303966 atas nama Tri Gunadi.", "expected_persons": ["Tri Gunadi"], "expected_addresses": []}
+{"case_id": "V15R085", "category": "short-person-rek-owner", "text": "Rekening 7712590336 atas nama Ratna Wirasatya.", "expected_persons": ["Ratna Wirasatya"], "expected_addresses": []}
+{"case_id": "V15R086", "category": "short-person-rek-owner", "text": "A.n. Brian Tuasikal, no rek 7718847659.", "expected_persons": ["Brian Tuasikal"], "expected_addresses": []}
+{"case_id": "V15R087", "category": "short-person-rek-owner", "text": "Rek 7711846438 milik Vanessa Lubis.", "expected_persons": ["Vanessa Lubis"], "expected_addresses": []}
+{"case_id": "V15R088", "category": "short-person-rek-owner", "text": "A.n. Rini Tanjung, no rek 7778932813.", "expected_persons": ["Rini Tanjung"], "expected_addresses": []}
+{"case_id": "V15R089", "category": "short-person-rek-owner", "text": "Rekening 7724991093 atas nama Bambang Lestari Chaniago.", "expected_persons": ["Bambang Lestari Chaniago"], "expected_addresses": []}
+{"case_id": "V15R090", "category": "short-person-rek-owner", "text": "No. rek 7711571076 a.n. Joko Hidayatullah.", "expected_persons": ["Joko Hidayatullah"], "expected_addresses": []}
+{"case_id": "V15R091", "category": "short-person-rek-owner", "text": "No. rek 7771578507 a.n. Gabriel Josephine Pangemanan.", "expected_persons": ["Gabriel Josephine Pangemanan"], "expected_addresses": []}
+{"case_id": "V15R092", "category": "short-person-rek-owner", "text": "Rekening 7777551242 atas nama Wati Josephine Hartono.", "expected_persons": ["Wati Josephine Hartono"], "expected_addresses": []}
+{"case_id": "V15R093", "category": "short-person-rek-owner", "text": "No rek 7750318610 atas nama William.", "expected_persons": ["William"], "expected_addresses": []}
+{"case_id": "V15R094", "category": "short-person-rek-owner", "text": "Rekening 7720328856 atas nama Albert.", "expected_persons": ["Albert"], "expected_addresses": []}
+{"case_id": "V15R095", "category": "short-person-rek-owner", "text": "No. rek 7735893435 a.n. Jessie Nicholas Gunadi.", "expected_persons": ["Jessie Nicholas Gunadi"], "expected_addresses": []}
+{"case_id": "V15R096", "category": "short-person-rek-owner", "text": "No rek 7762329642 atas nama Natasha Purnama Baswedan.", "expected_persons": ["Natasha Purnama Baswedan"], "expected_addresses": []}
+{"case_id": "V15R097", "category": "short-person-rek-owner", "text": "Rekening 7791466413 atas nama Kevin Nicholas Adiwangsa.", "expected_persons": ["Kevin Nicholas Adiwangsa"], "expected_addresses": []}
+{"case_id": "V15R098", "category": "short-person-rek-owner", "text": "Rekening 7728483641 atas nama Clara.", "expected_persons": ["Clara"], "expected_addresses": []}
+{"case_id": "V15R099", "category": "short-person-rek-owner", "text": "Rek 7767388734 milik Endang Wicaksono.", "expected_persons": ["Endang Wicaksono"], "expected_addresses": []}
+{"case_id": "V15R100", "category": "short-person-rek-owner", "text": "No. rek 7767311895 a.n. Budi.", "expected_persons": ["Budi"], "expected_addresses": []}
+{"case_id": "V15R101", "category": "short-person-transfer-noisy", "text": "kiyim dana ke Rafael Angelina Kusuma", "expected_persons": ["Rafael Angelina Kusuma"], "expected_addresses": []}
+{"case_id": "V15R102", "category": "short-person-transfer-noisy", "text": "kiyim dana ke Dwi", "expected_persons": ["Dwi"], "expected_addresses": []}
+{"case_id": "V15R103", "category": "short-person-transfer-noisy", "text": "krm ke William Nasution", "expected_persons": ["William Nasution"], "expected_addresses": []}
+{"case_id": "V15R104", "category": "short-person-transfer-noisy", "text": "krm duit ke Clara Putra", "expected_persons": ["Clara Putra"], "expected_addresses": []}
+{"case_id": "V15R105", "category": "short-person-transfer-noisy", "text": "tf aja ke Siti Simanjuntak", "expected_persons": ["Siti Simanjuntak"], "expected_addresses": []}
+{"case_id": "V15R106", "category": "short-person-transfer-noisy", "text": "tsfr ke Steven", "expected_persons": ["Steven"], "expected_addresses": []}
+{"case_id": "V15R107", "category": "short-person-transfer-noisy", "text": "krm ke Slamet", "expected_persons": ["Slamet"], "expected_addresses": []}
+{"case_id": "V15R108", "category": "short-person-transfer-noisy", "text": "krm duit ke Natasha Warouw", "expected_persons": ["Natasha Warouw"], "expected_addresses": []}
+{"case_id": "V15R109", "category": "short-person-transfer-noisy", "text": "kiyim ke Rini", "expected_persons": ["Rini"], "expected_addresses": []}
+{"case_id": "V15R110", "category": "short-person-transfer-noisy", "text": "tf aja ke William Budiman", "expected_persons": ["William Budiman"], "expected_addresses": []}
+{"case_id": "V15R111", "category": "short-person-transfer-noisy", "text": "tsfr ke Felicia Hidayat Baswedan ya", "expected_persons": ["Felicia Hidayat Baswedan"], "expected_addresses": []}
+{"case_id": "V15R112", "category": "short-person-transfer-noisy", "text": "kiyim dana ke Tono", "expected_persons": ["Tono"], "expected_addresses": []}
+{"case_id": "V15R113", "category": "short-person-transfer-noisy", "text": "tsfr ke Natasha", "expected_persons": ["Natasha"], "expected_addresses": []}
+{"case_id": "V15R114", "category": "short-person-transfer-noisy", "text": "kiyim ke Budi", "expected_persons": ["Budi"], "expected_addresses": []}
+{"case_id": "V15R115", "category": "short-person-transfer-noisy", "text": "tf aja ke Rini Wicaksono", "expected_persons": ["Rini Wicaksono"], "expected_addresses": []}
+{"case_id": "V15R116", "category": "short-person-transfer-noisy", "text": "kiyim dana ke Rini Josephine Surya", "expected_persons": ["Rini Josephine Surya"], "expected_addresses": []}
+{"case_id": "V15R117", "category": "short-person-transfer-noisy", "text": "krm duit ke Michael", "expected_persons": ["Michael"], "expected_addresses": []}
+{"case_id": "V15R118", "category": "short-person-transfer-noisy", "text": "kiyim ke Christian Kartanegara", "expected_persons": ["Christian Kartanegara"], "expected_addresses": []}
+{"case_id": "V15R119", "category": "short-person-transfer-noisy", "text": "kiyim dana ke Eko", "expected_persons": ["Eko"], "expected_addresses": []}
+{"case_id": "V15R120", "category": "short-person-transfer-noisy", "text": "tsfr ke Christian", "expected_persons": ["Christian"], "expected_addresses": []}
+{"case_id": "V15R121", "category": "short-person-roadlike", "text": "Nama penerimanya Kyai Haji Mas Mansyur.", "expected_persons": ["Kyai Haji Mas Mansyur"], "expected_addresses": []}
+{"case_id": "V15R122", "category": "short-person-roadlike", "text": "Pemilik rekening tujuan Teuku Nyak Arief.", "expected_persons": ["Teuku Nyak Arief"], "expected_addresses": []}
+{"case_id": "V15R123", "category": "short-person-roadlike", "text": "Atas nama Haji Nawi.", "expected_persons": ["Haji Nawi"], "expected_addresses": []}
+{"case_id": "V15R124", "category": "short-person-roadlike", "text": "Atas nama Jenderal Basuki Rahmat.", "expected_persons": ["Jenderal Basuki Rahmat"], "expected_addresses": []}
+{"case_id": "V15R125", "category": "short-person-roadlike", "text": "Pemilik rekening tujuan Ki Hajar Dewantara.", "expected_persons": ["Ki Hajar Dewantara"], "expected_addresses": []}
+{"case_id": "V15R126", "category": "short-person-roadlike", "text": "Nama penerimanya Haji Nawi.", "expected_persons": ["Haji Nawi"], "expected_addresses": []}
+{"case_id": "V15R127", "category": "short-person-roadlike", "text": "Penerima transfernya Sultan Agung.", "expected_persons": ["Sultan Agung"], "expected_addresses": []}
+{"case_id": "V15R128", "category": "short-person-roadlike", "text": "Nama penerimanya Ki Hajar Dewantara.", "expected_persons": ["Ki Hajar Dewantara"], "expected_addresses": []}
+{"case_id": "V15R129", "category": "short-person-roadlike", "text": "Penerima transfernya Raden Intan.", "expected_persons": ["Raden Intan"], "expected_addresses": []}
+{"case_id": "V15R130", "category": "short-person-roadlike", "text": "Atas nama Roeslan Abdulgani.", "expected_persons": ["Roeslan Abdulgani"], "expected_addresses": []}
+{"case_id": "V15R131", "category": "short-person-roadlike", "text": "Atas nama Fatmawati.", "expected_persons": ["Fatmawati"], "expected_addresses": []}
+{"case_id": "V15R132", "category": "short-person-roadlike", "text": "Nama penerimanya Abdul Muis.", "expected_persons": ["Abdul Muis"], "expected_addresses": []}
+{"case_id": "V15R133", "category": "short-person-roadlike", "text": "Atas nama Sultan Hasanuddin.", "expected_persons": ["Sultan Hasanuddin"], "expected_addresses": []}
+{"case_id": "V15R134", "category": "short-person-roadlike", "text": "Nama pemilik rekeningnya Letnan Jenderal Hertasning.", "expected_persons": ["Letnan Jenderal Hertasning"], "expected_addresses": []}
+{"case_id": "V15R135", "category": "short-person-roadlike", "text": "Nama pemilik rekeningnya Ki Hajar Dewantara.", "expected_persons": ["Ki Hajar Dewantara"], "expected_addresses": []}
+{"case_id": "V15R136", "category": "short-person-roadlike", "text": "Pemilik rekening tujuan Wage Rudolf Supratman.", "expected_persons": ["Wage Rudolf Supratman"], "expected_addresses": []}
+{"case_id": "V15R137", "category": "short-person-roadlike", "text": "Pemilik rekening tujuan Yos Sudarso.", "expected_persons": ["Yos Sudarso"], "expected_addresses": []}
+{"case_id": "V15R138", "category": "short-person-roadlike", "text": "Nama penerimanya Sultan Hasanuddin.", "expected_persons": ["Sultan Hasanuddin"], "expected_addresses": []}
+{"case_id": "V15R139", "category": "short-person-roadlike", "text": "Nama pemilik rekeningnya Martha Christina Tiahahu.", "expected_persons": ["Martha Christina Tiahahu"], "expected_addresses": []}
+{"case_id": "V15R140", "category": "short-person-roadlike", "text": "Nama pemilik rekeningnya Dewi Sartika.", "expected_persons": ["Dewi Sartika"], "expected_addresses": []}
+{"case_id": "V15R141", "category": "short-address-raw-abbrev", "text": "jl Panglima Polim Raya No 21", "expected_persons": [], "expected_addresses": ["jl Panglima Polim Raya No 21"]}
+{"case_id": "V15R142", "category": "short-address-raw-abbrev", "text": "jln U. Sumoharjo no 83", "expected_persons": [], "expected_addresses": ["jln U. Sumoharjo no 83"]}
+{"case_id": "V15R143", "category": "short-address-raw-abbrev", "text": "jl U. Sumoharjo No. 14", "expected_persons": [], "expected_addresses": ["jl U. Sumoharjo No. 14"]}
+{"case_id": "V15R144", "category": "short-address-raw-abbrev", "text": "jl Sudirman no 78", "expected_persons": [], "expected_addresses": ["jl Sudirman no 78"]}
+{"case_id": "V15R145", "category": "short-address-raw-abbrev", "text": "Jln T. B. Simatupang No 11", "expected_persons": [], "expected_addresses": ["Jln T. B. Simatupang No 11"]}
+{"case_id": "V15R146", "category": "short-address-raw-abbrev", "text": "Jln. Letnan Jenderal Suprapto no. 20", "expected_persons": [], "expected_addresses": ["Jln. Letnan Jenderal Suprapto no. 20"]}
+{"case_id": "V15R147", "category": "short-address-raw-abbrev", "text": "Jln. Senopati No 96", "expected_persons": [], "expected_addresses": ["Jln. Senopati No 96"]}
+{"case_id": "V15R148", "category": "short-address-raw-abbrev", "text": "Jln Dr. Setiabudi no. 99", "expected_persons": [], "expected_addresses": ["Jln Dr. Setiabudi no. 99"]}
+{"case_id": "V15R149", "category": "short-address-raw-abbrev", "text": "Jln Merdeka Raya no 67", "expected_persons": [], "expected_addresses": ["Jln Merdeka Raya no 67"]}
+{"case_id": "V15R150", "category": "short-address-raw-abbrev", "text": "jl. Mohammad Husni Thamrin No 42", "expected_persons": [], "expected_addresses": ["jl. Mohammad Husni Thamrin No 42"]}
+{"case_id": "V15R151", "category": "short-address-raw-abbrev", "text": "jln. Siliwangi Barat no. 46", "expected_persons": [], "expected_addresses": ["jln. Siliwangi Barat no. 46"]}
+{"case_id": "V15R152", "category": "short-address-raw-abbrev", "text": "jln. Hayam Wuruk No 67", "expected_persons": [], "expected_addresses": ["jln. Hayam Wuruk No 67"]}
+{"case_id": "V15R153", "category": "short-address-raw-abbrev", "text": "Jln Laksamana Malahayati no 13", "expected_persons": [], "expected_addresses": ["Jln Laksamana Malahayati no 13"]}
+{"case_id": "V15R154", "category": "short-address-raw-abbrev", "text": "jl Dago No 80", "expected_persons": [], "expected_addresses": ["jl Dago No 80"]}
+{"case_id": "V15R155", "category": "short-address-raw-abbrev", "text": "jl. Kemang Raya no. 69", "expected_persons": [], "expected_addresses": ["jl. Kemang Raya no. 69"]}
+{"case_id": "V15R156", "category": "short-address-raw-abbrev", "text": "gg. Kemang Raya No 17", "expected_persons": [], "expected_addresses": ["gg. Kemang Raya No 17"]}
+{"case_id": "V15R157", "category": "short-address-raw-abbrev", "text": "Gg. Siliwangi Barat No. 73", "expected_persons": [], "expected_addresses": ["Gg. Siliwangi Barat No. 73"]}
+{"case_id": "V15R158", "category": "short-address-raw-abbrev", "text": "Gg Cibaduyut no. 76", "expected_persons": [], "expected_addresses": ["Gg Cibaduyut no. 76"]}
+{"case_id": "V15R159", "category": "short-address-raw-abbrev", "text": "jl Setiabudi no. 50", "expected_persons": [], "expected_addresses": ["jl Setiabudi no. 50"]}
+{"case_id": "V15R160", "category": "short-address-raw-abbrev", "text": "jln M. T. Haryono no. 11", "expected_persons": [], "expected_addresses": ["jln M. T. Haryono no. 11"]}
+{"case_id": "V15R161", "category": "short-address-raw-full", "text": "Jalan Teuku Umar Nomor 79", "expected_persons": [], "expected_addresses": ["Jalan Teuku Umar Nomor 79"]}
+{"case_id": "V15R162", "category": "short-address-raw-full", "text": "Jalan Kapten Pierre Tendean Nomor 27", "expected_persons": [], "expected_addresses": ["Jalan Kapten Pierre Tendean Nomor 27"]}
+{"case_id": "V15R163", "category": "short-address-raw-full", "text": "Gang Asia Afrika nomor 40", "expected_persons": [], "expected_addresses": ["Gang Asia Afrika nomor 40"]}
+{"case_id": "V15R164", "category": "short-address-raw-full", "text": "Gang Jenderal Achmad Yani Nomor 41", "expected_persons": [], "expected_addresses": ["Gang Jenderal Achmad Yani Nomor 41"]}
+{"case_id": "V15R165", "category": "short-address-raw-full", "text": "Gang Siliwangi nomor 59", "expected_persons": [], "expected_addresses": ["Gang Siliwangi nomor 59"]}
+{"case_id": "V15R166", "category": "short-address-raw-full", "text": "Jalan Kyai Haji Wahid Hasyim nomor 94", "expected_persons": [], "expected_addresses": ["Jalan Kyai Haji Wahid Hasyim nomor 94"]}
+{"case_id": "V15R167", "category": "short-address-raw-full", "text": "Gang Laksamana Malahayati nomor 24", "expected_persons": [], "expected_addresses": ["Gang Laksamana Malahayati nomor 24"]}
+{"case_id": "V15R168", "category": "short-address-raw-full", "text": "jalan Pahlawan Nomor 87", "expected_persons": [], "expected_addresses": ["jalan Pahlawan Nomor 87"]}
+{"case_id": "V15R169", "category": "short-address-raw-full", "text": "jalan Gajah Mada nomor 26", "expected_persons": [], "expected_addresses": ["jalan Gajah Mada nomor 26"]}
+{"case_id": "V15R170", "category": "short-address-raw-full", "text": "jalan Laksamana Malahayati Nomor 76", "expected_persons": [], "expected_addresses": ["jalan Laksamana Malahayati Nomor 76"]}
+{"case_id": "V15R171", "category": "short-address-raw-full", "text": "jalan Urip Sumoharjo Nomor 54", "expected_persons": [], "expected_addresses": ["jalan Urip Sumoharjo Nomor 54"]}
+{"case_id": "V15R172", "category": "short-address-raw-full", "text": "jalan Setiabudi Nomor 86", "expected_persons": [], "expected_addresses": ["jalan Setiabudi Nomor 86"]}
+{"case_id": "V15R173", "category": "short-address-raw-full", "text": "Jalan Gajah Mada nomor 83", "expected_persons": [], "expected_addresses": ["Jalan Gajah Mada nomor 83"]}
+{"case_id": "V15R174", "category": "short-address-raw-full", "text": "Jalan Kapten Pierre Tendean Nomor 18", "expected_persons": [], "expected_addresses": ["Jalan Kapten Pierre Tendean Nomor 18"]}
+{"case_id": "V15R175", "category": "short-address-raw-full", "text": "Gang Gajah Mada nomor 70", "expected_persons": [], "expected_addresses": ["Gang Gajah Mada nomor 70"]}
+{"case_id": "V15R176", "category": "short-address-raw-full", "text": "Jalan Jenderal Gatot Subroto nomor 8", "expected_persons": [], "expected_addresses": ["Jalan Jenderal Gatot Subroto nomor 8"]}
+{"case_id": "V15R177", "category": "short-address-raw-full", "text": "Jalan Jenderal Achmad Yani nomor 5", "expected_persons": [], "expected_addresses": ["Jalan Jenderal Achmad Yani nomor 5"]}
+{"case_id": "V15R178", "category": "short-address-raw-full", "text": "Jalan Raden Saleh Nomor 54", "expected_persons": [], "expected_addresses": ["Jalan Raden Saleh Nomor 54"]}
+{"case_id": "V15R179", "category": "short-address-raw-full", "text": "Jalan Malioboro Nomor 90", "expected_persons": [], "expected_addresses": ["Jalan Malioboro Nomor 90"]}
+{"case_id": "V15R180", "category": "short-address-raw-full", "text": "Jalan Mayor Jenderal DI Panjaitan Nomor 94", "expected_persons": [], "expected_addresses": ["Jalan Mayor Jenderal DI Panjaitan Nomor 94"]}
+{"case_id": "V15R181", "category": "short-address-block-unit", "text": "Cluster Kebon Sirih blok IA no. 84", "expected_persons": [], "expected_addresses": ["Cluster Kebon Sirih blok IA no. 84"]}
+{"case_id": "V15R182", "category": "short-address-block-unit", "text": "Gang U. Sumoharjo nomor 59", "expected_persons": [], "expected_addresses": ["Gang U. Sumoharjo nomor 59"]}
+{"case_id": "V15R183", "category": "short-address-block-unit", "text": "Perumahan Jend. Gatot Subroto blk. VIII1 Nomor 64", "expected_persons": [], "expected_addresses": ["Perumahan Jend. Gatot Subroto blk. VIII1 Nomor 64"]}
+{"case_id": "V15R184", "category": "short-address-block-unit", "text": "Unit 19A, Apartemen Laks. Malahayati", "expected_persons": [], "expected_addresses": ["Unit 19A, Apartemen Laks. Malahayati"]}
+{"case_id": "V15R185", "category": "short-address-block-unit", "text": "Kavling Senopati no. 43", "expected_persons": [], "expected_addresses": ["Kavling Senopati no. 43"]}
+{"case_id": "V15R186", "category": "short-address-block-unit", "text": "Blk. IV2 no 16, Laks. Malahayati", "expected_persons": [], "expected_addresses": ["Blk. IV2 no 16, Laks. Malahayati"]}
+{"case_id": "V15R187", "category": "short-address-block-unit", "text": "blok X1 No 23, Sumpah Pemuda", "expected_persons": [], "expected_addresses": ["blok X1 No 23, Sumpah Pemuda"]}
+{"case_id": "V15R188", "category": "short-address-block-unit", "text": "blk. III1 no 58, Jend. A. Yani", "expected_persons": [], "expected_addresses": ["blk. III1 no 58, Jend. A. Yani"]}
+{"case_id": "V15R189", "category": "short-address-block-unit", "text": "Ruko Blk. VI1 no. 30, Kebon Sirih", "expected_persons": [], "expected_addresses": ["Ruko Blk. VI1 no. 30, Kebon Sirih"]}
+{"case_id": "V15R190", "category": "short-address-block-unit", "text": "Perumahan Cikini Raya Blk. VII No. 21", "expected_persons": [], "expected_addresses": ["Perumahan Cikini Raya Blk. VII No. 21"]}
+{"case_id": "V15R191", "category": "short-address-block-unit", "text": "Unit 13B, Apartemen Senopati", "expected_persons": [], "expected_addresses": ["Unit 13B, Apartemen Senopati"]}
+{"case_id": "V15R192", "category": "short-address-block-unit", "text": "Gang Jend. Sudirman Nomor 34", "expected_persons": [], "expected_addresses": ["Gang Jend. Sudirman Nomor 34"]}
+{"case_id": "V15R193", "category": "short-address-block-unit", "text": "blok VB nomor 19, Mas Tirtodarmo Haryono", "expected_persons": [], "expected_addresses": ["blok VB nomor 19, Mas Tirtodarmo Haryono"]}
+{"case_id": "V15R194", "category": "short-address-block-unit", "text": "Cluster Setiabudi Blk X2 no. 37", "expected_persons": [], "expected_addresses": ["Cluster Setiabudi Blk X2 no. 37"]}
+{"case_id": "V15R195", "category": "short-address-block-unit", "text": "blk. VIB No 62, K.H. Wahid Hasyim", "expected_persons": [], "expected_addresses": ["blk. VIB No 62, K.H. Wahid Hasyim"]}
+{"case_id": "V15R196", "category": "short-address-block-unit", "text": "Unit 15C, Apartemen Urip Sumoharjo", "expected_persons": [], "expected_addresses": ["Unit 15C, Apartemen Urip Sumoharjo"]}
+{"case_id": "V15R197", "category": "short-address-block-unit", "text": "Perumahan M. H. Thamrin Blk I1 Nomor 62", "expected_persons": [], "expected_addresses": ["Perumahan M. H. Thamrin Blk I1 Nomor 62"]}
+{"case_id": "V15R198", "category": "short-address-block-unit", "text": "Cluster Letjend Suprapto Blok II2 no. 80", "expected_persons": [], "expected_addresses": ["Cluster Letjend Suprapto Blok II2 no. 80"]}
+{"case_id": "V15R199", "category": "short-address-block-unit", "text": "Cluster H. O. S. Cokroaminoto Blk. IIIB no. 58", "expected_persons": [], "expected_addresses": ["Cluster H. O. S. Cokroaminoto Blk. IIIB no. 58"]}
+{"case_id": "V15R200", "category": "short-address-block-unit", "text": "Ruko Blok X1 no. 45, Mohammad Husni Thamrin", "expected_persons": [], "expected_addresses": ["Ruko Blok X1 no. 45, Mohammad Husni Thamrin"]}
+{"case_id": "V15R201", "category": "short-address-answer-formal", "text": "Lokasi rumahnya di Cluster Tahi Bonar Simatupang blk VIIIB No. 95.", "expected_persons": [], "expected_addresses": ["Cluster Tahi Bonar Simatupang blk VIIIB No. 95"]}
+{"case_id": "V15R202", "category": "short-address-answer-formal", "text": "Alamat objeknya Perumahan T. B. Simatupang Blok IXB no. 24.", "expected_persons": [], "expected_addresses": ["Perumahan T. B. Simatupang Blok IXB no. 24"]}
+{"case_id": "V15R203", "category": "short-address-answer-formal", "text": "Alamat objeknya Gang Jenderal Gatot Subroto Nomor 21.", "expected_persons": [], "expected_addresses": ["Gang Jenderal Gatot Subroto Nomor 21"]}
+{"case_id": "V15R204", "category": "short-address-answer-formal", "text": "Alamat objeknya Komplek Braga blok VIIIA Nomor 20.", "expected_persons": [], "expected_addresses": ["Komplek Braga blok VIIIA Nomor 20"]}
+{"case_id": "V15R205", "category": "short-address-answer-formal", "text": "Alamat objeknya gg T. Umar no. 94.", "expected_persons": [], "expected_addresses": ["gg T. Umar no. 94"]}
+{"case_id": "V15R206", "category": "short-address-answer-formal", "text": "Alamat rumahnya di Unit 4A, Apartemen Jend. Gatot Subroto.", "expected_persons": [], "expected_addresses": ["Unit 4A, Apartemen Jend. Gatot Subroto"]}
+{"case_id": "V15R207", "category": "short-address-answer-formal", "text": "Lokasi rumahnya di Perumahan Haji Agus Salim blk IX no 51.", "expected_persons": [], "expected_addresses": ["Perumahan Haji Agus Salim blk IX no 51"]}
+{"case_id": "V15R208", "category": "short-address-answer-formal", "text": "Alamat rumahnya di jl. Hayam Wuruk no. 48.", "expected_persons": [], "expected_addresses": ["jl. Hayam Wuruk no. 48"]}
+{"case_id": "V15R209", "category": "short-address-answer-formal", "text": "Alamat objeknya jln Kapten Pierre Tendean No. 3.", "expected_persons": [], "expected_addresses": ["jln Kapten Pierre Tendean No. 3"]}
+{"case_id": "V15R210", "category": "short-address-answer-formal", "text": "Lokasi rumahnya di Jln Cihampelas No 68.", "expected_persons": [], "expected_addresses": ["Jln Cihampelas No 68"]}
+{"case_id": "V15R211", "category": "short-address-answer-formal", "text": "Alamat rumahnya di Gg Laksamana Malahayati no 29.", "expected_persons": [], "expected_addresses": ["Gg Laksamana Malahayati no 29"]}
+{"case_id": "V15R212", "category": "short-address-answer-formal", "text": "Alamat objeknya Perumahan Hayam Wuruk blk II Nomor 56.", "expected_persons": [], "expected_addresses": ["Perumahan Hayam Wuruk blk II Nomor 56"]}
+{"case_id": "V15R213", "category": "short-address-answer-formal", "text": "Lokasi rumahnya di Perumahan Malioboro blk. II1 no 69.", "expected_persons": [], "expected_addresses": ["Perumahan Malioboro blk. II1 no 69"]}
+{"case_id": "V15R214", "category": "short-address-answer-formal", "text": "Lokasi rumahnya di Jalan Cipaganti Nomor 77.", "expected_persons": [], "expected_addresses": ["Jalan Cipaganti Nomor 77"]}
+{"case_id": "V15R215", "category": "short-address-answer-formal", "text": "Lokasi rumahnya di jalan Cibaduyut nomor 98.", "expected_persons": [], "expected_addresses": ["jalan Cibaduyut nomor 98"]}
+{"case_id": "V15R216", "category": "short-address-answer-formal", "text": "Rumah yang dibayar ada di Gang Pasirkaliki nomor 38.", "expected_persons": [], "expected_addresses": ["Gang Pasirkaliki nomor 38"]}
+{"case_id": "V15R217", "category": "short-address-answer-formal", "text": "Alamat objeknya jl Teuku Umar No 93.", "expected_persons": [], "expected_addresses": ["jl Teuku Umar No 93"]}
+{"case_id": "V15R218", "category": "short-address-answer-formal", "text": "Lokasi rumahnya di Jln Cikini Raya No 8.", "expected_persons": [], "expected_addresses": ["Jln Cikini Raya No 8"]}
+{"case_id": "V15R219", "category": "short-address-answer-formal", "text": "Rumah yang dibayar ada di Perumahan Hayam Wuruk blok IB No 35.", "expected_persons": [], "expected_addresses": ["Perumahan Hayam Wuruk blok IB No 35"]}
+{"case_id": "V15R220", "category": "short-address-answer-formal", "text": "Alamat rumahnya di Gang Urip Sumoharjo No 1.", "expected_persons": [], "expected_addresses": ["Gang Urip Sumoharjo No 1"]}
+{"case_id": "V15R221", "category": "short-address-answer-noisy", "text": "alamat objknya kavling asia-afrika nomor 61", "expected_persons": [], "expected_addresses": ["kavling asia-afrika nomor 61"]}
+{"case_id": "V15R222", "category": "short-address-answer-noisy", "text": "rmh yg dibayar di jalan cihampelas nomor 20", "expected_persons": [], "expected_addresses": ["jalan cihampelas nomor 20"]}
+{"case_id": "V15R223", "category": "short-address-answer-noisy", "text": "lokasi rmhnya di jalan letnan jenderal suprapto nomor 12", "expected_persons": [], "expected_addresses": ["jalan letnan jenderal suprapto nomor 12"]}
+{"case_id": "V15R224", "category": "short-address-answer-noisy", "text": "rmh yg mau dibayar di ruko blk. iv2 no. 64, k. h. ahmad dahlan", "expected_persons": [], "expected_addresses": ["ruko blk. iv2 no. 64, k. h. ahmad dahlan"]}
+{"case_id": "V15R225", "category": "short-address-answer-noisy", "text": "rmh yg dibayar di perumahan h. agus salim blk. iiib nomor 52", "expected_persons": [], "expected_addresses": ["perumahan h. agus salim blk. iiib nomor 52"]}
+{"case_id": "V15R226", "category": "short-address-answer-noisy", "text": "rmh yg mau dibayar di unit 18c, apartemen h. o. s. cokroaminoto", "expected_persons": [], "expected_addresses": ["unit 18c, apartemen h. o. s. cokroaminoto"]}
+{"case_id": "V15R227", "category": "short-address-answer-noisy", "text": "lokasi rmhnya di gang laksamana malahayati nomor 40", "expected_persons": [], "expected_addresses": ["gang laksamana malahayati nomor 40"]}
+{"case_id": "V15R228", "category": "short-address-answer-noisy", "text": "lokasi rmhnya di gang u. sumoharjo no 1", "expected_persons": [], "expected_addresses": ["gang u. sumoharjo no 1"]}
+{"case_id": "V15R229", "category": "short-address-answer-noisy", "text": "lokasi rmhnya di gg haji oemar said cokroaminoto no. 26", "expected_persons": [], "expected_addresses": ["gg haji oemar said cokroaminoto no. 26"]}
+{"case_id": "V15R230", "category": "short-address-answer-noisy", "text": "alamat objknya gang laksamana malahayati nomor 60", "expected_persons": [], "expected_addresses": ["gang laksamana malahayati nomor 60"]}
+{"case_id": "V15R231", "category": "short-address-answer-noisy", "text": "rmh yg mau dibayar di perumahan panglima polim blk iv2 no. 94", "expected_persons": [], "expected_addresses": ["perumahan panglima polim blk iv2 no. 94"]}
+{"case_id": "V15R232", "category": "short-address-answer-noisy", "text": "rmh yg mau dibayar di gg. m. t. haryono no. 30", "expected_persons": [], "expected_addresses": ["gg. m. t. haryono no. 30"]}
+{"case_id": "V15R233", "category": "short-address-answer-noisy", "text": "alamat objknya kavling gajah mada no. 27", "expected_persons": [], "expected_addresses": ["kavling gajah mada no. 27"]}
+{"case_id": "V15R234", "category": "short-address-answer-noisy", "text": "alamat objknya cluster raden aa. wiranata kusuma blk. x2 nomor 59", "expected_persons": [], "expected_addresses": ["cluster raden aa. wiranata kusuma blk. x2 nomor 59"]}
+{"case_id": "V15R235", "category": "short-address-answer-noisy", "text": "alamat rmhnya di jalan kemang raya nomor 20", "expected_persons": [], "expected_addresses": ["jalan kemang raya nomor 20"]}
+{"case_id": "V15R236", "category": "short-address-answer-noisy", "text": "lokasinya di unit 10b, apartemen hayam wuruk", "expected_persons": [], "expected_addresses": ["unit 10b, apartemen hayam wuruk"]}
+{"case_id": "V15R237", "category": "short-address-answer-noisy", "text": "alamat objknya gg cikini raya no. 36", "expected_persons": [], "expected_addresses": ["gg cikini raya no. 36"]}
+{"case_id": "V15R238", "category": "short-address-answer-noisy", "text": "lokasi rmhnya di jalan laksamana malahayati nomor 78", "expected_persons": [], "expected_addresses": ["jalan laksamana malahayati nomor 78"]}
+{"case_id": "V15R239", "category": "short-address-answer-noisy", "text": "rmh yg mau dibayar di jln. cihampelas no. 63", "expected_persons": [], "expected_addresses": ["jln. cihampelas no. 63"]}
+{"case_id": "V15R240", "category": "short-address-answer-noisy", "text": "rmh yg mau dibayar di jalan sudirman nomor 70", "expected_persons": [], "expected_addresses": ["jalan sudirman nomor 70"]}
+{"case_id": "V15R241", "category": "short-address-roadlike", "text": "Alamat rumahnya jalan I Gusti Ngurah Rai nomor 45.", "expected_persons": [], "expected_addresses": ["jalan I Gusti Ngurah Rai nomor 45"]}
+{"case_id": "V15R242", "category": "short-address-roadlike", "text": "Rumah yang dibayar di Jalan Wage Rudolf Supratman Nomor 54.", "expected_persons": [], "expected_addresses": ["Jalan Wage Rudolf Supratman Nomor 54"]}
+{"case_id": "V15R243", "category": "short-address-roadlike", "text": "Jalan Kapitan Pattimura Nomor 92", "expected_persons": [], "expected_addresses": ["Jalan Kapitan Pattimura Nomor 92"]}
+{"case_id": "V15R244", "category": "short-address-roadlike", "text": "Lokasi rumahnya jalan Letnan Jenderal Hertasning nomor 41.", "expected_persons": [], "expected_addresses": ["jalan Letnan Jenderal Hertasning nomor 41"]}
+{"case_id": "V15R245", "category": "short-address-roadlike", "text": "Alamat rumahnya Jalan Raden Intan nomor 8.", "expected_persons": [], "expected_addresses": ["Jalan Raden Intan nomor 8"]}
+{"case_id": "V15R246", "category": "short-address-roadlike", "text": "Lokasi rumahnya jalan Ignatius Slamet Riyadi nomor 21.", "expected_persons": [], "expected_addresses": ["jalan Ignatius Slamet Riyadi nomor 21"]}
+{"case_id": "V15R247", "category": "short-address-roadlike", "text": "Lokasi rumahnya Gang Ignatius Slamet Riyadi Nomor 97.", "expected_persons": [], "expected_addresses": ["Gang Ignatius Slamet Riyadi Nomor 97"]}
+{"case_id": "V15R248", "category": "short-address-roadlike", "text": "Lokasi rumahnya Gang Kolonel Sugiono nomor 44.", "expected_persons": [], "expected_addresses": ["Gang Kolonel Sugiono nomor 44"]}
+{"case_id": "V15R249", "category": "short-address-roadlike", "text": "Rumah yang dibayar di Jalan Sultan Hasanuddin Nomor 76.", "expected_persons": [], "expected_addresses": ["Jalan Sultan Hasanuddin Nomor 76"]}
+{"case_id": "V15R250", "category": "short-address-roadlike", "text": "Alamat objeknya Gang Brigadir Jenderal Katamso Nomor 22.", "expected_persons": [], "expected_addresses": ["Gang Brigadir Jenderal Katamso Nomor 22"]}
+{"case_id": "V15R251", "category": "short-address-roadlike", "text": "Jalan Teuku Nyak Arief nomor 32", "expected_persons": [], "expected_addresses": ["Jalan Teuku Nyak Arief nomor 32"]}
+{"case_id": "V15R252", "category": "short-address-roadlike", "text": "Alamat objeknya Gang Mochtar Lubis Nomor 64.", "expected_persons": [], "expected_addresses": ["Gang Mochtar Lubis Nomor 64"]}
+{"case_id": "V15R253", "category": "short-address-roadlike", "text": "Alamat rumahnya Gang Mayor Oking nomor 29.", "expected_persons": [], "expected_addresses": ["Gang Mayor Oking nomor 29"]}
+{"case_id": "V15R254", "category": "short-address-roadlike", "text": "Rumah yang dibayar di jalan Kyai Haji Mas Mansyur Nomor 41.", "expected_persons": [], "expected_addresses": ["jalan Kyai Haji Mas Mansyur Nomor 41"]}
+{"case_id": "V15R255", "category": "short-address-roadlike", "text": "Jalan Pangeran Diponegoro nomor 64", "expected_persons": [], "expected_addresses": ["Jalan Pangeran Diponegoro nomor 64"]}
+{"case_id": "V15R256", "category": "short-address-roadlike", "text": "Lokasi rumahnya Jalan Prof. Dr. Satrio nomor 59.", "expected_persons": [], "expected_addresses": ["Jalan Prof. Dr. Satrio nomor 59"]}
+{"case_id": "V15R257", "category": "short-address-roadlike", "text": "Lokasi rumahnya jalan Roeslan Abdulgani Nomor 14.", "expected_persons": [], "expected_addresses": ["jalan Roeslan Abdulgani Nomor 14"]}
+{"case_id": "V15R258", "category": "short-address-roadlike", "text": "Rumah yang dibayar di jalan Brigadir Jenderal Katamso nomor 1.", "expected_persons": [], "expected_addresses": ["jalan Brigadir Jenderal Katamso nomor 1"]}
+{"case_id": "V15R259", "category": "short-address-roadlike", "text": "Lokasi rumahnya jalan Raden Ajeng Kartini nomor 93.", "expected_persons": [], "expected_addresses": ["jalan Raden Ajeng Kartini nomor 93"]}
+{"case_id": "V15R260", "category": "short-address-roadlike", "text": "Rumah yang dibayar di jalan Halim Perdanakusuma nomor 56.", "expected_persons": [], "expected_addresses": ["jalan Halim Perdanakusuma nomor 56"]}
+{"case_id": "V15R261", "category": "short-control-transfer-fields", "text": "Bank tujuannya Bank Jateng.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R262", "category": "short-control-transfer-fields", "text": "Pakai saldo tabungan.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R263", "category": "short-control-transfer-fields", "text": "Nominalnya 250 ribu.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R264", "category": "short-control-transfer-fields", "text": "Nomor rekening tujuannya 7778429412.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R265", "category": "short-control-transfer-fields", "text": "Transfernya antarbank.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R266", "category": "short-control-transfer-fields", "text": "Nomor rekening tujuannya 7715384367.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R267", "category": "short-control-transfer-fields", "text": "Bank tujuannya Mandiri.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R268", "category": "short-control-transfer-fields", "text": "Bank tujuannya BNI.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R269", "category": "short-control-transfer-fields", "text": "Langsung transfer saja.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R270", "category": "short-control-transfer-fields", "text": "Pakai rekening sumber utama.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R271", "category": "short-control-transfer-fields", "text": "Sumber dananya dari rekening gaji.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R272", "category": "short-control-transfer-fields", "text": "Bank tujuannya Maybank.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R273", "category": "short-control-transfer-fields", "text": "Biaya admin tidak masalah.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R274", "category": "short-control-transfer-fields", "text": "Bank tujuannya Bank DKI.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R275", "category": "short-control-transfer-fields", "text": "Transfernya sesama bank.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R276", "category": "short-control-transfer-fields", "text": "Nominalnya 1 juta.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R277", "category": "short-control-transfer-fields", "text": "Nominalnya 750 ribu.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R278", "category": "short-control-transfer-fields", "text": "Bank tujuannya Panin.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R279", "category": "short-control-transfer-fields", "text": "Nominalnya 500 ribu.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R280", "category": "short-control-transfer-fields", "text": "Bank tujuannya CIMB Niaga.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R281", "category": "short-control-payment-fields", "text": "Tagihan listrik bulan ini ya", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R282", "category": "short-control-payment-fields", "text": "IDPEL-nya 5412125256.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R283", "category": "short-control-payment-fields", "text": "Tolong bantu bayarkan tagihan listrik", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R284", "category": "short-control-payment-fields", "text": "Tolong bayarkan tagian listrik bulan ini", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R285", "category": "short-control-payment-fields", "text": "IDPEL-nya 5441675125.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R286", "category": "short-control-payment-fields", "text": "Pakai saldo tabungan saja untuk pembayaran.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R287", "category": "short-control-payment-fields", "text": "Pakai rekening utama ya untuk bayarnya.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R288", "category": "short-control-payment-fields", "text": "Bayar tagihan listrik", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R289", "category": "short-control-payment-fields", "text": "Yang dibayar adalah tagihan listrik bulan ini.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R290", "category": "short-control-payment-fields", "text": "IDPEL-nya 5422395211.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R291", "category": "short-control-payment-fields", "text": "IDPEL-nya 5425356459.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R292", "category": "short-control-payment-fields", "text": "ID pelanggan listriknya 5493359836.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R293", "category": "short-control-payment-fields", "text": "ID pelanggan listriknya 5456970599.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R294", "category": "short-control-payment-fields", "text": "IDPEL-nya 5495544843.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R295", "category": "short-control-payment-fields", "text": "IDPEL-nya 5445960009.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R296", "category": "short-control-payment-fields", "text": "Pembayarannya untuk tagihan bulan ini.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R297", "category": "short-control-payment-fields", "text": "ID pelanggan listriknya 5441904961.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R298", "category": "short-control-payment-fields", "text": "IDPEL-nya 5453172340.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R299", "category": "short-control-payment-fields", "text": "ID pelanggan listriknya 5448977228.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R300", "category": "short-control-payment-fields", "text": "ID pelanggan listriknya 5469131709.", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R301", "category": "short-control-noisy", "text": "nominal 1jt", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R302", "category": "short-control-noisy", "text": "nominal 750rb", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R303", "category": "short-control-noisy", "text": "nominal 1,5jt", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R304", "category": "short-control-noisy", "text": "ada biaya admin jg gpp", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R305", "category": "short-control-noisy", "text": "idpel 5499900452", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R306", "category": "short-control-noisy", "text": "tlg byr listrik bln ini", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R307", "category": "short-control-noisy", "text": "idpel 5450099770", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R308", "category": "short-control-noisy", "text": "pke rek utama", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R309", "category": "short-control-noisy", "text": "no rek tujuan 7792351762", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R310", "category": "short-control-noisy", "text": "no rek tujuan 7787822811", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R311", "category": "short-control-noisy", "text": "bank tujuan bank jago", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R312", "category": "short-control-noisy", "text": "idpel 5421328514", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R313", "category": "short-control-noisy", "text": "trf sesama bank aja", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R314", "category": "short-control-noisy", "text": "dri saldo tabungan y", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R315", "category": "short-control-noisy", "text": "idpel 5486892194", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R316", "category": "short-control-noisy", "text": "bank tujuan bsi", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R317", "category": "short-control-noisy", "text": "trf antar bank aja", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R318", "category": "short-control-noisy", "text": "bank tujuan maybank", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R319", "category": "short-control-noisy", "text": "no rek tujuan 7743387927", "expected_persons": [], "expected_addresses": []}
+{"case_id": "V15R320", "category": "short-control-noisy", "text": "bank tujuan bni", "expected_persons": [], "expected_addresses": []}

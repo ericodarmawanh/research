@@ -1,0 +1,7 @@
+slice,service,model_label,cases,gold_person_cases,gold_address_cases,control_cases,person_tp,person_fp,person_fn,address_tp,address_fp,address_fn,person_precision,person_recall,person_f1,address_precision,address_recall,address_f1,full_exact_match_rate,mean_process_time_ms,median_process_time_ms,p95_process_time_ms
+formal,finetuned,Fine-tuned IndoBERT v14,180,60,80,40,55,7,5,72,12,8,0.8871,0.9167,0.9016,0.8571,0.9,0.878,0.9222,38.372,36.252,61.108
+formal,sealion,SEA-LION,180,60,80,40,44,18,16,77,3,3,0.7097,0.7333,0.7213,0.9625,0.9625,0.9625,0.8944,7109.179,6887.904,10836.01
+formal,ner,cahya/bert-base-indonesian-NER,180,60,80,40,48,31,12,18,34,62,0.6076,0.8,0.6906,0.3462,0.225,0.2727,0.5389,59.139,56.995,78.669
+noisy,finetuned,Fine-tuned IndoBERT v14,80,40,20,20,37,3,3,18,4,2,0.925,0.925,0.925,0.8182,0.9,0.8571,0.9375,33.093,30.466,54.651
+noisy,sealion,SEA-LION,80,40,20,20,38,2,2,18,1,2,0.95,0.95,0.95,0.9474,0.9,0.9231,0.95,7018.84,6479.844,11948.999
+noisy,ner,cahya/bert-base-indonesian-NER,80,40,20,20,31,25,9,2,12,18,0.5536,0.775,0.6458,0.1429,0.1,0.1176,0.575,58.11,55.55,75.438

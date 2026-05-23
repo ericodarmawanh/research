@@ -1,0 +1,1172 @@
+[
+  {
+    "id": "CAT1_FORMAL_1",
+    "category": "transfer_instruction_name",
+    "style": "formal",
+    "prompt": "User: \"Tolong transfer dana ke rekening [token-ent: 101] sekarang.\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 101]",
+        "address": null
+      },
+      "action": "search_account_by_name"
+    }
+  },
+  {
+    "id": "CAT1_FORMAL_2",
+    "category": "transfer_instruction_name",
+    "style": "formal",
+    "prompt": "User: \"Mohon kirimkan uang sebesar 50000 kepada [token-ent: 102].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 102]",
+        "address": null
+      },
+      "action": "search_account_by_name"
+    }
+  },
+  {
+    "id": "CAT1_FORMAL_3",
+    "category": "transfer_instruction_name",
+    "style": "formal",
+    "prompt": "User: \"Saya ingin melakukan transfer ke akun atas nama [token-ent: 103].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 103]",
+        "address": null
+      },
+      "action": "search_account_by_name"
+    }
+  },
+  {
+    "id": "CAT1_FORMAL_4",
+    "category": "transfer_instruction_name",
+    "style": "formal",
+    "prompt": "User: \"Silakan proses pengiriman dana ke [token-ent: 104].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 104]",
+        "address": null
+      },
+      "action": "search_account_by_name"
+    }
+  },
+  {
+    "id": "CAT1_FORMAL_5",
+    "category": "transfer_instruction_name",
+    "style": "formal",
+    "prompt": "User: \"Bantu saya mentransfer uang ke rekening [token-ent: 105].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 105]",
+        "address": null
+      },
+      "action": "search_account_by_name"
+    }
+  },
+  {
+    "id": "CAT1_NOISY_1",
+    "category": "transfer_instruction_name",
+    "style": "noisy",
+    "prompt": "User: \"tf k rek [token-ent: 106] y bang\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 106]",
+        "address": null
+      },
+      "action": "search_account_by_name"
+    }
+  },
+  {
+    "id": "CAT1_NOISY_2",
+    "category": "transfer_instruction_name",
+    "style": "noisy",
+    "prompt": "User: \"krm duit 50rb ke [token-ent: 107]\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 107]",
+        "address": null
+      },
+      "action": "search_account_by_name"
+    }
+  },
+  {
+    "id": "CAT1_NOISY_3",
+    "category": "transfer_instruction_name",
+    "style": "noisy",
+    "prompt": "User: \"mau trnsfr ke [token-ent: 108] nih\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 108]",
+        "address": null
+      },
+      "action": "search_account_by_name"
+    }
+  },
+  {
+    "id": "CAT1_NOISY_4",
+    "category": "transfer_instruction_name",
+    "style": "noisy",
+    "prompt": "User: \"tlg kirim duit ke [token-ent: 109] donk\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 109]",
+        "address": null
+      },
+      "action": "search_account_by_name"
+    }
+  },
+  {
+    "id": "CAT1_NOISY_5",
+    "category": "transfer_instruction_name",
+    "style": "noisy",
+    "prompt": "User: \"tf ke rek an [token-ent: 110].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 110]",
+        "address": null
+      },
+      "action": "search_account_by_name"
+    }
+  },
+  {
+    "id": "CAT2_FORMAL_1",
+    "category": "electric_payment_name",
+    "style": "formal",
+    "prompt": "User: \"Saya ingin membayar tagihan listrik atas nama [token-ent: 201].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 201]",
+        "address": null
+      },
+      "action": "search_cust_id_by_name"
+    }
+  },
+  {
+    "id": "CAT2_FORMAL_2",
+    "category": "electric_payment_name",
+    "style": "formal",
+    "prompt": "User: \"Mohon lunasi pembayaran PLN untuk pelanggan [token-ent: 202].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 202]",
+        "address": null
+      },
+      "action": "search_cust_id_by_name"
+    }
+  },
+  {
+    "id": "CAT2_FORMAL_3",
+    "category": "electric_payment_name",
+    "style": "formal",
+    "prompt": "User: \"Bantu bayarkan listrik rumah Bapak [token-ent: 203].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 203]",
+        "address": null
+      },
+      "action": "search_cust_id_by_name"
+    }
+  },
+  {
+    "id": "CAT2_FORMAL_4",
+    "category": "electric_payment_name",
+    "style": "formal",
+    "prompt": "User: \"Tolong proses tagihan listrik dengan nama pemilik [token-ent: 204].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 204]",
+        "address": null
+      },
+      "action": "search_cust_id_by_name"
+    }
+  },
+  {
+    "id": "CAT2_FORMAL_5",
+    "category": "electric_payment_name",
+    "style": "formal",
+    "prompt": "User: \"Saya mau melunasi tagihan PLN atas nama [token-ent: 205].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 205]",
+        "address": null
+      },
+      "action": "search_cust_id_by_name"
+    }
+  },
+  {
+    "id": "CAT2_NOISY_1",
+    "category": "electric_payment_name",
+    "style": "noisy",
+    "prompt": "User: \"byr pln pmlk [token-ent: 206] donk\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 206]",
+        "address": null
+      },
+      "action": "search_cust_id_by_name"
+    }
+  },
+  {
+    "id": "CAT2_NOISY_2",
+    "category": "electric_payment_name",
+    "style": "noisy",
+    "prompt": "User: \"listrik a.n [token-ent: 207] tlg dilunasin\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 207]",
+        "address": null
+      },
+      "action": "search_cust_id_by_name"
+    }
+  },
+  {
+    "id": "CAT2_NOISY_3",
+    "category": "electric_payment_name",
+    "style": "noisy",
+    "prompt": "User: \"bayarin listrik [token-ent: 208] dong\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 208]",
+        "address": null
+      },
+      "action": "search_cust_id_by_name"
+    }
+  },
+  {
+    "id": "CAT2_NOISY_4",
+    "category": "electric_payment_name",
+    "style": "noisy",
+    "prompt": "User: \"pln an [token-ent: 209] tlg dibayarkan\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 209]",
+        "address": null
+      },
+      "action": "search_cust_id_by_name"
+    }
+  },
+  {
+    "id": "CAT2_NOISY_5",
+    "category": "electric_payment_name",
+    "style": "noisy",
+    "prompt": "User: \"mau byr pln punya Mas [token-ent: 210]\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 210]",
+        "address": null
+      },
+      "action": "search_cust_id_by_name"
+    }
+  },
+  {
+    "id": "CAT3_FORMAL_1",
+    "category": "electric_payment_address",
+    "style": "formal",
+    "prompt": "User: \"Mohon lunasi tagihan PLN untuk rumah di [token-ent: 301].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": "[token-ent: 301]"
+      },
+      "action": "search_cust_id_by_address"
+    }
+  },
+  {
+    "id": "CAT3_FORMAL_2",
+    "category": "electric_payment_address",
+    "style": "formal",
+    "prompt": "User: \"Bayarkan listrik untuk rumah yang berlokasi di [token-ent: 302].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": "[token-ent: 302]"
+      },
+      "action": "search_cust_id_by_address"
+    }
+  },
+  {
+    "id": "CAT3_FORMAL_3",
+    "category": "electric_payment_address",
+    "style": "formal",
+    "prompt": "User: \"Tolong proses tagihan listrik rumah [token-ent: 303].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": "[token-ent: 303]"
+      },
+      "action": "search_cust_id_by_address"
+    }
+  },
+  {
+    "id": "CAT3_FORMAL_4",
+    "category": "electric_payment_address",
+    "style": "formal",
+    "prompt": "User: \"Saya ingin melunasi tagihan PLN untuk properti di [token-ent: 304].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": "[token-ent: 304]"
+      },
+      "action": "search_cust_id_by_address"
+    }
+  },
+  {
+    "id": "CAT3_FORMAL_5",
+    "category": "electric_payment_address",
+    "style": "formal",
+    "prompt": "User: \"Bantu bayar listrik untuk alamat [token-ent: 305].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": "[token-ent: 305]"
+      },
+      "action": "search_cust_id_by_address"
+    }
+  },
+  {
+    "id": "CAT3_NOISY_1",
+    "category": "electric_payment_address",
+    "style": "noisy",
+    "prompt": "User: \"listrik yg di [token-ent: 306] lunasin dunk\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": "[token-ent: 306]"
+      },
+      "action": "search_cust_id_by_address"
+    }
+  },
+  {
+    "id": "CAT3_NOISY_2",
+    "category": "electric_payment_address",
+    "style": "noisy",
+    "prompt": "User: \"byr pln almt [token-ent: 307] ya\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": "[token-ent: 307]"
+      },
+      "action": "search_cust_id_by_address"
+    }
+  },
+  {
+    "id": "CAT3_NOISY_3",
+    "category": "electric_payment_address",
+    "style": "noisy",
+    "prompt": "User: \"pln rmh [token-ent: 308] tolong bantu bayarin\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": "[token-ent: 308]"
+      },
+      "action": "search_cust_id_by_address"
+    }
+  },
+  {
+    "id": "CAT3_NOISY_4",
+    "category": "electric_payment_address",
+    "style": "noisy",
+    "prompt": "User: \"bayarin tagihan listrik rumah d [token-ent: 309]\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": "[token-ent: 309]"
+      },
+      "action": "search_cust_id_by_address"
+    }
+  },
+  {
+    "id": "CAT3_NOISY_5",
+    "category": "electric_payment_address",
+    "style": "noisy",
+    "prompt": "User: \"pln lokasi [token-ent: 310] tlg byr\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": "[token-ent: 310]"
+      },
+      "action": "search_cust_id_by_address"
+    }
+  },
+  {
+    "id": "CAT4_FORMAL_1",
+    "category": "electric_payment_name_address",
+    "style": "formal",
+    "prompt": "User: \"Bayarkan listrik untuk Bapak [token-ent: 401] yang berlokasi di [token-ent: 402].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 401]",
+        "address": "[token-ent: 402]"
+      },
+      "action": "search_cust_id_by_name_and_address"
+    }
+  },
+  {
+    "id": "CAT4_FORMAL_2",
+    "category": "electric_payment_name_address",
+    "style": "formal",
+    "prompt": "User: \"Tolong lunasi tagihan PLN atas nama [token-ent: 403] dengan alamat [token-ent: 404].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 403]",
+        "address": "[token-ent: 404]"
+      },
+      "action": "search_cust_id_by_name_and_address"
+    }
+  },
+  {
+    "id": "CAT4_FORMAL_3",
+    "category": "electric_payment_name_address",
+    "style": "formal",
+    "prompt": "User: \"Mohon proses pembayaran listrik pelanggan [token-ent: 405] di [token-ent: 406].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 405]",
+        "address": "[token-ent: 406]"
+      },
+      "action": "search_cust_id_by_name_and_address"
+    }
+  },
+  {
+    "id": "CAT4_FORMAL_4",
+    "category": "electric_payment_name_address",
+    "style": "formal",
+    "prompt": "User: \"Saya mau bayar PLN rumah [token-ent: 407] yang ada di [token-ent: 408].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 407]",
+        "address": "[token-ent: 408]"
+      },
+      "action": "search_cust_id_by_name_and_address"
+    }
+  },
+  {
+    "id": "CAT4_FORMAL_5",
+    "category": "electric_payment_name_address",
+    "style": "formal",
+    "prompt": "User: \"Bantu lunasi tagihan listrik [token-ent: 409], alamatnya [token-ent: 410].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 409]",
+        "address": "[token-ent: 410]"
+      },
+      "action": "search_cust_id_by_name_and_address"
+    }
+  },
+  {
+    "id": "CAT4_NOISY_1",
+    "category": "electric_payment_name_address",
+    "style": "noisy",
+    "prompt": "User: \"pln [token-ent: 411] almt [token-ent: 412] byrin y\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 411]",
+        "address": "[token-ent: 412]"
+      },
+      "action": "search_cust_id_by_name_and_address"
+    }
+  },
+  {
+    "id": "CAT4_NOISY_2",
+    "category": "electric_payment_name_address",
+    "style": "noisy",
+    "prompt": "User: \"byr listrik [token-ent: 413] yg di [token-ent: 414]\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 413]",
+        "address": "[token-ent: 414]"
+      },
+      "action": "search_cust_id_by_name_and_address"
+    }
+  },
+  {
+    "id": "CAT4_NOISY_3",
+    "category": "electric_payment_name_address",
+    "style": "noisy",
+    "prompt": "User: \"tagihan listrik [token-ent: 415] lokasi [token-ent: 416] tolong lunasin\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 415]",
+        "address": "[token-ent: 416]"
+      },
+      "action": "search_cust_id_by_name_and_address"
+    }
+  },
+  {
+    "id": "CAT4_NOISY_4",
+    "category": "electric_payment_name_address",
+    "style": "noisy",
+    "prompt": "User: \"pln an [token-ent: 417] d [token-ent: 418] tlg dilunasin ya\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 417]",
+        "address": "[token-ent: 418]"
+      },
+      "action": "search_cust_id_by_name_and_address"
+    }
+  },
+  {
+    "id": "CAT4_NOISY_5",
+    "category": "electric_payment_name_address",
+    "style": "noisy",
+    "prompt": "User: \"bayarin pln pmlk [token-ent: 419], almt [token-ent: 420]\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 419]",
+        "address": "[token-ent: 420]"
+      },
+      "action": "search_cust_id_by_name_and_address"
+    }
+  },
+  {
+    "id": "CAT5_FORMAL_1",
+    "category": "short_reply_transfer_name",
+    "style": "formal",
+    "prompt": "Bot: \"Siapa nama pemilik rekening tujuannya?\"\nUser: \"Nama pemiliknya adalah [token-ent: 501].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 501]",
+        "address": null
+      },
+      "action": "search_account_by_name"
+    }
+  },
+  {
+    "id": "CAT5_FORMAL_2",
+    "category": "short_reply_transfer_name",
+    "style": "formal",
+    "prompt": "Bot: \"Siapa nama pemilik rekening tujuannya?\"\nUser: \"[token-ent: 502].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 502]",
+        "address": null
+      },
+      "action": "search_account_by_name"
+    }
+  },
+  {
+    "id": "CAT5_FORMAL_3",
+    "category": "short_reply_transfer_name",
+    "style": "formal",
+    "prompt": "Bot: \"Siapa nama pemilik rekening tujuannya?\"\nUser: \"Pak [token-ent: 503].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 503]",
+        "address": null
+      },
+      "action": "search_account_by_name"
+    }
+  },
+  {
+    "id": "CAT5_FORMAL_4",
+    "category": "short_reply_transfer_name",
+    "style": "formal",
+    "prompt": "Bot: \"Siapa nama pemilik rekening tujuannya?\"\nUser: \"Namanya [token-ent: 504].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 504]",
+        "address": null
+      },
+      "action": "search_account_by_name"
+    }
+  },
+  {
+    "id": "CAT5_FORMAL_5",
+    "category": "short_reply_transfer_name",
+    "style": "formal",
+    "prompt": "Bot: \"Siapa nama pemilik rekening tujuannya?\"\nUser: \"Ke rekening [token-ent: 505].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 505]",
+        "address": null
+      },
+      "action": "search_account_by_name"
+    }
+  },
+  {
+    "id": "CAT5_NOISY_1",
+    "category": "short_reply_transfer_name",
+    "style": "noisy",
+    "prompt": "Bot: \"Siapa nama pemilik rekening tujuannya?\"\nUser: \"rek nya [token-ent: 506]\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 506]",
+        "address": null
+      },
+      "action": "search_account_by_name"
+    }
+  },
+  {
+    "id": "CAT5_NOISY_2",
+    "category": "short_reply_transfer_name",
+    "style": "noisy",
+    "prompt": "Bot: \"Siapa nama pemilik rekening tujuannya?\"\nUser: \"buat si [token-ent: 507]\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 507]",
+        "address": null
+      },
+      "action": "search_account_by_name"
+    }
+  },
+  {
+    "id": "CAT5_NOISY_3",
+    "category": "short_reply_transfer_name",
+    "style": "noisy",
+    "prompt": "Bot: \"Siapa nama pemilik rekening tujuannya?\"\nUser: \"nm nya [token-ent: 508]\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 508]",
+        "address": null
+      },
+      "action": "search_account_by_name"
+    }
+  },
+  {
+    "id": "CAT5_NOISY_4",
+    "category": "short_reply_transfer_name",
+    "style": "noisy",
+    "prompt": "Bot: \"Siapa nama pemilik rekening tujuannya?\"\nUser: \"k [token-ent: 509] aja deh\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 509]",
+        "address": null
+      },
+      "action": "search_account_by_name"
+    }
+  },
+  {
+    "id": "CAT5_NOISY_5",
+    "category": "short_reply_transfer_name",
+    "style": "noisy",
+    "prompt": "Bot: \"Siapa nama pemilik rekening tujuannya?\"\nUser: \"tujuannya ke [token-ent: 510] ya\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 510]",
+        "address": null
+      },
+      "action": "search_account_by_name"
+    }
+  },
+  {
+    "id": "CAT6_FORMAL_1",
+    "category": "short_reply_electric_name",
+    "style": "formal",
+    "prompt": "Bot: \"Silakan sebutkan nama pemilik tagihan listriknya.\"\nUser: \"Atas nama Bapak [token-ent: 601].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 601]",
+        "address": null
+      },
+      "action": "search_cust_id_by_name"
+    }
+  },
+  {
+    "id": "CAT6_FORMAL_2",
+    "category": "short_reply_electric_name",
+    "style": "formal",
+    "prompt": "Bot: \"Silakan sebutkan nama pemilik tagihan listriknya.\"\nUser: \"[token-ent: 602].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 602]",
+        "address": null
+      },
+      "action": "search_cust_id_by_name"
+    }
+  },
+  {
+    "id": "CAT6_FORMAL_3",
+    "category": "short_reply_electric_name",
+    "style": "formal",
+    "prompt": "Bot: \"Silakan sebutkan nama pemilik tagihan listriknya.\"\nUser: \"Pemilik rumahnya adalah [token-ent: 603].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 603]",
+        "address": null
+      },
+      "action": "search_cust_id_by_name"
+    }
+  },
+  {
+    "id": "CAT6_FORMAL_4",
+    "category": "short_reply_electric_name",
+    "style": "formal",
+    "prompt": "Bot: \"Silakan sebutkan nama pemilik tagihan listriknya.\"\nUser: \"Nama pelanggannya [token-ent: 604].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 604]",
+        "address": null
+      },
+      "action": "search_cust_id_by_name"
+    }
+  },
+  {
+    "id": "CAT6_FORMAL_5",
+    "category": "short_reply_electric_name",
+    "style": "formal",
+    "prompt": "Bot: \"Silakan sebutkan nama pemilik tagihan listriknya.\"\nUser: \"Atas nama [token-ent: 605].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 605]",
+        "address": null
+      },
+      "action": "search_cust_id_by_name"
+    }
+  },
+  {
+    "id": "CAT6_NOISY_1",
+    "category": "short_reply_electric_name",
+    "style": "noisy",
+    "prompt": "Bot: \"Silakan sebutkan nama pemilik tagihan listriknya.\"\nUser: \"an [token-ent: 606]\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 606]",
+        "address": null
+      },
+      "action": "search_cust_id_by_name"
+    }
+  },
+  {
+    "id": "CAT6_NOISY_2",
+    "category": "short_reply_electric_name",
+    "style": "noisy",
+    "prompt": "Bot: \"Silakan sebutkan nama pemilik tagihan listriknya.\"\nUser: \"pmlknya [token-ent: 607]\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 607]",
+        "address": null
+      },
+      "action": "search_cust_id_by_name"
+    }
+  },
+  {
+    "id": "CAT6_NOISY_3",
+    "category": "short_reply_electric_name",
+    "style": "noisy",
+    "prompt": "Bot: \"Silakan sebutkan nama pemilik tagihan listriknya.\"\nUser: \"namanya [token-ent: 608]\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 608]",
+        "address": null
+      },
+      "action": "search_cust_id_by_name"
+    }
+  },
+  {
+    "id": "CAT6_NOISY_4",
+    "category": "short_reply_electric_name",
+    "style": "noisy",
+    "prompt": "Bot: \"Silakan sebutkan nama pemilik tagihan listriknya.\"\nUser: \"punya si [token-ent: 609]\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 609]",
+        "address": null
+      },
+      "action": "search_cust_id_by_name"
+    }
+  },
+  {
+    "id": "CAT6_NOISY_5",
+    "category": "short_reply_electric_name",
+    "style": "noisy",
+    "prompt": "Bot: \"Silakan sebutkan nama pemilik tagihan listriknya.\"\nUser: \"si [token-ent: 610]\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 610]",
+        "address": null
+      },
+      "action": "search_cust_id_by_name"
+    }
+  },
+  {
+    "id": "CAT7_FORMAL_1",
+    "category": "short_reply_electric_address",
+    "style": "formal",
+    "prompt": "Bot: \"Sebutkan alamat rumah untuk tagihan listrik yang dimaksud.\"\nUser: \"Lokasi rumahnya di [token-ent: 701].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": "[token-ent: 701]"
+      },
+      "action": "search_cust_id_by_address"
+    }
+  },
+  {
+    "id": "CAT7_FORMAL_2",
+    "category": "short_reply_electric_address",
+    "style": "formal",
+    "prompt": "Bot: \"Sebutkan alamat rumah untuk tagihan listrik yang dimaksud.\"\nUser: \"Beralamat di [token-ent: 702].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": "[token-ent: 702]"
+      },
+      "action": "search_cust_id_by_address"
+    }
+  },
+  {
+    "id": "CAT7_FORMAL_3",
+    "category": "short_reply_electric_address",
+    "style": "formal",
+    "prompt": "Bot: \"Sebutkan alamat rumah untuk tagihan listrik yang dimaksud.\"\nUser: \"Rumah tersebut berada di [token-ent: 703].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": "[token-ent: 703]"
+      },
+      "action": "search_cust_id_by_address"
+    }
+  },
+  {
+    "id": "CAT7_FORMAL_4",
+    "category": "short_reply_electric_address",
+    "style": "formal",
+    "prompt": "Bot: \"Sebutkan alamat rumah untuk tagihan listrik yang dimaksud.\"\nUser: \"Alamatnya adalah [token-ent: 704].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": "[token-ent: 704]"
+      },
+      "action": "search_cust_id_by_address"
+    }
+  },
+  {
+    "id": "CAT7_FORMAL_5",
+    "category": "short_reply_electric_address",
+    "style": "formal",
+    "prompt": "Bot: \"Sebutkan alamat rumah untuk tagihan listrik yang dimaksud.\"\nUser: \"Di [token-ent: 705].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": "[token-ent: 705]"
+      },
+      "action": "search_cust_id_by_address"
+    }
+  },
+  {
+    "id": "CAT7_NOISY_1",
+    "category": "short_reply_electric_address",
+    "style": "noisy",
+    "prompt": "Bot: \"Sebutkan alamat rumah untuk tagihan listrik yang dimaksud.\"\nUser: \"d [token-ent: 706]\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": "[token-ent: 706]"
+      },
+      "action": "search_cust_id_by_address"
+    }
+  },
+  {
+    "id": "CAT7_NOISY_2",
+    "category": "short_reply_electric_address",
+    "style": "noisy",
+    "prompt": "Bot: \"Sebutkan alamat rumah untuk tagihan listrik yang dimaksud.\"\nUser: \"[token-ent: 707]\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": "[token-ent: 707]"
+      },
+      "action": "search_cust_id_by_address"
+    }
+  },
+  {
+    "id": "CAT7_NOISY_3",
+    "category": "short_reply_electric_address",
+    "style": "noisy",
+    "prompt": "Bot: \"Sebutkan alamat rumah untuk tagihan listrik yang dimaksud.\"\nUser: \"yg di [token-ent: 708]\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": "[token-ent: 708]"
+      },
+      "action": "search_cust_id_by_address"
+    }
+  },
+  {
+    "id": "CAT7_NOISY_4",
+    "category": "short_reply_electric_address",
+    "style": "noisy",
+    "prompt": "Bot: \"Sebutkan alamat rumah untuk tagihan listrik yang dimaksud.\"\nUser: \"rmh di [token-ent: 709]\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": "[token-ent: 709]"
+      },
+      "action": "search_cust_id_by_address"
+    }
+  },
+  {
+    "id": "CAT7_NOISY_5",
+    "category": "short_reply_electric_address",
+    "style": "noisy",
+    "prompt": "Bot: \"Sebutkan alamat rumah untuk tagihan listrik yang dimaksud.\"\nUser: \"d [token-ent: 710] bang\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": "[token-ent: 710]"
+      },
+      "action": "search_cust_id_by_address"
+    }
+  },
+  {
+    "id": "CAT8_FORMAL_1_AMBIGUOUS",
+    "category": "short_reply_electric_ambiguous_1ent",
+    "style": "formal",
+    "prompt": "Bot: \"Silakan masukkan nama pemilik atau alamat rumah untuk tagihan listriknya.\"\nUser: \"[token-ent: 801].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": null
+      },
+      "action": "needs_confirmation"
+    }
+  },
+  {
+    "id": "CAT8_FORMAL_2_AMBIGUOUS",
+    "category": "short_reply_electric_ambiguous_1ent",
+    "style": "formal",
+    "prompt": "Bot: \"Silakan masukkan nama pemilik atau alamat rumah untuk tagihan listriknya.\"\nUser: \"Ini datanya: [token-ent: 802].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": null
+      },
+      "action": "needs_confirmation"
+    }
+  },
+  {
+    "id": "CAT8_FORMAL_3_AMBIGUOUS",
+    "category": "short_reply_electric_ambiguous_1ent",
+    "style": "formal",
+    "prompt": "Bot: \"Silakan masukkan nama pemilik atau alamat rumah untuk tagihan listriknya.\"\nUser: \"Untuk [token-ent: 803].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": null
+      },
+      "action": "needs_confirmation"
+    }
+  },
+  {
+    "id": "CAT8_FORMAL_4_CLEAR_NAME",
+    "category": "short_reply_electric_ambiguous_1ent",
+    "style": "formal",
+    "prompt": "Bot: \"Silakan masukkan nama pemilik atau alamat rumah untuk tagihan listriknya.\"\nUser: \"Nama pelanggannya [token-ent: 804].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 804]",
+        "address": null
+      },
+      "action": "search_cust_id_by_name"
+    }
+  },
+  {
+    "id": "CAT8_FORMAL_5_CLEAR_ADDR",
+    "category": "short_reply_electric_ambiguous_1ent",
+    "style": "formal",
+    "prompt": "Bot: \"Silakan masukkan nama pemilik atau alamat rumah untuk tagihan listriknya.\"\nUser: \"Rumahnya berlokasi di [token-ent: 805].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": "[token-ent: 805]"
+      },
+      "action": "search_cust_id_by_address"
+    }
+  },
+  {
+    "id": "CAT8_NOISY_1_AMBIGUOUS",
+    "category": "short_reply_electric_ambiguous_1ent",
+    "style": "noisy",
+    "prompt": "Bot: \"Silakan masukkan nama pemilik atau alamat rumah untuk tagihan listriknya.\"\nUser: \"[token-ent: 806] y\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": null
+      },
+      "action": "needs_confirmation"
+    }
+  },
+  {
+    "id": "CAT8_NOISY_2_AMBIGUOUS",
+    "category": "short_reply_electric_ambiguous_1ent",
+    "style": "noisy",
+    "prompt": "Bot: \"Silakan masukkan nama pemilik atau alamat rumah untuk tagihan listriknya.\"\nUser: \"nih [token-ent: 807]\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": null
+      },
+      "action": "needs_confirmation"
+    }
+  },
+  {
+    "id": "CAT8_NOISY_3_AMBIGUOUS",
+    "category": "short_reply_electric_ambiguous_1ent",
+    "style": "noisy",
+    "prompt": "Bot: \"Silakan masukkan nama pemilik atau alamat rumah untuk tagihan listriknya.\"\nUser: \"[token-ent: 808] y\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": null
+      },
+      "action": "needs_confirmation"
+    }
+  },
+  {
+    "id": "CAT8_NOISY_4_CLEAR_NAME",
+    "category": "short_reply_electric_ambiguous_1ent",
+    "style": "noisy",
+    "prompt": "Bot: \"Silakan masukkan nama pemilik atau alamat rumah untuk tagihan listriknya.\"\nUser: \"nm nya [token-ent: 809]\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 809]",
+        "address": null
+      },
+      "action": "search_cust_id_by_name"
+    }
+  },
+  {
+    "id": "CAT8_NOISY_5_CLEAR_ADDR",
+    "category": "short_reply_electric_ambiguous_1ent",
+    "style": "noisy",
+    "prompt": "Bot: \"Silakan masukkan nama pemilik atau alamat rumah untuk tagihan listriknya.\"\nUser: \"almt d [token-ent: 810] gan\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": "[token-ent: 810]"
+      },
+      "action": "search_cust_id_by_address"
+    }
+  },
+  {
+    "id": "CAT9_FORMAL_1_AMBIGUOUS",
+    "category": "short_reply_electric_ambiguous_2ent",
+    "style": "formal",
+    "prompt": "Bot: \"Silakan sebutkan nama pemilik atau alamat untuk pembayaran PLN.\"\nUser: \"[token-ent: 901] dan [token-ent: 902].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": null
+      },
+      "action": "needs_confirmation"
+    }
+  },
+  {
+    "id": "CAT9_FORMAL_2_AMBIGUOUS",
+    "category": "short_reply_electric_ambiguous_2ent",
+    "style": "formal",
+    "prompt": "Bot: \"Silakan sebutkan nama pemilik atau alamat untuk pembayaran PLN.\"\nUser: \"Datanya [token-ent: 903], [token-ent: 904].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": null
+      },
+      "action": "needs_confirmation"
+    }
+  },
+  {
+    "id": "CAT9_FORMAL_3_AMBIGUOUS",
+    "category": "short_reply_electric_ambiguous_2ent",
+    "style": "formal",
+    "prompt": "Bot: \"Silakan sebutkan nama pemilik atau alamat untuk pembayaran PLN.\"\nUser: \"Berikut infonya: [token-ent: 905] serta [token-ent: 906].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": null
+      },
+      "action": "needs_confirmation"
+    }
+  },
+  {
+    "id": "CAT9_FORMAL_4_CLEAR",
+    "category": "short_reply_electric_ambiguous_2ent",
+    "style": "formal",
+    "prompt": "Bot: \"Silakan sebutkan nama pemilik atau alamat untuk pembayaran PLN.\"\nUser: \"Nama [token-ent: 907] alamat [token-ent: 908].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 907]",
+        "address": "[token-ent: 908]"
+      },
+      "action": "search_cust_id_by_name_and_address"
+    }
+  },
+  {
+    "id": "CAT9_FORMAL_5_CLEAR",
+    "category": "short_reply_electric_ambiguous_2ent",
+    "style": "formal",
+    "prompt": "Bot: \"Silakan sebutkan nama pemilik atau alamat untuk pembayaran PLN.\"\nUser: \"Pemiliknya [token-ent: 909] berlokasi di [token-ent: 910].\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 909]",
+        "address": "[token-ent: 910]"
+      },
+      "action": "search_cust_id_by_name_and_address"
+    }
+  },
+  {
+    "id": "CAT9_NOISY_1_AMBIGUOUS",
+    "category": "short_reply_electric_ambiguous_2ent",
+    "style": "noisy",
+    "prompt": "Bot: \"Silakan sebutkan nama pemilik atau alamat untuk pembayaran PLN.\"\nUser: \"[token-ent: 911] sm [token-ent: 912]\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": null
+      },
+      "action": "needs_confirmation"
+    }
+  },
+  {
+    "id": "CAT9_NOISY_2_AMBIGUOUS",
+    "category": "short_reply_electric_ambiguous_2ent",
+    "style": "noisy",
+    "prompt": "Bot: \"Silakan sebutkan nama pemilik atau alamat untuk pembayaran PLN.\"\nUser: \"[token-ent: 913], [token-ent: 914]\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": null
+      },
+      "action": "needs_confirmation"
+    }
+  },
+  {
+    "id": "CAT9_NOISY_3_AMBIGUOUS",
+    "category": "short_reply_electric_ambiguous_2ent",
+    "style": "noisy",
+    "prompt": "Bot: \"Silakan sebutkan nama pemilik atau alamat untuk pembayaran PLN.\"\nUser: \"nih.. [token-ent: 915] sm [token-ent: 916]\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": null,
+        "address": null
+      },
+      "action": "needs_confirmation"
+    }
+  },
+  {
+    "id": "CAT9_NOISY_4_CLEAR",
+    "category": "short_reply_electric_ambiguous_2ent",
+    "style": "noisy",
+    "prompt": "Bot: \"Silakan sebutkan nama pemilik atau alamat untuk pembayaran PLN.\"\nUser: \"an [token-ent: 917] di [token-ent: 918]\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 917]",
+        "address": "[token-ent: 918]"
+      },
+      "action": "search_cust_id_by_name_and_address"
+    }
+  },
+  {
+    "id": "CAT9_NOISY_5_CLEAR",
+    "category": "short_reply_electric_ambiguous_2ent",
+    "style": "noisy",
+    "prompt": "Bot: \"Silakan sebutkan nama pemilik atau alamat untuk pembayaran PLN.\"\nUser: \"pmlk [token-ent: 919] lksi [token-ent: 920]\"",
+    "expected_output": {
+      "resolved_entities": {
+        "name": "[token-ent: 919]",
+        "address": "[token-ent: 920]"
+      },
+      "action": "search_cust_id_by_name_and_address"
+    }
+  }
+]
